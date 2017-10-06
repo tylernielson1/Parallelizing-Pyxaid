@@ -1,0 +1,949 @@
+{'field_freq_units': 'eV', 'integrator': 0, 'states': [['GS', [6, -6, 7, -7, 8, -8], 0.0], ['S1', [6, -6, 7, -7, 9, -8], 0.0], ['S2', [6, -6, 7, -7, 10, -8], 0.0], ['S3', [6, -6, 9, -7, 8, -8], 0.0], ['S4', [6, -6, 10, -7, 8, -8], 0.0], ['S5', [9, -6, 7, -7, 8, -8], 0.0], ['S6', [10, -6, 7, -7, 8, -8], 0.0]], 'Ham_im_suffix': '_im', 'num_sh_traj': 1000, 'field_T': 25.0, 'Hprime_y_prefix': '/homes/pratima//res/0_Hprime_', 'Hprime_x_prefix': '/homes/pratima//res/0_Hprime_', 'boltz_flag': 1, 'iconds': [[0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [0, 6]], 'field_dir': 'xyz', 'field_Tm': 25.0, 'is_field': 0, 'elec_dt': 1.0, 'Ham_re_prefix': '/homes/pratima//res/0_Ham_', 'active_space': [6, 7, 8, 9, 10], 'Temp': 300.0, 'Hprime_y_suffix': 'y_re', 'nucl_dt': 1.0, 'Ham_im_prefix': '/homes/pratima//res/0_Ham_', 'alp_bet': 0, 'Hprime_x_suffix': 'x_re', 'Hprime_z_suffix': 'z_re', 'runtype': 'namd', 'debug_flag': 0, 'Hprime_z_prefix': '/homes/pratima//res/0_Hprime_', 'namdtime': 3500, 'Ham_re_suffix': '_re', 'field_protocol': 1, 'read_couplings': 'batch', 'scratch_dir': '/homes/daveturner/apps/pyxaid/test.small/scratch', 'field_freq': 3.0, 'energy_units': 'Ry', 'decoherence': 1, 'field_fluence': 1.0}
+================================================================================
+PYXAID: PYthon eXtension for Ab Inition Dynamics version 1.0
+/***********************************************************
+ * Copyright (C) 2013 PYXAID group
+ * This program is free software distributed under the terms of the
+ * GNU General Public License as published by the
+ * Free Software Foundation; either version 3 of the
+ * License, or (at your option) any later version.
+ * http://www.gnu.org/copyleft/gpl.txt
+***********************************************************/
+Ham_re_prefix = /homes/pratima//res/0_Ham_
+Ham_re_suffix = _re
+Ham_im_prefix = /homes/pratima//res/0_Ham_
+Ham_im_suffix = _im
+Hprime_x_prefix = /homes/pratima//res/0_Hprime_
+Hprime_y_prefix = /homes/pratima//res/0_Hprime_
+Hprime_z_prefix = /homes/pratima//res/0_Hprime_
+Hprime_x_suffix = x_re
+Hprime_y_suffix = y_re
+Hprime_z_suffix = z_re
+energy_units = Ry
+scratch_dir = /homes/daveturner/apps/pyxaid/test.small/scratch
+read_couplings = batch
+read_overlaps = 
+namdtime = 3500
+num_sh_traj = 1000
+boltz_flag = 1
+debug_flag = 0
+Temp [K] = 300
+elec_dt [fs] = 1
+nucl_dt [fs] = 1
+integrator = 0
+runtype = namd
+alp_bet = 0
+decoherence = 1
+is_field = 0
+field_dir = xyz
+field_protocol = 1
+field_Tm [fs] = 25
+field_T [fs] = 25
+field_freq = 3
+field_freq_units = eV
+field_fluence [mJ/cm^2] = 1
+Warning: variable energy_in_one_file is not defined. Parameter is set to default value = false
+Warning: variable sh_algo is not defined. Parameter is set to default value = 0
+Warning: variable regress_mode is not defined. Parameter is set to default value = 0
+Number of errors = 0
+Number of warning = 2
+Done with input parameters
+Number of basis multi-electron states is: 7
+State 0 : Active space: 6  7  8  9  10  
+Actual state: 6  -6  7  -7  8  -8  
+ Exc = 0
+State 1 : Active space: 6  7  8  9  10  
+Actual state: 6  -6  7  -7  9  -8  
+ Exc = 0
+State 2 : Active space: 6  7  8  9  10  
+Actual state: 6  -6  7  -7  10  -8  
+ Exc = 0
+State 3 : Active space: 6  7  8  9  10  
+Actual state: 6  -6  9  -7  8  -8  
+ Exc = 0
+State 4 : Active space: 6  7  8  9  10  
+Actual state: 6  -6  10  -7  8  -8  
+ Exc = 0
+State 5 : Active space: 6  7  8  9  10  
+Actual state: 9  -6  7  -7  8  -8  
+ Exc = 0
+State 6 : Active space: 6  7  8  9  10  
+Actual state: 10  -6  7  -7  8  -8  
+ Exc = 0
+Couplings of the macrostate 0 will be scaled for the following states:
+Couplings of the macrostate 1 will be scaled for the following states:
+Couplings of the macrostate 2 will be scaled for the following states:
+Couplings of the macrostate 3 will be scaled for the following states:
+Couplings of the macrostate 4 will be scaled for the following states:
+Couplings of the macrostate 5 will be scaled for the following states:
+Couplings of the macrostate 6 will be scaled for the following states:
+Number of 1-electron states(orbitals) = 5
+Number of multi-electron states(determinants) = 7
+Number of electrons in active space = 6
+RAND_MAX = 2147483647
+Maximal Hamiltonian file to read is /homes/pratima//res/0_Ham_3501_re
+end of Hamiltonian files reading
+Starting the program...
+One-electron data are set
+Multi-electron couplings and energies are computed
+The energies of basis  states (with respect to defined ground state) for the this initial condition are written in file /homes/daveturner/apps/pyxaid/test.small/scratch/me_energies0
+Starting decoherence rates calculation
+Entering run_decoherence_rates...
+Starting na-md simulations with (optional) decoherence
+Entering run_namd1 function...
+Reading decoherence rate matrix for this initial condition...
+Expected filename is: /homes/daveturner/apps/pyxaid/test.small/scratch/decoherence_rates_icond0.txt
+Reading the input from file /homes/daveturner/apps/pyxaid/test.small/scratch/decoherence_rates_icond0.txt
+One-electron data are set
+Multi-electron couplings and energies are computed
+The energies of basis  states (with respect to defined ground state) for the this initial condition are written in file /homes/daveturner/apps/pyxaid/test.small/scratch/me_energies1
+Starting decoherence rates calculation
+Entering run_decoherence_rates...
+Starting na-md simulations with (optional) decoherence
+Entering run_namd1 function...
+Reading decoherence rate matrix for this initial condition...
+Expected filename is: /homes/daveturner/apps/pyxaid/test.small/scratch/decoherence_rates_icond1.txt
+Reading the input from file /homes/daveturner/apps/pyxaid/test.small/scratch/decoherence_rates_icond1.txt
+One-electron data are set
+Multi-electron couplings and energies are computed
+The energies of basis  states (with respect to defined ground state) for the this initial condition are written in file /homes/daveturner/apps/pyxaid/test.small/scratch/me_energies2
+Starting decoherence rates calculation
+Entering run_decoherence_rates...
+Starting na-md simulations with (optional) decoherence
+Entering run_namd1 function...
+Reading decoherence rate matrix for this initial condition...
+Expected filename is: /homes/daveturner/apps/pyxaid/test.small/scratch/decoherence_rates_icond2.txt
+Reading the input from file /homes/daveturner/apps/pyxaid/test.small/scratch/decoherence_rates_icond2.txt
+One-electron data are set
+Multi-electron couplings and energies are computed
+The energies of basis  states (with respect to defined ground state) for the this initial condition are written in file /homes/daveturner/apps/pyxaid/test.small/scratch/me_energies3
+Starting decoherence rates calculation
+Entering run_decoherence_rates...
+Starting na-md simulations with (optional) decoherence
+Entering run_namd1 function...
+Reading decoherence rate matrix for this initial condition...
+Expected filename is: /homes/daveturner/apps/pyxaid/test.small/scratch/decoherence_rates_icond3.txt
+Reading the input from file /homes/daveturner/apps/pyxaid/test.small/scratch/decoherence_rates_icond3.txt
+One-electron data are set
+Multi-electron couplings and energies are computed
+The energies of basis  states (with respect to defined ground state) for the this initial condition are written in file /homes/daveturner/apps/pyxaid/test.small/scratch/me_energies4
+Starting decoherence rates calculation
+Entering run_decoherence_rates...
+Starting na-md simulations with (optional) decoherence
+Entering run_namd1 function...
+Reading decoherence rate matrix for this initial condition...
+Expected filename is: /homes/daveturner/apps/pyxaid/test.small/scratch/decoherence_rates_icond4.txt
+Reading the input from file /homes/daveturner/apps/pyxaid/test.small/scratch/decoherence_rates_icond4.txt
+One-electron data are set
+Multi-electron couplings and energies are computed
+The energies of basis  states (with respect to defined ground state) for the this initial condition are written in file /homes/daveturner/apps/pyxaid/test.small/scratch/me_energies5
+Starting decoherence rates calculation
+Entering run_decoherence_rates...
+Starting na-md simulations with (optional) decoherence
+Entering run_namd1 function...
+Reading decoherence rate matrix for this initial condition...
+Expected filename is: /homes/daveturner/apps/pyxaid/test.small/scratch/decoherence_rates_icond5.txt
+Reading the input from file /homes/daveturner/apps/pyxaid/test.small/scratch/decoherence_rates_icond5.txt
+One-electron data are set
+Multi-electron couplings and energies are computed
+The energies of basis  states (with respect to defined ground state) for the this initial condition are written in file /homes/daveturner/apps/pyxaid/test.small/scratch/me_energies6
+Starting decoherence rates calculation
+Entering run_decoherence_rates...
+Starting na-md simulations with (optional) decoherence
+Entering run_namd1 function...
+Reading decoherence rate matrix for this initial condition...
+Expected filename is: /homes/daveturner/apps/pyxaid/test.small/scratch/decoherence_rates_icond6.txt
+Reading the input from file /homes/daveturner/apps/pyxaid/test.small/scratch/decoherence_rates_icond6.txt
+Time in namd is: 396.282
+All initial conditions [0, 1, 2, 3, 4, 5, 6]
+Distinct initial excitations [0, 1, 2, 3, 4, 5, 6]
+Number of initial conditions =  7
+Number distinct initial excitations =  7
+initial excitation =  0
+initialization...
+calculation...
+/homes/daveturner/apps/pyxaid/test.small/scratch/me_energies0
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/me_energies0
+/homes/daveturner/apps/pyxaid/test.small/scratch/out0
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/out0
+/homes/daveturner/apps/pyxaid/test.small/scratch/me_pop0
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/me_pop0
+Number of runs for this excitations =  1.0
+writing /homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/se_pop_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/sh_en_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/se_en_ex file...
+initial excitation =  1
+initialization...
+calculation...
+/homes/daveturner/apps/pyxaid/test.small/scratch/me_energies1
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/me_energies1
+/homes/daveturner/apps/pyxaid/test.small/scratch/out1
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/out1
+/homes/daveturner/apps/pyxaid/test.small/scratch/me_pop1
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/me_pop1
+Number of runs for this excitations =  1.0
+writing /homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/se_pop_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/sh_en_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/se_en_ex file...
+initial excitation =  2
+initialization...
+calculation...
+/homes/daveturner/apps/pyxaid/test.small/scratch/me_energies2
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/me_energies2
+/homes/daveturner/apps/pyxaid/test.small/scratch/out2
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/out2
+/homes/daveturner/apps/pyxaid/test.small/scratch/me_pop2
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/me_pop2
+Number of runs for this excitations =  1.0
+writing /homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/se_pop_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/sh_en_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/se_en_ex file...
+initial excitation =  3
+initialization...
+calculation...
+/homes/daveturner/apps/pyxaid/test.small/scratch/me_energies3
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/me_energies3
+/homes/daveturner/apps/pyxaid/test.small/scratch/out3
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/out3
+/homes/daveturner/apps/pyxaid/test.small/scratch/me_pop3
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/me_pop3
+Number of runs for this excitations =  1.0
+writing /homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/se_pop_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/sh_en_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/se_en_ex file...
+initial excitation =  4
+initialization...
+calculation...
+/homes/daveturner/apps/pyxaid/test.small/scratch/me_energies4
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/me_energies4
+/homes/daveturner/apps/pyxaid/test.small/scratch/out4
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/out4
+/homes/daveturner/apps/pyxaid/test.small/scratch/me_pop4
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/me_pop4
+Number of runs for this excitations =  1.0
+writing /homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/se_pop_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/sh_en_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/se_en_ex file...
+initial excitation =  5
+initialization...
+calculation...
+/homes/daveturner/apps/pyxaid/test.small/scratch/me_energies5
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/me_energies5
+/homes/daveturner/apps/pyxaid/test.small/scratch/out5
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/out5
+/homes/daveturner/apps/pyxaid/test.small/scratch/me_pop5
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/me_pop5
+Number of runs for this excitations =  1.0
+writing /homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/se_pop_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/sh_en_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/se_en_ex file...
+initial excitation =  6
+initialization...
+calculation...
+/homes/daveturner/apps/pyxaid/test.small/scratch/me_energies6
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/me_energies6
+/homes/daveturner/apps/pyxaid/test.small/scratch/out6
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/out6
+/homes/daveturner/apps/pyxaid/test.small/scratch/me_pop6
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/me_pop6
+Number of runs for this excitations =  1.0
+writing /homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/se_pop_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/sh_en_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/se_en_ex file...
+initial macro-excitation =  0
+initialization...
+calculation...
+Number of microstates for this macrostate =  1
+/homes/daveturner/apps/pyxaid/test.small/scratch/me_energies0
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/me_energies0
+/homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_ex0
+adding file /homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_ex0
+/homes/daveturner/apps/pyxaid/test.small/macro/se_pop_ex0
+adding file /homes/daveturner/apps/pyxaid/test.small/macro/se_pop_ex0
+writing /homes/daveturner/apps/pyxaid/test.small/macro/energy_macro_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_macro_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/se_pop_macro_ex file...
+initial macro-excitation =  1
+initialization...
+calculation...
+Number of microstates for this macrostate =  1
+/homes/daveturner/apps/pyxaid/test.small/scratch/me_energies1
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/me_energies1
+/homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_ex1
+adding file /homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_ex1
+/homes/daveturner/apps/pyxaid/test.small/macro/se_pop_ex1
+adding file /homes/daveturner/apps/pyxaid/test.small/macro/se_pop_ex1
+writing /homes/daveturner/apps/pyxaid/test.small/macro/energy_macro_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_macro_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/se_pop_macro_ex file...
+initial macro-excitation =  2
+initialization...
+calculation...
+Number of microstates for this macrostate =  1
+/homes/daveturner/apps/pyxaid/test.small/scratch/me_energies2
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/me_energies2
+/homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_ex2
+adding file /homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_ex2
+/homes/daveturner/apps/pyxaid/test.small/macro/se_pop_ex2
+adding file /homes/daveturner/apps/pyxaid/test.small/macro/se_pop_ex2
+writing /homes/daveturner/apps/pyxaid/test.small/macro/energy_macro_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_macro_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/se_pop_macro_ex file...
+initial macro-excitation =  3
+initialization...
+calculation...
+Number of microstates for this macrostate =  1
+/homes/daveturner/apps/pyxaid/test.small/scratch/me_energies3
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/me_energies3
+/homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_ex3
+adding file /homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_ex3
+/homes/daveturner/apps/pyxaid/test.small/macro/se_pop_ex3
+adding file /homes/daveturner/apps/pyxaid/test.small/macro/se_pop_ex3
+writing /homes/daveturner/apps/pyxaid/test.small/macro/energy_macro_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_macro_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/se_pop_macro_ex file...
+initial macro-excitation =  4
+initialization...
+calculation...
+Number of microstates for this macrostate =  1
+/homes/daveturner/apps/pyxaid/test.small/scratch/me_energies4
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/me_energies4
+/homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_ex4
+adding file /homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_ex4
+/homes/daveturner/apps/pyxaid/test.small/macro/se_pop_ex4
+adding file /homes/daveturner/apps/pyxaid/test.small/macro/se_pop_ex4
+writing /homes/daveturner/apps/pyxaid/test.small/macro/energy_macro_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_macro_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/se_pop_macro_ex file...
+initial macro-excitation =  5
+initialization...
+calculation...
+Number of microstates for this macrostate =  1
+/homes/daveturner/apps/pyxaid/test.small/scratch/me_energies5
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/me_energies5
+/homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_ex5
+adding file /homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_ex5
+/homes/daveturner/apps/pyxaid/test.small/macro/se_pop_ex5
+adding file /homes/daveturner/apps/pyxaid/test.small/macro/se_pop_ex5
+writing /homes/daveturner/apps/pyxaid/test.small/macro/energy_macro_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_macro_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/se_pop_macro_ex file...
+initial macro-excitation =  6
+initialization...
+calculation...
+Number of microstates for this macrostate =  1
+/homes/daveturner/apps/pyxaid/test.small/scratch/me_energies6
+adding file /homes/daveturner/apps/pyxaid/test.small/scratch/me_energies6
+/homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_ex6
+adding file /homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_ex6
+/homes/daveturner/apps/pyxaid/test.small/macro/se_pop_ex6
+adding file /homes/daveturner/apps/pyxaid/test.small/macro/se_pop_ex6
+writing /homes/daveturner/apps/pyxaid/test.small/macro/energy_macro_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/sh_pop_macro_ex file...
+writing /homes/daveturner/apps/pyxaid/test.small/macro/se_pop_macro_ex file...
+out/
+out/icond1pair3_5Spectral_density.txt
+out/icond0pair3_4Spectral_density.txt
+out/icond1pair1_2Spectral_density.txt
+out/icond5pair6_2Spectral_density.txt
+out/icond3pair5_2Spectral_density.txt
+out/icond2pair4_3Spectral_density.txt
+out/icond1pair2_1Spectral_density.txt
+out/icond4pair3_4Spectral_density.txt
+out/icond0pair6_3Spectral_density.txt
+out/icond1pair6_5Spectral_density.txt
+out/icond4pair3_6Spectral_density.txt
+out/icond4pair3_2Spectral_density.txt
+out/icond0pair2_4Spectral_density.txt
+out/icond6pair1_4Spectral_density.txt
+out/icond2pair6_1Spectral_density.txt
+out/icond1pair1_6Spectral_density.txt
+out/icond0pair4_2Spectral_density.txt
+out/icond1pair2_6Spectral_density.txt
+out/icond4pair2_0Spectral_density.txt
+out/icond1pair5_1Spectral_density.txt
+out/icond3pair3_5Spectral_density.txt
+out/icond2pair3_4Spectral_density.txt
+out/icond4pair0_5Spectral_density.txt
+out/icond3pair1_3Spectral_density.txt
+out/icond1pair0_4Spectral_density.txt
+out/icond2pair4_2Spectral_density.txt
+out/icond3pair3_2Spectral_density.txt
+out/icond4pair2_1Spectral_density.txt
+out/icond1pair1_0Spectral_density.txt
+out/icond1pair2_0Spectral_density.txt
+out/icond2pair5_4Spectral_density.txt
+out/icond6pair0_2Spectral_density.txt
+out/icond4pair2_5Spectral_density.txt
+out/icond4pair4_0Spectral_density.txt
+out/icond3pair5_1Spectral_density.txt
+out/icond5pair1_6Spectral_density.txt
+out/icond0pair3_6Spectral_density.txt
+out/icond2pair0_2Spectral_density.txt
+out/icond4pair6_3Spectral_density.txt
+out/icond4pair5_0Spectral_density.txt
+out/icond6pair0_5Spectral_density.txt
+out/icond6pair3_1Spectral_density.txt
+out/icond6pair0_1Spectral_density.txt
+out/icond6pair5_6Spectral_density.txt
+out/icond0pair1_3Spectral_density.txt
+out/icond0pair5_4Spectral_density.txt
+out/icond6pair2_3Spectral_density.txt
+out/icond1pair3_1Spectral_density.txt
+out/icond2pair0_6Spectral_density.txt
+out/icond5pair0_4Spectral_density.txt
+out/icond2pair1_3Spectral_density.txt
+out/icond3pair1_2Spectral_density.txt
+out/icond2pair3_1Spectral_density.txt
+out/icond4pair0_2Spectral_density.txt
+out/icond2pair5_3Spectral_density.txt
+out/icond6pair1_3Spectral_density.txt
+out/icond2pair0_4Spectral_density.txt
+out/icond0pair1_6Spectral_density.txt
+out/icond5pair3_2Spectral_density.txt
+out/icond2pair2_0Spectral_density.txt
+out/icond2pair6_2Spectral_density.txt
+out/icond0pair0_1Spectral_density.txt
+out/icond0pair4_6Spectral_density.txt
+out/icond2pair3_5Spectral_density.txt
+out/icond2pair4_0Spectral_density.txt
+out/icond2pair2_5Spectral_density.txt
+out/icond5pair4_2Spectral_density.txt
+out/icond4pair5_4Spectral_density.txt
+out/icond1pair4_1Spectral_density.txt
+out/icond1pair3_2Spectral_density.txt
+out/icond2pair4_6Spectral_density.txt
+out/icond1pair3_4Spectral_density.txt
+out/icond0pair0_6Spectral_density.txt
+out/icond6pair0_4Spectral_density.txt
+out/icond2pair1_6Spectral_density.txt
+out/icond4pair1_5Spectral_density.txt
+out/icond1pair0_1Spectral_density.txt
+out/icond2pair6_3Spectral_density.txt
+out/icond0pair0_2Spectral_density.txt
+out/icond6pair5_1Spectral_density.txt
+out/icond5pair2_3Spectral_density.txt
+out/icond4pair1_4Spectral_density.txt
+out/icond5pair3_6Spectral_density.txt
+out/icond4pair4_3Spectral_density.txt
+out/icond1pair5_0Spectral_density.txt
+out/icond5pair4_3Spectral_density.txt
+out/icond6pair4_5Spectral_density.txt
+out/icond5pair3_0Spectral_density.txt
+out/icond6pair4_6Spectral_density.txt
+out/icond4pair1_6Spectral_density.txt
+out/icond2pair1_0Spectral_density.txt
+out/icond0pair4_5Spectral_density.txt
+out/icond6pair6_2Spectral_density.txt
+out/icond3pair6_4Spectral_density.txt
+out/icond5pair5_3Spectral_density.txt
+out/icond5pair5_1Spectral_density.txt
+out/icond0pair0_4Spectral_density.txt
+out/icond6pair0_3Spectral_density.txt
+out/icond6pair1_2Spectral_density.txt
+out/icond6pair3_4Spectral_density.txt
+out/icond3pair0_2Spectral_density.txt
+out/icond3pair3_4Spectral_density.txt
+out/icond6pair4_1Spectral_density.txt
+out/icond5pair1_3Spectral_density.txt
+out/icond6pair0_6Spectral_density.txt
+out/icond2pair0_1Spectral_density.txt
+out/icond0pair1_2Spectral_density.txt
+out/icond2pair3_2Spectral_density.txt
+out/icond4pair0_3Spectral_density.txt
+out/icond6pair5_3Spectral_density.txt
+out/icond1pair1_5Spectral_density.txt
+out/icond2pair6_5Spectral_density.txt
+out/icond5pair6_1Spectral_density.txt
+out/icond4pair6_2Spectral_density.txt
+out/icond3pair4_0Spectral_density.txt
+out/icond2pair6_0Spectral_density.txt
+out/icond4pair1_0Spectral_density.txt
+out/icond4pair2_4Spectral_density.txt
+out/icond4pair2_6Spectral_density.txt
+out/icond5pair1_2Spectral_density.txt
+out/icond1pair6_4Spectral_density.txt
+out/icond0pair5_0Spectral_density.txt
+out/icond1pair6_1Spectral_density.txt
+out/icond0pair4_0Spectral_density.txt
+out/icond6pair2_6Spectral_density.txt
+out/icond3pair2_5Spectral_density.txt
+out/icond5pair5_6Spectral_density.txt
+out/icond2pair0_5Spectral_density.txt
+out/icond0pair1_0Spectral_density.txt
+out/icond3pair2_3Spectral_density.txt
+out/icond1pair0_5Spectral_density.txt
+out/icond4pair3_1Spectral_density.txt
+out/icond6pair2_5Spectral_density.txt
+out/icond4pair6_5Spectral_density.txt
+out/icond3pair1_4Spectral_density.txt
+out/icond1pair0_6Spectral_density.txt
+out/icond0pair6_5Spectral_density.txt
+out/icond5pair1_0Spectral_density.txt
+out/icond6pair5_2Spectral_density.txt
+out/icond4pair5_3Spectral_density.txt
+out/icond1pair3_0Spectral_density.txt
+out/icond2pair2_6Spectral_density.txt
+out/icond1pair5_3Spectral_density.txt
+out/icond2pair2_4Spectral_density.txt
+out/icond2pair5_2Spectral_density.txt
+out/icond2pair4_1Spectral_density.txt
+out/icond3pair4_6Spectral_density.txt
+out/icond6pair4_2Spectral_density.txt
+out/icond1pair1_4Spectral_density.txt
+out/icond2pair2_1Spectral_density.txt
+out/icond3pair6_2Spectral_density.txt
+out/icond1pair6_0Spectral_density.txt
+out/icond1pair4_6Spectral_density.txt
+out/icond5pair6_3Spectral_density.txt
+out/icond0pair3_5Spectral_density.txt
+out/icond2pair2_3Spectral_density.txt
+out/icond3pair3_1Spectral_density.txt
+out/icond2pair5_1Spectral_density.txt
+out/icond3pair0_3Spectral_density.txt
+out/icond4pair6_0Spectral_density.txt
+out/icond3pair6_1Spectral_density.txt
+out/icond4pair1_2Spectral_density.txt
+out/icond5pair2_1Spectral_density.txt
+out/icond6pair1_0Spectral_density.txt
+out/icond5pair1_4Spectral_density.txt
+out/icond5pair4_6Spectral_density.txt
+out/icond4pair3_0Spectral_density.txt
+out/icond5pair0_1Spectral_density.txt
+out/icond2pair0_3Spectral_density.txt
+out/icond6pair4_0Spectral_density.txt
+out/icond5pair3_5Spectral_density.txt
+out/icond1pair6_2Spectral_density.txt
+out/icond0pair6_1Spectral_density.txt
+out/icond5pair6_4Spectral_density.txt
+out/icond1pair5_2Spectral_density.txt
+out/icond2pair3_6Spectral_density.txt
+out/icond1pair0_3Spectral_density.txt
+out/icond1pair4_5Spectral_density.txt
+out/icond3pair6_5Spectral_density.txt
+out/icond4pair2_3Spectral_density.txt
+out/icond6pair6_5Spectral_density.txt
+out/icond1pair1_3Spectral_density.txt
+out/icond5pair3_4Spectral_density.txt
+out/icond4pair4_6Spectral_density.txt
+out/icond6pair1_5Spectral_density.txt
+out/icond3pair6_3Spectral_density.txt
+out/icond5pair4_1Spectral_density.txt
+out/icond3pair2_0Spectral_density.txt
+out/icond1pair5_6Spectral_density.txt
+out/icond4pair0_6Spectral_density.txt
+out/icond2pair5_6Spectral_density.txt
+out/icond0pair2_1Spectral_density.txt
+out/icond5pair0_3Spectral_density.txt
+out/icond2pair1_2Spectral_density.txt
+out/icond0pair2_3Spectral_density.txt
+out/icond2pair1_5Spectral_density.txt
+out/icond5pair6_0Spectral_density.txt
+out/icond6pair2_0Spectral_density.txt
+out/icond6pair6_3Spectral_density.txt
+out/icond4pair6_4Spectral_density.txt
+out/icond6pair3_5Spectral_density.txt
+out/icond3pair5_0Spectral_density.txt
+out/icond1pair5_4Spectral_density.txt
+out/icond0pair6_2Spectral_density.txt
+out/icond3pair5_3Spectral_density.txt
+out/icond3pair4_5Spectral_density.txt
+out/icond4pair5_6Spectral_density.txt
+out/icond6pair5_0Spectral_density.txt
+out/icond2pair5_0Spectral_density.txt
+out/icond1pair4_0Spectral_density.txt
+out/icond2pair3_0Spectral_density.txt
+out/icond3pair5_4Spectral_density.txt
+out/icond6pair5_4Spectral_density.txt
+out/icond0pair4_3Spectral_density.txt
+out/icond2pair6_4Spectral_density.txt
+out/icond5pair2_0Spectral_density.txt
+out/icond1pair4_2Spectral_density.txt
+out/icond6pair2_1Spectral_density.txt
+out/icond6pair4_3Spectral_density.txt
+out/icond0pair5_1Spectral_density.txt
+out/icond2pair4_5Spectral_density.txt
+out/icond5pair6_5Spectral_density.txt
+out/icond5pair0_5Spectral_density.txt
+out/icond4pair1_3Spectral_density.txt
+out/icond3pair2_1Spectral_density.txt
+out/icond3pair5_6Spectral_density.txt
+out/icond0pair6_0Spectral_density.txt
+out/icond6pair6_0Spectral_density.txt
+out/icond0pair1_4Spectral_density.txt
+out/icond4pair6_1Spectral_density.txt
+out/icond1pair2_4Spectral_density.txt
+out/icond0pair5_2Spectral_density.txt
+out/icond5pair5_0Spectral_density.txt
+out/icond6pair2_4Spectral_density.txt
+out/icond5pair2_4Spectral_density.txt
+out/icond6pair6_4Spectral_density.txt
+out/icond0pair3_2Spectral_density.txt
+out/icond3pair4_1Spectral_density.txt
+out/icond3pair0_6Spectral_density.txt
+out/icond4pair0_1Spectral_density.txt
+out/icond1pair3_6Spectral_density.txt
+out/icond1pair0_2Spectral_density.txt
+out/icond5pair2_6Spectral_density.txt
+out/icond1pair6_3Spectral_density.txt
+out/icond3pair2_4Spectral_density.txt
+out/icond3pair3_6Spectral_density.txt
+out/icond6pair1_6Spectral_density.txt
+out/icond3pair0_4Spectral_density.txt
+out/icond5pair1_5Spectral_density.txt
+out/icond0pair4_1Spectral_density.txt
+out/icond5pair4_5Spectral_density.txt
+out/icond1pair2_3Spectral_density.txt
+out/icond6pair3_2Spectral_density.txt
+out/icond5pair0_6Spectral_density.txt
+out/icond0pair2_6Spectral_density.txt
+out/icond3pair0_5Spectral_density.txt
+out/icond4pair5_2Spectral_density.txt
+out/icond0pair6_4Spectral_density.txt
+out/icond0pair0_3Spectral_density.txt
+out/icond4pair4_5Spectral_density.txt
+out/icond0pair2_5Spectral_density.txt
+out/icond3pair0_1Spectral_density.txt
+out/icond0pair5_6Spectral_density.txt
+out/icond0pair1_5Spectral_density.txt
+out/icond0pair3_1Spectral_density.txt
+out/icond0pair5_3Spectral_density.txt
+out/icond3pair1_5Spectral_density.txt
+out/icond0pair0_5Spectral_density.txt
+out/icond6pair6_1Spectral_density.txt
+out/icond3pair3_0Spectral_density.txt
+out/icond3pair4_2Spectral_density.txt
+out/icond0pair3_0Spectral_density.txt
+out/icond2pair1_4Spectral_density.txt
+out/icond5pair4_0Spectral_density.txt
+out/icond4pair3_5Spectral_density.txt
+out/icond4pair4_2Spectral_density.txt
+out/icond6pair3_0Spectral_density.txt
+out/icond5pair2_5Spectral_density.txt
+out/icond3pair2_6Spectral_density.txt
+out/icond5pair3_1Spectral_density.txt
+out/icond3pair1_0Spectral_density.txt
+out/icond5pair5_4Spectral_density.txt
+out/icond3pair4_3Spectral_density.txt
+out/icond5pair0_2Spectral_density.txt
+out/icond5pair5_2Spectral_density.txt
+out/icond4pair0_4Spectral_density.txt
+out/icond6pair3_6Spectral_density.txt
+out/icond1pair4_3Spectral_density.txt
+out/icond3pair6_0Spectral_density.txt
+out/icond4pair5_1Spectral_density.txt
+out/icond1pair2_5Spectral_density.txt
+out/icond3pair1_6Spectral_density.txt
+out/icond4pair4_1Spectral_density.txt
+out/icond0pair2_0Spectral_density.txt
+Now trying the whole /tmp/2819557.1.cis-hpc.q
+tar: macro: Cannot stat: No such file or directory
+out/
+out/icond1pair3_5Spectral_density.txt
+out/icond0pair3_4Spectral_density.txt
+out/icond1pair1_2Spectral_density.txt
+out/icond5pair6_2Spectral_density.txt
+out/icond3pair5_2Spectral_density.txt
+out/icond2pair4_3Spectral_density.txt
+out/icond1pair2_1Spectral_density.txt
+out/icond4pair3_4Spectral_density.txt
+out/icond0pair6_3Spectral_density.txt
+out/icond1pair6_5Spectral_density.txt
+out/icond4pair3_6Spectral_density.txt
+out/icond4pair3_2Spectral_density.txt
+out/icond0pair2_4Spectral_density.txt
+out/icond6pair1_4Spectral_density.txt
+out/icond2pair6_1Spectral_density.txt
+out/icond1pair1_6Spectral_density.txt
+out/icond0pair4_2Spectral_density.txt
+out/icond1pair2_6Spectral_density.txt
+out/icond4pair2_0Spectral_density.txt
+out/icond1pair5_1Spectral_density.txt
+out/icond3pair3_5Spectral_density.txt
+out/icond2pair3_4Spectral_density.txt
+out/icond4pair0_5Spectral_density.txt
+out/icond3pair1_3Spectral_density.txt
+out/icond1pair0_4Spectral_density.txt
+out/icond2pair4_2Spectral_density.txt
+out/icond3pair3_2Spectral_density.txt
+out/icond4pair2_1Spectral_density.txt
+out/icond1pair1_0Spectral_density.txt
+out/icond1pair2_0Spectral_density.txt
+out/icond2pair5_4Spectral_density.txt
+out/icond6pair0_2Spectral_density.txt
+out/icond4pair2_5Spectral_density.txt
+out/icond4pair4_0Spectral_density.txt
+out/icond3pair5_1Spectral_density.txt
+out/icond5pair1_6Spectral_density.txt
+out/icond0pair3_6Spectral_density.txt
+out/icond2pair0_2Spectral_density.txt
+out/icond4pair6_3Spectral_density.txt
+out/icond4pair5_0Spectral_density.txt
+out/icond6pair0_5Spectral_density.txt
+out/icond6pair3_1Spectral_density.txt
+out/icond6pair0_1Spectral_density.txt
+out/icond6pair5_6Spectral_density.txt
+out/icond0pair1_3Spectral_density.txt
+out/icond0pair5_4Spectral_density.txt
+out/icond6pair2_3Spectral_density.txt
+out/icond1pair3_1Spectral_density.txt
+out/icond2pair0_6Spectral_density.txt
+out/icond5pair0_4Spectral_density.txt
+out/icond2pair1_3Spectral_density.txt
+out/icond3pair1_2Spectral_density.txt
+out/icond2pair3_1Spectral_density.txt
+out/icond4pair0_2Spectral_density.txt
+out/icond2pair5_3Spectral_density.txt
+out/icond6pair1_3Spectral_density.txt
+out/icond2pair0_4Spectral_density.txt
+out/icond0pair1_6Spectral_density.txt
+out/icond5pair3_2Spectral_density.txt
+out/icond2pair2_0Spectral_density.txt
+out/icond2pair6_2Spectral_density.txt
+out/icond0pair0_1Spectral_density.txt
+out/icond0pair4_6Spectral_density.txt
+out/icond2pair3_5Spectral_density.txt
+out/icond2pair4_0Spectral_density.txt
+out/icond2pair2_5Spectral_density.txt
+out/icond5pair4_2Spectral_density.txt
+out/icond4pair5_4Spectral_density.txt
+out/icond1pair4_1Spectral_density.txt
+out/icond1pair3_2Spectral_density.txt
+out/icond2pair4_6Spectral_density.txt
+out/icond1pair3_4Spectral_density.txt
+out/icond0pair0_6Spectral_density.txt
+out/icond6pair0_4Spectral_density.txt
+out/icond2pair1_6Spectral_density.txt
+out/icond4pair1_5Spectral_density.txt
+out/icond1pair0_1Spectral_density.txt
+out/icond2pair6_3Spectral_density.txt
+out/icond0pair0_2Spectral_density.txt
+out/icond6pair5_1Spectral_density.txt
+out/icond5pair2_3Spectral_density.txt
+out/icond4pair1_4Spectral_density.txt
+out/icond5pair3_6Spectral_density.txt
+out/icond4pair4_3Spectral_density.txt
+out/icond1pair5_0Spectral_density.txt
+out/icond5pair4_3Spectral_density.txt
+out/icond6pair4_5Spectral_density.txt
+out/icond5pair3_0Spectral_density.txt
+out/icond6pair4_6Spectral_density.txt
+out/icond4pair1_6Spectral_density.txt
+out/icond2pair1_0Spectral_density.txt
+out/icond0pair4_5Spectral_density.txt
+out/icond6pair6_2Spectral_density.txt
+out/icond3pair6_4Spectral_density.txt
+out/icond5pair5_3Spectral_density.txt
+out/icond5pair5_1Spectral_density.txt
+out/icond0pair0_4Spectral_density.txt
+out/icond6pair0_3Spectral_density.txt
+out/icond6pair1_2Spectral_density.txt
+out/icond6pair3_4Spectral_density.txt
+out/icond3pair0_2Spectral_density.txt
+out/icond3pair3_4Spectral_density.txt
+out/icond6pair4_1Spectral_density.txt
+out/icond5pair1_3Spectral_density.txt
+out/icond6pair0_6Spectral_density.txt
+out/icond2pair0_1Spectral_density.txt
+out/icond0pair1_2Spectral_density.txt
+out/icond2pair3_2Spectral_density.txt
+out/icond4pair0_3Spectral_density.txt
+out/icond6pair5_3Spectral_density.txt
+out/icond1pair1_5Spectral_density.txt
+out/icond2pair6_5Spectral_density.txt
+out/icond5pair6_1Spectral_density.txt
+out/icond4pair6_2Spectral_density.txt
+out/icond3pair4_0Spectral_density.txt
+out/icond2pair6_0Spectral_density.txt
+out/icond4pair1_0Spectral_density.txt
+out/icond4pair2_4Spectral_density.txt
+out/icond4pair2_6Spectral_density.txt
+out/icond5pair1_2Spectral_density.txt
+out/icond1pair6_4Spectral_density.txt
+out/icond0pair5_0Spectral_density.txt
+out/icond1pair6_1Spectral_density.txt
+out/icond0pair4_0Spectral_density.txt
+out/icond6pair2_6Spectral_density.txt
+out/icond3pair2_5Spectral_density.txt
+out/icond5pair5_6Spectral_density.txt
+out/icond2pair0_5Spectral_density.txt
+out/icond0pair1_0Spectral_density.txt
+out/icond3pair2_3Spectral_density.txt
+out/icond1pair0_5Spectral_density.txt
+out/icond4pair3_1Spectral_density.txt
+out/icond6pair2_5Spectral_density.txt
+out/icond4pair6_5Spectral_density.txt
+out/icond3pair1_4Spectral_density.txt
+out/icond1pair0_6Spectral_density.txt
+out/icond0pair6_5Spectral_density.txt
+out/icond5pair1_0Spectral_density.txt
+out/icond6pair5_2Spectral_density.txt
+out/icond4pair5_3Spectral_density.txt
+out/icond1pair3_0Spectral_density.txt
+out/icond2pair2_6Spectral_density.txt
+out/icond1pair5_3Spectral_density.txt
+out/icond2pair2_4Spectral_density.txt
+out/icond2pair5_2Spectral_density.txt
+out/icond2pair4_1Spectral_density.txt
+out/icond3pair4_6Spectral_density.txt
+out/icond6pair4_2Spectral_density.txt
+out/icond1pair1_4Spectral_density.txt
+out/icond2pair2_1Spectral_density.txt
+out/icond3pair6_2Spectral_density.txt
+out/icond1pair6_0Spectral_density.txt
+out/icond1pair4_6Spectral_density.txt
+out/icond5pair6_3Spectral_density.txt
+out/icond0pair3_5Spectral_density.txt
+out/icond2pair2_3Spectral_density.txt
+out/icond3pair3_1Spectral_density.txt
+out/icond2pair5_1Spectral_density.txt
+out/icond3pair0_3Spectral_density.txt
+out/icond4pair6_0Spectral_density.txt
+out/icond3pair6_1Spectral_density.txt
+out/icond4pair1_2Spectral_density.txt
+out/icond5pair2_1Spectral_density.txt
+out/icond6pair1_0Spectral_density.txt
+out/icond5pair1_4Spectral_density.txt
+out/icond5pair4_6Spectral_density.txt
+out/icond4pair3_0Spectral_density.txt
+out/icond5pair0_1Spectral_density.txt
+out/icond2pair0_3Spectral_density.txt
+out/icond6pair4_0Spectral_density.txt
+out/icond5pair3_5Spectral_density.txt
+out/icond1pair6_2Spectral_density.txt
+out/icond0pair6_1Spectral_density.txt
+out/icond5pair6_4Spectral_density.txt
+out/icond1pair5_2Spectral_density.txt
+out/icond2pair3_6Spectral_density.txt
+out/icond1pair0_3Spectral_density.txt
+out/icond1pair4_5Spectral_density.txt
+out/icond3pair6_5Spectral_density.txt
+out/icond4pair2_3Spectral_density.txt
+out/icond6pair6_5Spectral_density.txt
+out/icond1pair1_3Spectral_density.txt
+out/icond5pair3_4Spectral_density.txt
+out/icond4pair4_6Spectral_density.txt
+out/icond6pair1_5Spectral_density.txt
+out/icond3pair6_3Spectral_density.txt
+out/icond5pair4_1Spectral_density.txt
+out/icond3pair2_0Spectral_density.txt
+out/icond1pair5_6Spectral_density.txt
+out/icond4pair0_6Spectral_density.txt
+out/icond2pair5_6Spectral_density.txt
+out/icond0pair2_1Spectral_density.txt
+out/icond5pair0_3Spectral_density.txt
+out/icond2pair1_2Spectral_density.txt
+out/icond0pair2_3Spectral_density.txt
+out/icond2pair1_5Spectral_density.txt
+out/icond5pair6_0Spectral_density.txt
+out/icond6pair2_0Spectral_density.txt
+out/icond6pair6_3Spectral_density.txt
+out/icond4pair6_4Spectral_density.txt
+out/icond6pair3_5Spectral_density.txt
+out/icond3pair5_0Spectral_density.txt
+out/icond1pair5_4Spectral_density.txt
+out/icond0pair6_2Spectral_density.txt
+out/icond3pair5_3Spectral_density.txt
+out/icond3pair4_5Spectral_density.txt
+out/icond4pair5_6Spectral_density.txt
+out/icond6pair5_0Spectral_density.txt
+out/icond2pair5_0Spectral_density.txt
+out/icond1pair4_0Spectral_density.txt
+out/icond2pair3_0Spectral_density.txt
+out/icond3pair5_4Spectral_density.txt
+out/icond6pair5_4Spectral_density.txt
+out/icond0pair4_3Spectral_density.txt
+out/icond2pair6_4Spectral_density.txt
+out/icond5pair2_0Spectral_density.txt
+out/icond1pair4_2Spectral_density.txt
+out/icond6pair2_1Spectral_density.txt
+out/icond6pair4_3Spectral_density.txt
+out/icond0pair5_1Spectral_density.txt
+out/icond2pair4_5Spectral_density.txt
+out/icond5pair6_5Spectral_density.txt
+out/icond5pair0_5Spectral_density.txt
+out/icond4pair1_3Spectral_density.txt
+out/icond3pair2_1Spectral_density.txt
+out/icond3pair5_6Spectral_density.txt
+out/icond0pair6_0Spectral_density.txt
+out/icond6pair6_0Spectral_density.txt
+out/icond0pair1_4Spectral_density.txt
+out/icond4pair6_1Spectral_density.txt
+out/icond1pair2_4Spectral_density.txt
+out/icond0pair5_2Spectral_density.txt
+out/icond5pair5_0Spectral_density.txt
+out/icond6pair2_4Spectral_density.txt
+out/icond5pair2_4Spectral_density.txt
+out/icond6pair6_4Spectral_density.txt
+out/icond0pair3_2Spectral_density.txt
+out/icond3pair4_1Spectral_density.txt
+out/icond3pair0_6Spectral_density.txt
+out/icond4pair0_1Spectral_density.txt
+out/icond1pair3_6Spectral_density.txt
+out/icond1pair0_2Spectral_density.txt
+out/icond5pair2_6Spectral_density.txt
+out/icond1pair6_3Spectral_density.txt
+out/icond3pair2_4Spectral_density.txt
+out/icond3pair3_6Spectral_density.txt
+out/icond6pair1_6Spectral_density.txt
+out/icond3pair0_4Spectral_density.txt
+out/icond5pair1_5Spectral_density.txt
+out/icond0pair4_1Spectral_density.txt
+out/icond5pair4_5Spectral_density.txt
+out/icond1pair2_3Spectral_density.txt
+out/icond6pair3_2Spectral_density.txt
+out/icond5pair0_6Spectral_density.txt
+out/icond0pair2_6Spectral_density.txt
+out/icond3pair0_5Spectral_density.txt
+out/icond4pair5_2Spectral_density.txt
+out/icond0pair6_4Spectral_density.txt
+out/icond0pair0_3Spectral_density.txt
+out/icond4pair4_5Spectral_density.txt
+out/icond0pair2_5Spectral_density.txt
+out/icond3pair0_1Spectral_density.txt
+out/icond0pair5_6Spectral_density.txt
+out/icond0pair1_5Spectral_density.txt
+out/icond0pair3_1Spectral_density.txt
+out/icond0pair5_3Spectral_density.txt
+out/icond3pair1_5Spectral_density.txt
+out/icond0pair0_5Spectral_density.txt
+out/icond6pair6_1Spectral_density.txt
+out/icond3pair3_0Spectral_density.txt
+out/icond3pair4_2Spectral_density.txt
+out/icond0pair3_0Spectral_density.txt
+out/icond2pair1_4Spectral_density.txt
+out/icond5pair4_0Spectral_density.txt
+out/icond4pair3_5Spectral_density.txt
+out/icond4pair4_2Spectral_density.txt
+out/icond6pair3_0Spectral_density.txt
+out/icond5pair2_5Spectral_density.txt
+out/icond3pair2_6Spectral_density.txt
+out/icond5pair3_1Spectral_density.txt
+out/icond3pair1_0Spectral_density.txt
+out/icond5pair5_4Spectral_density.txt
+out/icond3pair4_3Spectral_density.txt
+out/icond5pair0_2Spectral_density.txt
+out/icond5pair5_2Spectral_density.txt
+out/icond4pair0_4Spectral_density.txt
+out/icond6pair3_6Spectral_density.txt
+out/icond1pair4_3Spectral_density.txt
+out/icond3pair6_0Spectral_density.txt
+out/icond4pair5_1Spectral_density.txt
+out/icond1pair2_5Spectral_density.txt
+out/icond3pair1_6Spectral_density.txt
+out/icond4pair4_1Spectral_density.txt
+out/icond0pair2_0Spectral_density.txt
+tar: py-scr3_1.py: Cannot stat: No such file or directory
+tar: pyxaid.o2819557: Cannot stat: No such file or directory
+tar: pyxaid.po2819557: Cannot stat: No such file or directory
+tar: qs.pyxaid: Cannot stat: No such file or directory
+tar: scratch: Cannot stat: No such file or directory
+tar: spectral_density.tar.gz: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
