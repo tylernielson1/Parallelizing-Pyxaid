@@ -1,0 +1,2 @@
+icc -c -openmp mytimer.c
+ifort -openmp mytimer.o mytimer_f90.f90 timer_test.f90 -o timer_test

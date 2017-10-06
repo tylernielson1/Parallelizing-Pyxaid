@@ -1,0 +1,4 @@
+g++ mytimer.cpp timer_test.cpp -o timer_test -fopenmp
+rm time.out
+./timer_test
+cat time.out
