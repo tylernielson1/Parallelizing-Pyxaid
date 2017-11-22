@@ -20,6 +20,9 @@ L=-L ${pl1} -L ${pl2}
 
 all: pyxaid_core.so
 
+mytimer.o: mytimer.c mytimer_cpp.h
+	${CPP} ${FLAGS} ${I} -c mytimer.c
+
 random.o: random.cpp random.h
 	${CPP} ${FLAGS} ${I} -c random.cpp
 
@@ -65,7 +68,8 @@ pyxaid_core.o: pyxaid_core.cpp
 
 
 pyxaid_core.so: pyxaid_core.o wfc_export.o wfc_functions.o wfc_QE_methods.o wfc_basic_methods.o \
-        aux.o matrix.o state.o ElectronicStructure.o namd.o namd_export.o InputStructure.o io.o random.o
+        aux.o matrix.o state.o ElectronicStructure.o namd.o namd_export.o InputStructure.o io.o random.o \
+		mytimer.o
 	${CPP} ${FLAGS} ${I} -shared -o pyxaid_core.so pyxaid_core.o wfc_export.o wfc_functions.o \
         wfc_QE_methods.o wfc_basic_methods.o aux.o matrix.o state.o ElectronicStructure.o namd.o \
         namd_export.o InputStructure.o io.o random.o ${L} -lboost_python-2.7
