@@ -68,11 +68,10 @@ pyxaid_core.o: pyxaid_core.cpp
 
 
 pyxaid_core.so: pyxaid_core.o wfc_export.o wfc_functions.o wfc_QE_methods.o wfc_basic_methods.o \
-        aux.o matrix.o state.o ElectronicStructure.o namd.o namd_export.o InputStructure.o io.o random.o \
-		mytimer.o
+        aux.o matrix.o state.o ElectronicStructure.o namd.o mytimer.o namd_export.o InputStructure.o io.o random.o
 	${CPP} ${FLAGS} ${I} -shared -o pyxaid_core.so pyxaid_core.o wfc_export.o wfc_functions.o \
         wfc_QE_methods.o wfc_basic_methods.o aux.o matrix.o state.o ElectronicStructure.o namd.o \
-        namd_export.o InputStructure.o io.o random.o ${L} -lboost_python-2.7
+        mytimer.o namd_export.o InputStructure.o io.o random.o ${L} -lboost_python-2.7
 	cp pyxaid_core.so ../.
 
 clean:
