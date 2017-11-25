@@ -20,7 +20,7 @@
 //      #include "mytimer_cpp.h"     in all C++ files where timing is to be used
 //      Timer timer( "blockname" );  starts the timer for 'blockname'
 //      timer.Start( "section" );    starts the timer manually for a section
-//      timer.Stop( "section" );     stops the timer manually for a section
+//      timer.Stop( );     stops the timer manually for a section
 //      the ~Timer() destructor will stop the timer automatically for a block
 //      timer.Report( "time.out" );  dumps the time info to file 'time.out'
 //      Timer.Log_Flops( nflops );   logs nflops floating ops to current block
@@ -49,6 +49,7 @@
 
 // Define USE_CPP as 1 and `ln -s mytimer.c mytimer.cpp` to use C++
 #undef USE_CPP
+#define USE_CPP 1
 #ifdef USE_CPP
 #include "mytimer_cpp.h"  // Need the class definition
 //#else

@@ -1,0 +1,22 @@
+    time in seconds    +children       calls    name
+   6481.184 ( 75.9%)   6481.184        24500  output/finish       
+   2058.596 ( 24.1%)   2058.596            1  initialization      
+      0.112 (  0.0%)      0.112            1  core_setup          
+      0.002 (  0.0%)   8539.894            1  core_algorithm      
+      0.001 (  0.0%)      0.001            7  hamiltonians_computa
+
+  Total time is 8539.893882 secs    (2 hours  22 mins  19.894 secs) on hero24
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+   4365.382 ( 74.3%)   4365.382            7  output/finish       
+   1500.256 ( 25.5%)   1500.256            1  initialization      
+      4.674 (  0.1%)   5872.308            1  core_algorithm      
+      1.611 (  0.0%)      1.611            7  hamiltonians_computa
+      0.385 (  0.0%)      0.385            7  core_setup          
+
+  Total time is 5872.307683 secs    (1 hours  37 mins  52.308 secs) on elf46
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
