@@ -55,7 +55,6 @@ class info{
 
 BOOST_PYTHON_MODULE(pyxaid_core)
 {
-
     class_<info>("info",init<>())
         .def("version",&info::version)
         .def("developers",&info::developers)
