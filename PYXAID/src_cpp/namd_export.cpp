@@ -19,6 +19,7 @@
 #include "aux.h"
 #include "io.h"
 #include "namd.h"
+#include "mytimer_cpp.h"
 #include <boost/python.hpp>
 using namespace boost::python;
 using namespace std;
@@ -30,6 +31,9 @@ int namd(boost::python::dict inp_params){
   complex<double> ihbar(0.0,hbar);
 
 //>>>>>>>>>>>>>>>>>>>>>>>> INITIALIZATION PART <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+  // Timer used as a peformance profiler
+  Timer timer("core_algorithm");
 
   // General input parameters from the python dictionary
   InputStructure params(inp_params);
@@ -87,6 +91,8 @@ int namd(boost::python::dict inp_params){
   // imaginary part) elements.
   // H_ij = F_ii    if i==j (real, diagonal)
   // H_ij = -i*F_ij   if i!=j (imaginary, off-diagonal, "-" is the convention implying that F_ij = hbar * <i|d/dt|j> )
+
+    timer.Start("initialization");
 
     for(int j=0;j<max_indx;j++){
       // -------------------- Real part of the Hamiltonian matrix -------------------------------------
@@ -185,14 +191,19 @@ int namd(boost::python::dict inp_params){
 
     }// for j
     cout<<"end of Hamiltonian files reading\n";
+
+    timer.Stop();
   }// if batch mode and namd
 
+  
 //------------------------------------------------------------------------------
 
 //>>>>>>>>>>>>>>>>>>>>>>>>> MAIN PROGRAM PART <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
   cout<<"Starting the program...\n";
   for(icond=0;icond<iconds.size();icond++){  // first_icond may start from 0, not 1
+
+    timer.Start("core_setup");
 
     if(params.debug_flag==2){
       cout<<"Initial condition index = "<<icond<<"     initial_time["<<icond<<"]="<<iconds[icond][0]
@@ -406,7 +417,8 @@ int namd(boost::python::dict inp_params){
     //------------------ Not common data ---------------------------
     me_es[0].set_state(iconds[icond][1]); // Coefficients and populations
 
-
+    timer.Stop();
+    timer.Start("hamiltonians_computation");
 
     //======================== Compute multi-electron Hamiltonians ==========================
     //-------------------- Couplings -----------------------------------------
@@ -483,62 +495,65 @@ int namd(boost::python::dict inp_params){
                 <<endl;
           }
 */
-      }// for J
+        }// for J
 
-      // Now scale the coupling!!!
-      int sz_scl = me_states[I].nac_scl.size();
-      for(int k=0;k<sz_scl;k++){
-        J = me_states[I].nac_scl_indx[k];
-        me_es[t].Hcurr->M[I*me_es[t].num_states+J] *= me_states[I].nac_scl[k];
-      }// for k
+        // Now scale the coupling!!!
+        int sz_scl = me_states[I].nac_scl.size();
+        for(int k=0;k<sz_scl;k++){
+          J = me_states[I].nac_scl_indx[k];
+          me_es[t].Hcurr->M[I*me_es[t].num_states+J] *= me_states[I].nac_scl[k];
+        }// for k
 
-      // Compute the energy and the perturbation of the macrostate
-      for(int el=0;el<num_elec;el++){
-        int orb_i = me_states[I].actual_state[el];        // orbital on which el-th electron sits in current function
-        orb_i = ext2int(orb_i,me_states[I].active_space); // internal index of the orbital
-        // Energy of I-th basis function (determinant) - contributions of all 1-electron KS orbitals - diagonal terms
-        me_es[t].Hcurr->M[I*me_es[t].num_states+I] += oe_es[t].Hcurr->M[orb_i*oe_es[t].num_states+orb_i]; 
+        // Compute the energy and the perturbation of the macrostate
+        for(int el=0;el<num_elec;el++){
+          int orb_i = me_states[I].actual_state[el];        // orbital on which el-th electron sits in current function
+          orb_i = ext2int(orb_i,me_states[I].active_space); // internal index of the orbital
+          // Energy of I-th basis function (determinant) - contributions of all 1-electron KS orbitals - diagonal terms
+          me_es[t].Hcurr->M[I*me_es[t].num_states+I] += oe_es[t].Hcurr->M[orb_i*oe_es[t].num_states+orb_i]; 
 
-        if(params.debug_flag>=1 && t==0){
-        cout<<"I= "<<I<<" el= "<<el<<" orb_i= "<<orb_i<<" E_{KS,orb_i}= "
-            <<oe_es[t].Hcurr->M[orb_i*oe_es[t].num_states+orb_i]<<" E_{state,I}= "
-            << me_es[t].Hcurr->M[I*me_es[t].num_states+I]<<endl;
-        }
-
-        me_es[t].Hprimex->M[I*me_es[t].num_states+I] += oe_es[t].Hprimex->M[orb_i*oe_es[t].num_states+orb_i];
-        me_es[t].Hprimey->M[I*me_es[t].num_states+I] += oe_es[t].Hprimey->M[orb_i*oe_es[t].num_states+orb_i];
-        me_es[t].Hprimez->M[I*me_es[t].num_states+I] += oe_es[t].Hprimez->M[orb_i*oe_es[t].num_states+orb_i];
-
-
-      }// for el
-
-    }// for I
-
-    for(I=0;I<me_es[t].num_states;I++){          // Numerate the me state on which we project.
-                                                 // This multi-electron state J is defined by me_states[J]
-      for(J=0;J<me_es[t].num_states;J++){
-
-          if(t==0 &&  params.debug_flag==1){
-            // Only for the first time step output info - to check what is the NAC structure of the system
-            cout<<"I, J, coupling(scaled), Hprimex, Hprimey, Hprimez = "
-                <<I<<"  "<<J<<"  "
-                <<me_es[t].Hcurr->M[I*me_es[t].num_states+J]<<"  "
-                <<me_es[t].Hprimex->M[I*me_es[t].num_states+J]<<"  "
-                <<me_es[t].Hprimey->M[I*me_es[t].num_states+J]<<"  "
-                <<me_es[t].Hprimez->M[I*me_es[t].num_states+J]<<"  "
-                <<endl;
+          if(params.debug_flag>=1 && t==0){
+          cout<<"I= "<<I<<" el= "<<el<<" orb_i= "<<orb_i<<" E_{KS,orb_i}= "
+              <<oe_es[t].Hcurr->M[orb_i*oe_es[t].num_states+orb_i]<<" E_{state,I}= "
+              << me_es[t].Hcurr->M[I*me_es[t].num_states+I]<<endl;
           }
 
-      }// for J
-    }// for I
+          me_es[t].Hprimex->M[I*me_es[t].num_states+I] += oe_es[t].Hprimex->M[orb_i*oe_es[t].num_states+orb_i];
+          me_es[t].Hprimey->M[I*me_es[t].num_states+I] += oe_es[t].Hprimey->M[orb_i*oe_es[t].num_states+orb_i];
+          me_es[t].Hprimez->M[I*me_es[t].num_states+I] += oe_es[t].Hprimez->M[orb_i*oe_es[t].num_states+orb_i];
+
+
+        }// for el
+
+      }// for I
+
+      for(I=0;I<me_es[t].num_states;I++){          // Numerate the me state on which we project.
+                                                  // This multi-electron state J is defined by me_states[J]
+        for(J=0;J<me_es[t].num_states;J++){
+
+            if(t==0 &&  params.debug_flag==1){
+              // Only for the first time step output info - to check what is the NAC structure of the system
+              cout<<"I, J, coupling(scaled), Hprimex, Hprimey, Hprimez = "
+                  <<I<<"  "<<J<<"  "
+                  <<me_es[t].Hcurr->M[I*me_es[t].num_states+J]<<"  "
+                  <<me_es[t].Hprimex->M[I*me_es[t].num_states+J]<<"  "
+                  <<me_es[t].Hprimey->M[I*me_es[t].num_states+J]<<"  "
+                  <<me_es[t].Hprimez->M[I*me_es[t].num_states+J]<<"  "
+                  <<endl;
+            }
+
+        }// for J
+      }// for I
 
     //------------------------------------------------------------------------
 //      cout<<"me.Hcurr = "<<*(me_es[t].Hcurr)<<endl;
 
     }// for t = j - ...
+
+    // Stop timing multi-electron Hamiltonians computation
     cout<<"Multi-electron couplings and energies are computed\n";
 
-
+    timer.Stop();
+    timer.Start("printing_energies");
 
     // Print the energies of multi-electron states
     string outfile = (params.scratch_dir + "/me_energies"+int2string(icond));
@@ -554,29 +569,37 @@ int namd(boost::python::dict inp_params){
     }// for j
     out.close();
 
+    timer.Stop();
+    timer.Start("computing_decoherence_rates");
+
     //>>>>> Precompute decoherence rates
     if(params.decoherence>0){
         cout<<"Starting decoherence rates calculation\n";
         run_decoherence_rates(params,me_es,me_states,icond);
     }
-    //>>>>> Run NA-MD
-//    if(params.runtype=="namd" && params.decoherence==0){
-//        cout<<"Starting na-md simulations\n";
-//        run_namd(params,me_es,me_states,icond); 
-//    }
-//    if(params.runtype=="namd" && params.decoherence>0){
-        cout<<"Starting na-md simulations with (optional) decoherence\n";
-        run_namd1(params,me_es,me_states,icond);
-//    }
+
+    timer.Stop();
+    timer.Start("running_na-md_simulations");
+
+    cout<<"Starting na-md simulations with (optional) decoherence\n";
+    run_namd1(params,me_es,me_states,icond);
 
     oe_es.clear();
     me_es.clear();
+
+    // Stop timing output/finish
+    timer.Stop();
 
   }// icond loop - from which time to start
 
   
   time_t t2 = clock();
   cout<<"Time in namd is: "<<(t2-t1)/((double)CLOCKS_PER_SEC)<<endl;
+
+  // Report time profiling information to cpp_time.out
+  timer.Report( "cpp_time.out" );
+  // Destruct timer: stops timer automatically
+  timer.~Timer();
 
   return 0;
 
