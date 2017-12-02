@@ -16,15 +16,16 @@ workon testp2
 # Link ./scratch to /tmp on the local compute node for now
 
 unlink scratch >& /dev/null
+# Use to run without ramdisk
 ln -s $TMPDIR scratch
-mkdir -p ./macro ./out ./scratch/out
+mkdir -p ./macro ./out ./scratch ./scratch/out
 
 # Below would be how to use a ramdisk for ./scratch instead
 #mkdir /dev/shm/pratima-$JOB_ID
 #ln -s /dev/shm/pratima-$JOB_ID scratch
+#mkdir -p ./macro ./out ./scratch ./scratch/out
 
 # Run the python script which will use the ./scratch link to /tmp
-
 python2 py-scr3_1.py
 
 
@@ -32,9 +33,9 @@ python2 py-scr3_1.py
 # Small runs can do direct copies, large need a tarball since >100,000 files
 
 
-#echo "ls -l of $TMPDIR"
-#ls -l $TMPDIR
-mv scratch/*Spectral_density* scratch/out
+echo "ls -l of $TMPDIR"
+ls -l ./scratch
+#mv scratch/*Spectral_density* scratch/out
 tar -cvzf ./spectral_density.tar.gz  -C scratch out
 
 # Files will be extracted to out using:

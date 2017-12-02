@@ -1,0 +1,3528 @@
+    time in seconds    +children       calls    name
+      0.398 ( 68.0%)      0.398            1  part-2_output       
+      0.172 ( 29.4%)      0.172            1  part-2_decoherence_r
+      0.010 (  1.8%)      0.010            1  part-3_output       
+      0.005 (  0.8%)      0.005            1  part-1_decoherence_r
+      0.000 (  0.0%)      0.586            1  in_run_decoherence_r
+      0.000 (  0.0%)      0.000            1  part-3_decoherence_r
+
+  Total time is 0.585813 secs    (0 hours  0 mins   0.586 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+      1.178 (145.9%)      1.178            2  part-3_output       
+      0.808 (100.0%)      0.808            2  part-2_output       
+      0.337 ( 41.8%)      0.337            2  part-2_decoherence_r
+      0.009 (  1.1%)      0.009            2  part-1_decoherence_r
+      0.000 (  0.0%)      2.332            2  in_run_decoherence_r
+      0.000 (  0.0%)      0.000            2  part-3_decoherence_r
+
+  Total time is 0.807529 secs    (0 hours  0 mins   0.808 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+      1.187 (100.0%)      1.187            3  part-3_output       
+      1.166 ( 98.2%)      1.166            3  part-2_output       
+      0.530 ( 44.6%)      0.530            3  part-2_decoherence_r
+      0.016 (  1.3%)      0.016            3  part-1_decoherence_r
+      0.000 (  0.0%)      2.899            3  in_run_decoherence_r
+      0.000 (  0.0%)      0.000            3  part-3_decoherence_r
+
+  Total time is 1.186907 secs    (0 hours  0 mins   1.187 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+      1.506 (126.0%)      1.506            4  part-2_output       
+      1.196 (100.0%)      1.196            4  part-3_output       
+      0.695 ( 58.1%)      0.695            4  part-2_decoherence_r
+      0.020 (  1.7%)      0.020            4  part-1_decoherence_r
+      0.000 (  0.0%)      3.417            4  in_run_decoherence_r
+      0.000 (  0.0%)      0.000            4  part-3_decoherence_r
+
+  Total time is 1.195759 secs    (0 hours  0 mins   1.196 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+      1.838 (100.0%)      1.838            5  part-2_output       
+      1.205 ( 65.5%)      1.205            5  part-3_output       
+      0.853 ( 46.4%)      0.853            5  part-2_decoherence_r
+      0.027 (  1.5%)      0.027            5  part-1_decoherence_r
+      0.000 (  0.0%)      3.924            5  in_run_decoherence_r
+      0.000 (  0.0%)      0.000            5  part-3_decoherence_r
+
+  Total time is 1.838392 secs    (0 hours  0 mins   1.838 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+      2.180 (100.0%)      2.180            6  part-2_output       
+      1.215 ( 55.7%)      1.215            6  part-3_output       
+      1.011 ( 46.4%)      1.011            6  part-2_decoherence_r
+      0.031 (  1.4%)      0.031            6  part-1_decoherence_r
+      0.000 (  0.0%)      4.436            6  in_run_decoherence_r
+      0.000 (  0.0%)      0.000            6  part-3_decoherence_r
+
+  Total time is 2.179504 secs    (0 hours  0 mins   2.180 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+      2.519 (100.0%)      2.519            7  part-2_output       
+      2.390 ( 94.9%)      2.390            7  part-3_output       
+      1.169 ( 46.4%)      1.169            7  part-2_decoherence_r
+      0.035 (  1.4%)      0.035            7  part-1_decoherence_r
+      0.000 (  0.0%)      6.114            7  in_run_decoherence_r
+      0.000 (  0.0%)      0.000            7  part-3_decoherence_r
+
+  Total time is 2.518785 secs    (0 hours  0 mins   2.519 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+      3.915 (100.0%)      3.915            8  part-2_output       
+      2.399 ( 61.3%)      2.399            8  part-3_output       
+      1.361 ( 34.8%)      1.361            8  part-2_decoherence_r
+      0.043 (  1.1%)      0.043            8  part-1_decoherence_r
+      0.000 (  0.0%)      7.718            8  in_run_decoherence_r
+      0.000 (  0.0%)      0.000            8  part-3_decoherence_r
+
+  Total time is 3.915016 secs    (0 hours  0 mins   3.915 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+      4.253 (100.0%)      4.253            9  part-2_output       
+      2.407 ( 56.6%)      2.407            9  part-3_output       
+      1.532 ( 36.0%)      1.532            9  part-2_decoherence_r
+      0.048 (  1.1%)      0.048            9  part-1_decoherence_r
+      0.000 (  0.0%)      8.240            9  in_run_decoherence_r
+      0.000 (  0.0%)      0.000            9  part-3_decoherence_r
+
+  Total time is 4.252827 secs    (0 hours  0 mins   4.253 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+      4.602 (100.0%)      4.602           10  part-2_output       
+      2.415 ( 52.5%)      2.415           10  part-3_output       
+      1.691 ( 36.7%)      1.691           10  part-2_decoherence_r
+      0.052 (  1.1%)      0.052           10  part-1_decoherence_r
+      0.000 (  0.0%)      8.761           10  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           10  part-3_decoherence_r
+
+  Total time is 4.602202 secs    (0 hours  0 mins   4.602 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+      4.899 (100.0%)      4.899           11  part-2_output       
+      2.422 ( 49.4%)      2.422           11  part-3_output       
+      1.850 ( 37.8%)      1.850           11  part-2_decoherence_r
+      0.056 (  1.1%)      0.056           11  part-1_decoherence_r
+      0.000 (  0.0%)      9.228           11  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           11  part-3_decoherence_r
+
+  Total time is 4.899491 secs    (0 hours  0 mins   4.899 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+      5.259 (100.0%)      5.259           12  part-2_output       
+      2.431 ( 46.2%)      2.431           12  part-3_output       
+      2.007 ( 38.2%)      2.007           12  part-2_decoherence_r
+      0.060 (  1.1%)      0.060           12  part-1_decoherence_r
+      0.000 (  0.0%)      9.758           12  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           12  part-3_decoherence_r
+
+  Total time is 5.259310 secs    (0 hours  0 mins   5.259 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+      5.595 (100.0%)      5.595           13  part-2_output       
+      2.440 ( 43.6%)      2.440           13  part-3_output       
+      2.167 ( 38.7%)      2.167           13  part-2_decoherence_r
+      0.064 (  1.1%)      0.064           13  part-1_decoherence_r
+      0.000 (  0.0%)     10.267           13  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           13  part-3_decoherence_r
+
+  Total time is 5.595410 secs    (0 hours  0 mins   5.595 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+      5.925 (100.0%)      5.925           14  part-2_output       
+      2.448 ( 41.3%)      2.448           14  part-3_output       
+      2.329 ( 39.3%)      2.329           14  part-2_decoherence_r
+      0.068 (  1.1%)      0.068           14  part-1_decoherence_r
+      0.000 (  0.0%)     10.771           14  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           14  part-3_decoherence_r
+
+  Total time is 5.924527 secs    (0 hours  0 mins   5.925 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+      6.299 (100.0%)      6.299           15  part-2_output       
+      3.444 ( 54.7%)      3.444           15  part-3_output       
+      2.485 ( 39.5%)      2.485           15  part-2_decoherence_r
+      0.072 (  1.1%)      0.072           15  part-1_decoherence_r
+      0.000 (  0.0%)     12.301           15  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           15  part-3_decoherence_r
+
+  Total time is 6.299194 secs    (0 hours  0 mins   6.299 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+      6.697 (100.0%)      6.697           16  part-2_output       
+      3.452 ( 51.5%)      3.452           16  part-3_output       
+      2.680 ( 40.0%)      2.680           16  part-2_decoherence_r
+      0.079 (  1.2%)      0.079           16  part-1_decoherence_r
+      0.001 (  0.0%)     12.909           16  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           16  part-3_decoherence_r
+
+  Total time is 6.697423 secs    (0 hours  0 mins   6.697 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+      7.077 (100.0%)      7.077           17  part-2_output       
+      3.462 ( 48.9%)      3.462           17  part-3_output       
+      2.843 ( 40.2%)      2.843           17  part-2_decoherence_r
+      0.083 (  1.2%)      0.083           17  part-1_decoherence_r
+      0.001 (  0.0%)     13.466           17  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           17  part-3_decoherence_r
+
+  Total time is 7.077445 secs    (0 hours  0 mins   7.077 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+      7.458 (100.0%)      7.458           18  part-2_output       
+      3.471 ( 46.5%)      3.471           18  part-3_output       
+      3.007 ( 40.3%)      3.007           18  part-2_decoherence_r
+      0.087 (  1.2%)      0.087           18  part-1_decoherence_r
+      0.001 (  0.0%)     14.023           18  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           18  part-3_decoherence_r
+
+  Total time is 7.457616 secs    (0 hours  0 mins   7.458 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+      7.847 (100.0%)      7.847           19  part-2_output       
+      3.480 ( 44.4%)      3.480           19  part-3_output       
+      3.173 ( 40.4%)      3.173           19  part-2_decoherence_r
+      0.091 (  1.2%)      0.091           19  part-1_decoherence_r
+      0.001 (  0.0%)     14.592           19  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           19  part-3_decoherence_r
+
+  Total time is 7.846553 secs    (0 hours  0 mins   7.847 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+      8.241 (100.0%)      8.241           20  part-2_output       
+      3.571 ( 43.3%)      3.571           20  part-3_output       
+      3.337 ( 40.5%)      3.337           20  part-2_decoherence_r
+      0.096 (  1.2%)      0.096           20  part-1_decoherence_r
+      0.001 (  0.0%)     15.246           20  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           20  part-3_decoherence_r
+
+  Total time is 8.240503 secs    (0 hours  0 mins   8.241 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+      8.644 (100.0%)      8.644           21  part-2_output       
+      3.581 ( 41.4%)      3.581           21  part-3_output       
+      3.541 ( 41.0%)      3.541           21  part-2_decoherence_r
+      0.104 (  1.2%)      0.104           21  part-1_decoherence_r
+      0.001 (  0.0%)     15.870           21  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           21  part-3_decoherence_r
+
+  Total time is 8.643589 secs    (0 hours  0 mins   8.644 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     10.319 (100.0%)     10.319           22  part-2_output       
+      3.706 ( 35.9%)      3.706           22  part-2_decoherence_r
+      3.591 ( 34.8%)      3.591           22  part-3_output       
+      0.108 (  1.0%)      0.108           22  part-1_decoherence_r
+      0.001 (  0.0%)     17.724           22  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           22  part-3_decoherence_r
+
+  Total time is 10.318933 secs    (0 hours  0 mins  10.319 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     10.722 (100.0%)     10.722           23  part-2_output       
+      3.882 ( 36.2%)      3.882           23  part-2_decoherence_r
+      3.601 ( 33.6%)      3.601           23  part-3_output       
+      0.112 (  1.0%)      0.112           23  part-1_decoherence_r
+      0.001 (  0.0%)     18.318           23  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           23  part-3_decoherence_r
+
+  Total time is 10.722355 secs    (0 hours  0 mins  10.722 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     11.117 (100.0%)     11.117           24  part-2_output       
+      4.044 ( 36.4%)      4.044           24  part-2_decoherence_r
+      3.609 ( 32.5%)      3.609           24  part-3_output       
+      0.116 (  1.0%)      0.116           24  part-1_decoherence_r
+      0.001 (  0.0%)     18.887           24  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           24  part-3_decoherence_r
+
+  Total time is 11.116825 secs    (0 hours  0 mins  11.117 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     11.519 (100.0%)     11.519           25  part-2_output       
+      4.204 ( 36.5%)      4.204           25  part-2_decoherence_r
+      3.618 ( 31.4%)      3.618           25  part-3_output       
+      0.121 (  1.0%)      0.121           25  part-1_decoherence_r
+      0.001 (  0.0%)     19.463           25  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           25  part-3_decoherence_r
+
+  Total time is 11.518797 secs    (0 hours  0 mins  11.519 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     11.930 (100.0%)     11.930           26  part-2_output       
+      4.369 ( 36.6%)      4.369           26  part-2_decoherence_r
+      3.626 ( 30.4%)      3.626           26  part-3_output       
+      0.125 (  1.0%)      0.125           26  part-1_decoherence_r
+      0.001 (  0.0%)     20.050           26  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           26  part-3_decoherence_r
+
+  Total time is 11.929664 secs    (0 hours  0 mins  11.930 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     12.316 (100.0%)     12.316           27  part-2_output       
+      4.529 ( 36.8%)      4.529           27  part-2_decoherence_r
+      3.635 ( 29.5%)      3.635           27  part-3_output       
+      0.129 (  1.0%)      0.129           27  part-1_decoherence_r
+      0.001 (  0.0%)     20.610           27  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           27  part-3_decoherence_r
+
+  Total time is 12.315697 secs    (0 hours  0 mins  12.316 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     12.708 (100.0%)     12.708           28  part-2_output       
+      4.742 ( 37.3%)      4.742           28  part-3_output       
+      4.694 ( 36.9%)      4.694           28  part-2_decoherence_r
+      0.133 (  1.0%)      0.133           28  part-1_decoherence_r
+      0.001 (  0.0%)     22.277           28  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           28  part-3_decoherence_r
+
+  Total time is 12.707557 secs    (0 hours  0 mins  12.708 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     13.138 (100.0%)     13.138           29  part-2_output       
+      4.895 ( 37.3%)      4.895           29  part-2_decoherence_r
+      4.751 ( 36.2%)      4.751           29  part-3_output       
+      0.141 (  1.1%)      0.141           29  part-1_decoherence_r
+      0.001 (  0.0%)     22.926           29  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           29  part-3_decoherence_r
+
+  Total time is 13.137646 secs    (0 hours  0 mins  13.138 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     13.529 (100.0%)     13.529           30  part-2_output       
+      5.060 ( 37.4%)      5.060           30  part-2_decoherence_r
+      4.759 ( 35.2%)      4.759           30  part-3_output       
+      0.145 (  1.1%)      0.145           30  part-1_decoherence_r
+      0.001 (  0.0%)     23.494           30  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           30  part-3_decoherence_r
+
+  Total time is 13.528750 secs    (0 hours  0 mins  13.529 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     13.770 (100.0%)     13.770           31  part-2_output       
+      5.215 ( 37.9%)      5.215           31  part-2_decoherence_r
+      4.769 ( 34.6%)      4.769           31  part-3_output       
+      0.149 (  1.1%)      0.149           31  part-1_decoherence_r
+      0.001 (  0.0%)     23.905           31  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           31  part-3_decoherence_r
+
+  Total time is 13.769891 secs    (0 hours  0 mins  13.770 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     14.010 (100.0%)     14.010           32  part-2_output       
+      5.371 ( 38.3%)      5.371           32  part-2_decoherence_r
+      4.777 ( 34.1%)      4.777           32  part-3_output       
+      0.153 (  1.1%)      0.153           32  part-1_decoherence_r
+      0.001 (  0.0%)     24.311           32  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           32  part-3_decoherence_r
+
+  Total time is 14.009846 secs    (0 hours  0 mins  14.010 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     14.251 (100.0%)     14.251           33  part-2_output       
+      5.525 ( 38.8%)      5.525           33  part-2_decoherence_r
+      4.785 ( 33.6%)      4.785           33  part-3_output       
+      0.157 (  1.1%)      0.157           33  part-1_decoherence_r
+      0.001 (  0.0%)     24.719           33  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           33  part-3_decoherence_r
+
+  Total time is 14.250500 secs    (0 hours  0 mins  14.251 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     14.491 (100.0%)     14.491           34  part-2_output       
+      5.678 ( 39.2%)      5.678           34  part-2_decoherence_r
+      4.793 ( 33.1%)      4.793           34  part-3_output       
+      0.161 (  1.1%)      0.161           34  part-1_decoherence_r
+      0.001 (  0.0%)     25.124           34  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           34  part-3_decoherence_r
+
+  Total time is 14.490580 secs    (0 hours  0 mins  14.491 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     15.686 (100.0%)     15.686           35  part-2_output       
+      5.832 ( 37.2%)      5.832           35  part-2_decoherence_r
+      5.574 ( 35.5%)      5.574           35  part-3_output       
+      0.165 (  1.1%)      0.165           35  part-1_decoherence_r
+      0.001 (  0.0%)     27.258           35  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           35  part-3_decoherence_r
+
+  Total time is 15.685504 secs    (0 hours  0 mins  15.686 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     16.105 (100.0%)     16.105           36  part-2_output       
+      6.033 ( 37.5%)      6.033           36  part-2_decoherence_r
+      5.584 ( 34.7%)      5.584           36  part-3_output       
+      0.172 (  1.1%)      0.172           36  part-1_decoherence_r
+      0.001 (  0.0%)     27.897           36  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           36  part-3_decoherence_r
+
+  Total time is 16.104910 secs    (0 hours  0 mins  16.105 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     16.512 (100.0%)     16.512           37  part-2_output       
+      6.205 ( 37.6%)      6.205           37  part-2_decoherence_r
+      5.594 ( 33.9%)      5.594           37  part-3_output       
+      0.177 (  1.1%)      0.177           37  part-1_decoherence_r
+      0.001 (  0.0%)     28.490           37  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           37  part-3_decoherence_r
+
+  Total time is 16.512422 secs    (0 hours  0 mins  16.512 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     16.931 (100.0%)     16.931           38  part-2_output       
+      6.369 ( 37.6%)      6.369           38  part-2_decoherence_r
+      5.603 ( 33.1%)      5.603           38  part-3_output       
+      0.181 (  1.1%)      0.181           38  part-1_decoherence_r
+      0.001 (  0.0%)     29.086           38  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           38  part-3_decoherence_r
+
+  Total time is 16.930850 secs    (0 hours  0 mins  16.931 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     17.338 (100.0%)     17.338           39  part-2_output       
+      6.535 ( 37.7%)      6.535           39  part-2_decoherence_r
+      5.613 ( 32.4%)      5.613           39  part-3_output       
+      0.185 (  1.1%)      0.185           39  part-1_decoherence_r
+      0.001 (  0.0%)     29.673           39  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           39  part-3_decoherence_r
+
+  Total time is 17.337836 secs    (0 hours  0 mins  17.338 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     17.723 (100.0%)     17.723           40  part-2_output       
+      6.696 ( 37.8%)      6.696           40  part-2_decoherence_r
+      5.622 ( 31.7%)      5.622           40  part-3_output       
+      0.190 (  1.1%)      0.190           40  part-1_decoherence_r
+      0.001 (  0.0%)     30.232           40  in_run_decoherence_r
+      0.000 (  0.0%)      0.000           40  part-3_decoherence_r
+
+  Total time is 17.722667 secs    (0 hours  0 mins  17.723 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     18.118 (100.0%)     18.118           41  part-2_output       
+      6.858 ( 37.8%)      6.858           41  part-2_decoherence_r
+      5.631 ( 31.1%)      5.631           41  part-3_output       
+      0.194 (  1.1%)      0.194           41  part-1_decoherence_r
+      0.001 (  0.0%)     30.802           41  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           41  part-3_decoherence_r
+
+  Total time is 18.118017 secs    (0 hours  0 mins  18.118 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     19.902 (100.0%)     19.902           42  part-2_output       
+      7.019 ( 35.3%)      7.019           42  part-2_decoherence_r
+      5.640 ( 28.3%)      5.640           42  part-3_output       
+      0.198 (  1.0%)      0.198           42  part-1_decoherence_r
+      0.001 (  0.0%)     32.761           42  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           42  part-3_decoherence_r
+
+  Total time is 19.902301 secs    (0 hours  0 mins  19.902 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     20.326 (100.0%)     20.326           43  part-2_output       
+      7.184 ( 35.3%)      7.184           43  part-2_decoherence_r
+      5.650 ( 27.8%)      5.650           43  part-3_output       
+      0.202 (  1.0%)      0.202           43  part-1_decoherence_r
+      0.001 (  0.0%)     33.364           43  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           43  part-3_decoherence_r
+
+  Total time is 20.325891 secs    (0 hours  0 mins  20.326 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     20.728 (100.0%)     20.728           44  part-2_output       
+      7.350 ( 35.5%)      7.350           44  part-2_decoherence_r
+      5.660 ( 27.3%)      5.660           44  part-3_output       
+      0.206 (  1.0%)      0.206           44  part-1_decoherence_r
+      0.001 (  0.0%)     33.946           44  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           44  part-3_decoherence_r
+
+  Total time is 20.728477 secs    (0 hours  0 mins  20.728 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     21.152 (100.0%)     21.152           45  part-2_output       
+      7.514 ( 35.5%)      7.514           45  part-2_decoherence_r
+      5.668 ( 26.8%)      5.668           45  part-3_output       
+      0.211 (  1.0%)      0.211           45  part-1_decoherence_r
+      0.001 (  0.0%)     34.547           45  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           45  part-3_decoherence_r
+
+  Total time is 21.152142 secs    (0 hours  0 mins  21.152 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     21.542 (100.0%)     21.542           46  part-2_output       
+      7.680 ( 35.7%)      7.680           46  part-2_decoherence_r
+      5.677 ( 26.4%)      5.677           46  part-3_output       
+      0.215 (  1.0%)      0.215           46  part-1_decoherence_r
+      0.001 (  0.0%)     35.115           46  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           46  part-3_decoherence_r
+
+  Total time is 21.541545 secs    (0 hours  0 mins  21.542 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     21.926 (100.0%)     21.926           47  part-2_output       
+      7.847 ( 35.8%)      7.847           47  part-2_decoherence_r
+      5.687 ( 25.9%)      5.687           47  part-3_output       
+      0.219 (  1.0%)      0.219           47  part-1_decoherence_r
+      0.001 (  0.0%)     35.681           47  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           47  part-3_decoherence_r
+
+  Total time is 21.926184 secs    (0 hours  0 mins  21.926 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     23.577 (100.0%)     23.577           48  part-2_output       
+      8.011 ( 34.0%)      8.011           48  part-2_decoherence_r
+      5.698 ( 24.2%)      5.698           48  part-3_output       
+      0.223 (  0.9%)      0.223           48  part-1_decoherence_r
+      0.002 (  0.0%)     37.512           48  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           48  part-3_decoherence_r
+
+  Total time is 23.576791 secs    (0 hours  0 mins  23.577 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     23.974 (100.0%)     23.974           49  part-2_output       
+      8.188 ( 34.2%)      8.188           49  part-2_decoherence_r
+      5.707 ( 23.8%)      5.707           49  part-3_output       
+      0.228 (  0.9%)      0.228           49  part-1_decoherence_r
+      0.002 (  0.0%)     38.099           49  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           49  part-3_decoherence_r
+
+  Total time is 23.974023 secs    (0 hours  0 mins  23.974 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     24.386 (100.0%)     24.386           50  part-2_output       
+      8.356 ( 34.3%)      8.356           50  part-2_decoherence_r
+      5.717 ( 23.4%)      5.717           50  part-3_output       
+      0.232 (  1.0%)      0.232           50  part-1_decoherence_r
+      0.002 (  0.0%)     38.694           50  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           50  part-3_decoherence_r
+
+  Total time is 24.386379 secs    (0 hours  0 mins  24.386 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     24.801 (100.0%)     24.801           51  part-2_output       
+      8.521 ( 34.4%)      8.521           51  part-2_decoherence_r
+      5.725 ( 23.1%)      5.725           51  part-3_output       
+      0.236 (  1.0%)      0.236           51  part-1_decoherence_r
+      0.002 (  0.0%)     39.286           51  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           51  part-3_decoherence_r
+
+  Total time is 24.801004 secs    (0 hours  0 mins  24.801 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     25.224 (100.0%)     25.224           52  part-2_output       
+      8.686 ( 34.4%)      8.686           52  part-2_decoherence_r
+      5.735 ( 22.7%)      5.735           52  part-3_output       
+      0.240 (  1.0%)      0.240           52  part-1_decoherence_r
+      0.002 (  0.0%)     39.889           52  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           52  part-3_decoherence_r
+
+  Total time is 25.224487 secs    (0 hours  0 mins  25.224 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     25.616 (100.0%)     25.616           53  part-2_output       
+      8.897 ( 34.7%)      8.897           53  part-2_decoherence_r
+      5.744 ( 22.4%)      5.744           53  part-3_output       
+      0.244 (  1.0%)      0.244           53  part-1_decoherence_r
+      0.002 (  0.0%)     40.504           53  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           53  part-3_decoherence_r
+
+  Total time is 25.615959 secs    (0 hours  0 mins  25.616 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     26.021 (100.0%)     26.021           54  part-2_output       
+      9.063 ( 34.8%)      9.063           54  part-2_decoherence_r
+      6.752 ( 25.9%)      6.752           54  part-3_output       
+      0.249 (  1.0%)      0.249           54  part-1_decoherence_r
+      0.002 (  0.0%)     42.088           54  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           54  part-3_decoherence_r
+
+  Total time is 26.021168 secs    (0 hours  0 mins  26.021 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     26.413 (100.0%)     26.413           55  part-2_output       
+      9.233 ( 35.0%)      9.233           55  part-2_decoherence_r
+      6.762 ( 25.6%)      6.762           55  part-3_output       
+      0.253 (  1.0%)      0.253           55  part-1_decoherence_r
+      0.002 (  0.0%)     42.662           55  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           55  part-3_decoherence_r
+
+  Total time is 26.412533 secs    (0 hours  0 mins  26.413 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     26.818 (100.0%)     26.818           56  part-2_output       
+      9.399 ( 35.0%)      9.399           56  part-2_decoherence_r
+      6.771 ( 25.2%)      6.771           56  part-3_output       
+      0.257 (  1.0%)      0.257           56  part-1_decoherence_r
+      0.002 (  0.0%)     43.248           56  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           56  part-3_decoherence_r
+
+  Total time is 26.818071 secs    (0 hours  0 mins  26.818 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     27.215 (100.0%)     27.215           57  part-2_output       
+      9.563 ( 35.1%)      9.563           57  part-2_decoherence_r
+      6.780 ( 24.9%)      6.780           57  part-3_output       
+      0.261 (  1.0%)      0.261           57  part-1_decoherence_r
+      0.002 (  0.0%)     43.823           57  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           57  part-3_decoherence_r
+
+  Total time is 27.215295 secs    (0 hours  0 mins  27.215 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     27.616 (100.0%)     27.616           58  part-2_output       
+      9.729 ( 35.2%)      9.729           58  part-2_decoherence_r
+      6.789 ( 24.6%)      6.789           58  part-3_output       
+      0.266 (  1.0%)      0.266           58  part-1_decoherence_r
+      0.002 (  0.0%)     44.402           58  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           58  part-3_decoherence_r
+
+  Total time is 27.616025 secs    (0 hours  0 mins  27.616 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     28.033 (100.0%)     28.033           59  part-2_output       
+      9.895 ( 35.3%)      9.895           59  part-2_decoherence_r
+      6.799 ( 24.3%)      6.799           59  part-3_output       
+      0.270 (  1.0%)      0.270           59  part-1_decoherence_r
+      0.002 (  0.0%)     44.999           59  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           59  part-3_decoherence_r
+
+  Total time is 28.032681 secs    (0 hours  0 mins  28.033 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     28.457 (100.0%)     28.457           60  part-2_output       
+     10.061 ( 35.4%)     10.061           60  part-2_decoherence_r
+      6.807 ( 23.9%)      6.807           60  part-3_output       
+      0.274 (  1.0%)      0.274           60  part-1_decoherence_r
+      0.002 (  0.0%)     45.602           60  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           60  part-3_decoherence_r
+
+  Total time is 28.457080 secs    (0 hours  0 mins  28.457 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     28.868 (100.0%)     28.868           61  part-2_output       
+     10.226 ( 35.4%)     10.226           61  part-2_decoherence_r
+      7.697 ( 26.7%)      7.697           61  part-3_output       
+      0.278 (  1.0%)      0.278           61  part-1_decoherence_r
+      0.002 (  0.0%)     47.073           61  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           61  part-3_decoherence_r
+
+  Total time is 28.868420 secs    (0 hours  0 mins  28.868 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     29.297 (100.0%)     29.297           62  part-2_output       
+     10.425 ( 35.6%)     10.425           62  part-2_decoherence_r
+      8.472 ( 28.9%)      8.472           62  part-3_output       
+      0.285 (  1.0%)      0.285           62  part-1_decoherence_r
+      0.002 (  0.0%)     48.481           62  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           62  part-3_decoherence_r
+
+  Total time is 29.296564 secs    (0 hours  0 mins  29.297 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     29.717 (100.0%)     29.717           63  part-2_output       
+     10.625 ( 35.8%)     10.625           63  part-2_decoherence_r
+      8.482 ( 28.5%)      8.482           63  part-3_output       
+      0.293 (  1.0%)      0.293           63  part-1_decoherence_r
+      0.002 (  0.0%)     49.120           63  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           63  part-3_decoherence_r
+
+  Total time is 29.717300 secs    (0 hours  0 mins  29.717 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     30.127 (100.0%)     30.127           64  part-2_output       
+     10.795 ( 35.8%)     10.795           64  part-2_decoherence_r
+      8.491 ( 28.2%)      8.491           64  part-3_output       
+      0.298 (  1.0%)      0.298           64  part-1_decoherence_r
+      0.002 (  0.0%)     49.713           64  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           64  part-3_decoherence_r
+
+  Total time is 30.126874 secs    (0 hours  0 mins  30.127 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     30.538 (100.0%)     30.538           65  part-2_output       
+     10.957 ( 35.9%)     10.957           65  part-2_decoherence_r
+      8.500 ( 27.8%)      8.500           65  part-3_output       
+      0.302 (  1.0%)      0.302           65  part-1_decoherence_r
+      0.002 (  0.0%)     50.300           65  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           65  part-3_decoherence_r
+
+  Total time is 30.538234 secs    (0 hours  0 mins  30.538 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     30.935 (100.0%)     30.935           66  part-2_output       
+     11.123 ( 36.0%)     11.123           66  part-2_decoherence_r
+      9.667 ( 31.2%)      9.667           66  part-3_output       
+      0.306 (  1.0%)      0.306           66  part-1_decoherence_r
+      0.002 (  0.0%)     52.034           66  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           66  part-3_decoherence_r
+
+  Total time is 30.935217 secs    (0 hours  0 mins  30.935 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     32.036 (100.0%)     32.036           67  part-2_output       
+     11.312 ( 35.3%)     11.312           67  part-2_decoherence_r
+      9.676 ( 30.2%)      9.676           67  part-3_output       
+      0.312 (  1.0%)      0.312           67  part-1_decoherence_r
+      0.002 (  0.0%)     53.339           67  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           67  part-3_decoherence_r
+
+  Total time is 32.035805 secs    (0 hours  0 mins  32.036 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     32.368 (100.0%)     32.368           68  part-2_output       
+     11.484 ( 35.5%)     11.484           68  part-2_decoherence_r
+      9.683 ( 29.9%)      9.683           68  part-3_output       
+      0.317 (  1.0%)      0.317           68  part-1_decoherence_r
+      0.002 (  0.0%)     53.855           68  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           68  part-3_decoherence_r
+
+  Total time is 32.367878 secs    (0 hours  0 mins  32.368 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     32.717 (100.0%)     32.717           69  part-2_output       
+     11.643 ( 35.6%)     11.643           69  part-2_decoherence_r
+      9.692 ( 29.6%)      9.692           69  part-3_output       
+      0.321 (  1.0%)      0.321           69  part-1_decoherence_r
+      0.002 (  0.0%)     54.376           69  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           69  part-3_decoherence_r
+
+  Total time is 32.717264 secs    (0 hours  0 mins  32.717 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     33.001 (100.0%)     33.001           70  part-2_output       
+     11.800 ( 35.8%)     11.800           70  part-2_decoherence_r
+      9.699 ( 29.4%)      9.699           70  part-3_output       
+      0.325 (  1.0%)      0.325           70  part-1_decoherence_r
+      0.002 (  0.0%)     54.827           70  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           70  part-3_decoherence_r
+
+  Total time is 33.001204 secs    (0 hours  0 mins  33.001 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     33.216 (100.0%)     33.216           71  part-2_output       
+     11.949 ( 36.0%)     11.949           71  part-2_decoherence_r
+      9.708 ( 29.2%)      9.708           71  part-3_output       
+      0.329 (  1.0%)      0.329           71  part-1_decoherence_r
+      0.002 (  0.0%)     55.205           71  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           71  part-3_decoherence_r
+
+  Total time is 33.216112 secs    (0 hours  0 mins  33.216 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     33.574 (100.0%)     33.574           72  part-2_output       
+     12.106 ( 36.1%)     12.106           72  part-2_decoherence_r
+      9.715 ( 28.9%)      9.715           72  part-3_output       
+      0.333 (  1.0%)      0.333           72  part-1_decoherence_r
+      0.002 (  0.0%)     55.732           72  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           72  part-3_decoherence_r
+
+  Total time is 33.574441 secs    (0 hours  0 mins  33.574 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     35.024 (100.0%)     35.024           73  part-2_output       
+     12.262 ( 35.0%)     12.262           73  part-2_decoherence_r
+      9.724 ( 27.8%)      9.724           73  part-3_output       
+      0.337 (  1.0%)      0.337           73  part-1_decoherence_r
+      0.002 (  0.0%)     57.350           73  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           73  part-3_decoherence_r
+
+  Total time is 35.024196 secs    (0 hours  0 mins  35.024 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     35.997 (100.0%)     35.997           74  part-2_output       
+     12.423 ( 34.5%)     12.423           74  part-2_decoherence_r
+      9.732 ( 27.0%)      9.732           74  part-3_output       
+      0.341 (  0.9%)      0.341           74  part-1_decoherence_r
+      0.002 (  0.0%)     58.497           74  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           74  part-3_decoherence_r
+
+  Total time is 35.997154 secs    (0 hours  0 mins  35.997 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     36.324 (100.0%)     36.324           75  part-2_output       
+     12.612 ( 34.7%)     12.612           75  part-2_decoherence_r
+      9.741 ( 26.8%)      9.741           75  part-3_output       
+      0.345 (  1.0%)      0.345           75  part-1_decoherence_r
+      0.002 (  0.0%)     59.026           75  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           75  part-3_decoherence_r
+
+  Total time is 36.324274 secs    (0 hours  0 mins  36.324 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     36.670 (100.0%)     36.670           76  part-2_output       
+     12.770 ( 34.8%)     12.770           76  part-2_decoherence_r
+      9.750 ( 26.6%)      9.750           76  part-3_output       
+      0.350 (  1.0%)      0.350           76  part-1_decoherence_r
+      0.002 (  0.0%)     59.543           76  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           76  part-3_decoherence_r
+
+  Total time is 36.670315 secs    (0 hours  0 mins  36.670 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     36.987 (100.0%)     36.987           77  part-2_output       
+     12.929 ( 35.0%)     12.929           77  part-2_decoherence_r
+      9.758 ( 26.4%)      9.758           77  part-3_output       
+      0.354 (  1.0%)      0.354           77  part-1_decoherence_r
+      0.002 (  0.0%)     60.031           77  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           77  part-3_decoherence_r
+
+  Total time is 36.986741 secs    (0 hours  0 mins  36.987 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     37.354 (100.0%)     37.354           78  part-2_output       
+     13.087 ( 35.0%)     13.087           78  part-2_decoherence_r
+      9.768 ( 26.2%)      9.768           78  part-3_output       
+      0.358 (  1.0%)      0.358           78  part-1_decoherence_r
+      0.003 (  0.0%)     60.570           78  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           78  part-3_decoherence_r
+
+  Total time is 37.353534 secs    (0 hours  0 mins  37.354 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     39.026 (100.0%)     39.026           79  part-2_output       
+     13.251 ( 34.0%)     13.251           79  part-2_decoherence_r
+      9.778 ( 25.1%)      9.778           79  part-3_output       
+      0.362 (  0.9%)      0.362           79  part-1_decoherence_r
+      0.003 (  0.0%)     62.421           79  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           79  part-3_decoherence_r
+
+  Total time is 39.026097 secs    (0 hours  0 mins  39.026 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     40.116 (100.0%)     40.116           80  part-2_output       
+     13.432 ( 33.5%)     13.432           80  part-2_decoherence_r
+      9.788 ( 24.4%)      9.788           80  part-3_output       
+      0.367 (  0.9%)      0.367           80  part-1_decoherence_r
+      0.003 (  0.0%)     63.707           80  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           80  part-3_decoherence_r
+
+  Total time is 40.116397 secs    (0 hours  0 mins  40.116 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     40.514 (100.0%)     40.514           81  part-2_output       
+     13.612 ( 33.6%)     13.612           81  part-2_decoherence_r
+      9.796 ( 24.2%)      9.796           81  part-3_output       
+      0.371 (  0.9%)      0.371           81  part-1_decoherence_r
+      0.003 (  0.0%)     64.297           81  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           81  part-3_decoherence_r
+
+  Total time is 40.513809 secs    (0 hours  0 mins  40.514 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     40.903 (100.0%)     40.903           82  part-2_output       
+     13.771 ( 33.7%)     13.771           82  part-2_decoherence_r
+      9.805 ( 24.0%)      9.805           82  part-3_output       
+      0.375 (  0.9%)      0.375           82  part-1_decoherence_r
+      0.003 (  0.0%)     64.859           82  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           82  part-3_decoherence_r
+
+  Total time is 40.903012 secs    (0 hours  0 mins  40.903 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     41.309 (100.0%)     41.309           83  part-2_output       
+     13.936 ( 33.7%)     13.936           83  part-2_decoherence_r
+      9.814 ( 23.8%)      9.814           83  part-3_output       
+      0.380 (  0.9%)      0.380           83  part-1_decoherence_r
+      0.003 (  0.0%)     65.443           83  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           83  part-3_decoherence_r
+
+  Total time is 41.309050 secs    (0 hours  0 mins  41.309 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     41.679 (100.0%)     41.679           84  part-2_output       
+     14.098 ( 33.8%)     14.098           84  part-2_decoherence_r
+     10.801 ( 25.9%)     10.801           84  part-3_output       
+      0.384 (  0.9%)      0.384           84  part-1_decoherence_r
+      0.003 (  0.0%)     66.967           84  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           84  part-3_decoherence_r
+
+  Total time is 41.679418 secs    (0 hours  0 mins  41.679 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     41.976 (100.0%)     41.976           85  part-2_output       
+     14.259 ( 34.0%)     14.259           85  part-2_decoherence_r
+     10.810 ( 25.8%)     10.810           85  part-3_output       
+      0.388 (  0.9%)      0.388           85  part-1_decoherence_r
+      0.003 (  0.0%)     67.436           85  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           85  part-3_decoherence_r
+
+  Total time is 41.976315 secs    (0 hours  0 mins  41.976 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     43.379 (100.0%)     43.379           86  part-2_output       
+     14.415 ( 33.2%)     14.415           86  part-2_decoherence_r
+     10.820 ( 24.9%)     10.820           86  part-3_output       
+      0.392 (  0.9%)      0.392           86  part-1_decoherence_r
+      0.003 (  0.0%)     69.009           86  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           86  part-3_decoherence_r
+
+  Total time is 43.378935 secs    (0 hours  0 mins  43.379 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     43.744 (100.0%)     43.744           87  part-2_output       
+     14.593 ( 33.4%)     14.593           87  part-2_decoherence_r
+     10.829 ( 24.8%)     10.829           87  part-3_output       
+      0.397 (  0.9%)      0.397           87  part-1_decoherence_r
+      0.003 (  0.0%)     69.567           87  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           87  part-3_decoherence_r
+
+  Total time is 43.744440 secs    (0 hours  0 mins  43.744 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     44.147 (100.0%)     44.147           88  part-2_output       
+     14.758 ( 33.4%)     14.758           88  part-2_decoherence_r
+     10.838 ( 24.5%)     10.838           88  part-3_output       
+      0.401 (  0.9%)      0.401           88  part-1_decoherence_r
+      0.003 (  0.0%)     70.148           88  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           88  part-3_decoherence_r
+
+  Total time is 44.147473 secs    (0 hours  0 mins  44.147 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     44.549 (100.0%)     44.549           89  part-2_output       
+     14.924 ( 33.5%)     14.924           89  part-2_decoherence_r
+     10.847 ( 24.3%)     10.847           89  part-3_output       
+      0.405 (  0.9%)      0.405           89  part-1_decoherence_r
+      0.003 (  0.0%)     70.729           89  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           89  part-3_decoherence_r
+
+  Total time is 44.549079 secs    (0 hours  0 mins  44.549 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     44.938 (100.0%)     44.938           90  part-2_output       
+     15.089 ( 33.6%)     15.089           90  part-2_decoherence_r
+     10.855 ( 24.2%)     10.855           90  part-3_output       
+      0.409 (  0.9%)      0.409           90  part-1_decoherence_r
+      0.003 (  0.0%)     71.295           90  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           90  part-3_decoherence_r
+
+  Total time is 44.937864 secs    (0 hours  0 mins  44.938 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     45.331 (100.0%)     45.331           91  part-2_output       
+     15.255 ( 33.7%)     15.255           91  part-2_decoherence_r
+     10.864 ( 24.0%)     10.864           91  part-3_output       
+      0.413 (  0.9%)      0.413           91  part-1_decoherence_r
+      0.003 (  0.0%)     71.866           91  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           91  part-3_decoherence_r
+
+  Total time is 45.330663 secs    (0 hours  0 mins  45.331 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     45.743 (100.0%)     45.743           92  part-2_output       
+     15.421 ( 33.7%)     15.421           92  part-2_decoherence_r
+     12.117 ( 26.5%)     12.117           92  part-3_output       
+      0.417 (  0.9%)      0.417           92  part-1_decoherence_r
+      0.003 (  0.0%)     73.702           92  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           92  part-3_decoherence_r
+
+  Total time is 45.743193 secs    (0 hours  0 mins  45.743 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     46.154 (100.0%)     46.154           93  part-2_output       
+     15.587 ( 33.8%)     15.587           93  part-2_decoherence_r
+     12.126 ( 26.3%)     12.126           93  part-3_output       
+      0.421 (  0.9%)      0.421           93  part-1_decoherence_r
+      0.003 (  0.0%)     74.292           93  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           93  part-3_decoherence_r
+
+  Total time is 46.153731 secs    (0 hours  0 mins  46.154 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     46.538 (100.0%)     46.538           94  part-2_output       
+     15.748 ( 33.8%)     15.748           94  part-2_decoherence_r
+     12.134 ( 26.1%)     12.134           94  part-3_output       
+      0.426 (  0.9%)      0.426           94  part-1_decoherence_r
+      0.003 (  0.0%)     74.851           94  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           94  part-3_decoherence_r
+
+  Total time is 46.538332 secs    (0 hours  0 mins  46.538 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     46.938 (100.0%)     46.938           95  part-2_output       
+     15.914 ( 33.9%)     15.914           95  part-2_decoherence_r
+     12.143 ( 25.9%)     12.143           95  part-3_output       
+      0.430 (  0.9%)      0.430           95  part-1_decoherence_r
+      0.003 (  0.0%)     75.429           95  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           95  part-3_decoherence_r
+
+  Total time is 46.938474 secs    (0 hours  0 mins  46.938 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     47.325 (100.0%)     47.325           96  part-2_output       
+     16.079 ( 34.0%)     16.079           96  part-2_decoherence_r
+     12.151 ( 25.7%)     12.151           96  part-3_output       
+      0.434 (  0.9%)      0.434           96  part-1_decoherence_r
+      0.003 (  0.0%)     75.994           96  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           96  part-3_decoherence_r
+
+  Total time is 47.325217 secs    (0 hours  0 mins  47.325 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     47.721 (100.0%)     47.721           97  part-2_output       
+     16.245 ( 34.0%)     16.245           97  part-2_decoherence_r
+     12.161 ( 25.5%)     12.161           97  part-3_output       
+      0.438 (  0.9%)      0.438           97  part-1_decoherence_r
+      0.003 (  0.0%)     76.569           97  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           97  part-3_decoherence_r
+
+  Total time is 47.721112 secs    (0 hours  0 mins  47.721 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     48.114 (100.0%)     48.114           98  part-2_output       
+     16.410 ( 34.1%)     16.410           98  part-2_decoherence_r
+     12.171 ( 25.3%)     12.171           98  part-3_output       
+      0.442 (  0.9%)      0.442           98  part-1_decoherence_r
+      0.003 (  0.0%)     77.142           98  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           98  part-3_decoherence_r
+
+  Total time is 48.114041 secs    (0 hours  0 mins  48.114 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     48.518 (100.0%)     48.518           99  part-2_output       
+     16.576 ( 34.2%)     16.576           99  part-2_decoherence_r
+     13.155 ( 27.1%)     13.155           99  part-3_output       
+      0.446 (  0.9%)      0.446           99  part-1_decoherence_r
+      0.003 (  0.0%)     78.700           99  in_run_decoherence_r
+      0.001 (  0.0%)      0.001           99  part-3_decoherence_r
+
+  Total time is 48.518226 secs    (0 hours  0 mins  48.518 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     48.917 (100.0%)     48.917          100  part-2_output       
+     16.761 ( 34.3%)     16.761          100  part-2_decoherence_r
+     13.164 ( 26.9%)     13.164          100  part-3_output       
+      0.452 (  0.9%)      0.452          100  part-1_decoherence_r
+      0.003 (  0.0%)     79.298          100  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          100  part-3_decoherence_r
+
+  Total time is 48.916658 secs    (0 hours  0 mins  48.917 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     49.328 (100.0%)     49.328          101  part-2_output       
+     16.927 ( 34.3%)     16.927          101  part-2_decoherence_r
+     13.174 ( 26.7%)     13.174          101  part-3_output       
+      0.456 (  0.9%)      0.456          101  part-1_decoherence_r
+      0.003 (  0.0%)     79.888          101  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          101  part-3_decoherence_r
+
+  Total time is 49.327883 secs    (0 hours  0 mins  49.328 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     49.732 (100.0%)     49.732          102  part-2_output       
+     17.092 ( 34.4%)     17.092          102  part-2_decoherence_r
+     13.183 ( 26.5%)     13.183          102  part-3_output       
+      0.460 (  0.9%)      0.460          102  part-1_decoherence_r
+      0.003 (  0.0%)     80.472          102  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          102  part-3_decoherence_r
+
+  Total time is 49.732381 secs    (0 hours  0 mins  49.732 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     50.139 (100.0%)     50.139          103  part-2_output       
+     17.259 ( 34.4%)     17.259          103  part-2_decoherence_r
+     13.192 ( 26.3%)     13.192          103  part-3_output       
+      0.464 (  0.9%)      0.464          103  part-1_decoherence_r
+      0.003 (  0.0%)     81.058          103  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          103  part-3_decoherence_r
+
+  Total time is 50.138589 secs    (0 hours  0 mins  50.139 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     50.568 (100.0%)     50.568          104  part-2_output       
+     17.423 ( 34.5%)     17.423          104  part-2_decoherence_r
+     13.201 ( 26.1%)     13.201          104  part-3_output       
+      0.469 (  0.9%)      0.469          104  part-1_decoherence_r
+      0.003 (  0.0%)     81.666          104  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          104  part-3_decoherence_r
+
+  Total time is 50.568008 secs    (0 hours  0 mins  50.568 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     50.986 (100.0%)     50.986          105  part-2_output       
+     17.588 ( 34.5%)     17.588          105  part-2_decoherence_r
+     13.211 ( 25.9%)     13.211          105  part-3_output       
+      0.473 (  0.9%)      0.473          105  part-1_decoherence_r
+      0.003 (  0.0%)     82.263          105  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          105  part-3_decoherence_r
+
+  Total time is 50.985712 secs    (0 hours  0 mins  50.986 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     52.637 (100.0%)     52.637          106  part-2_output       
+     17.749 ( 33.7%)     17.749          106  part-2_decoherence_r
+     13.220 ( 25.1%)     13.220          106  part-3_output       
+      0.477 (  0.9%)      0.477          106  part-1_decoherence_r
+      0.003 (  0.0%)     84.088          106  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          106  part-3_decoherence_r
+
+  Total time is 52.636601 secs    (0 hours  0 mins  52.637 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     53.037 (100.0%)     53.037          107  part-2_output       
+     17.914 ( 33.8%)     17.914          107  part-2_decoherence_r
+     13.229 ( 24.9%)     13.229          107  part-3_output       
+      0.481 (  0.9%)      0.481          107  part-1_decoherence_r
+      0.004 (  0.0%)     84.667          107  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          107  part-3_decoherence_r
+
+  Total time is 53.037342 secs    (0 hours  0 mins  53.037 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     53.428 (100.0%)     53.428          108  part-2_output       
+     18.083 ( 33.8%)     18.083          108  part-2_decoherence_r
+     13.238 ( 24.8%)     13.238          108  part-3_output       
+      0.485 (  0.9%)      0.485          108  part-1_decoherence_r
+      0.004 (  0.0%)     85.238          108  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          108  part-3_decoherence_r
+
+  Total time is 53.427661 secs    (0 hours  0 mins  53.428 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     53.816 (100.0%)     53.816          109  part-2_output       
+     18.244 ( 33.9%)     18.244          109  part-2_decoherence_r
+     13.246 ( 24.6%)     13.246          109  part-3_output       
+      0.490 (  0.9%)      0.490          109  part-1_decoherence_r
+      0.004 (  0.0%)     85.801          109  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          109  part-3_decoherence_r
+
+  Total time is 53.816437 secs    (0 hours  0 mins  53.816 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     54.199 (100.0%)     54.199          110  part-2_output       
+     18.409 ( 34.0%)     18.409          110  part-2_decoherence_r
+     13.256 ( 24.5%)     13.256          110  part-3_output       
+      0.494 (  0.9%)      0.494          110  part-1_decoherence_r
+      0.004 (  0.0%)     86.362          110  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          110  part-3_decoherence_r
+
+  Total time is 54.198737 secs    (0 hours  0 mins  54.199 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     55.656 (100.0%)     55.656          111  part-2_output       
+     18.567 ( 33.4%)     18.567          111  part-2_decoherence_r
+     13.919 ( 25.0%)     13.919          111  part-3_output       
+      0.498 (  0.9%)      0.498          111  part-1_decoherence_r
+      0.004 (  0.0%)     88.645          111  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          111  part-3_decoherence_r
+
+  Total time is 55.655811 secs    (0 hours  0 mins  55.656 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     56.047 (100.0%)     56.047          112  part-2_output       
+     18.769 ( 33.5%)     18.769          112  part-2_decoherence_r
+     13.930 ( 24.9%)     13.930          112  part-3_output       
+      0.505 (  0.9%)      0.505          112  part-1_decoherence_r
+      0.004 (  0.0%)     89.257          112  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          112  part-3_decoherence_r
+
+  Total time is 56.046975 secs    (0 hours  0 mins  56.047 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     56.455 (100.0%)     56.455          113  part-2_output       
+     18.942 ( 33.6%)     18.942          113  part-2_decoherence_r
+     13.939 ( 24.7%)     13.939          113  part-3_output       
+      0.510 (  0.9%)      0.510          113  part-1_decoherence_r
+      0.004 (  0.0%)     89.851          113  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          113  part-3_decoherence_r
+
+  Total time is 56.454955 secs    (0 hours  0 mins  56.455 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     56.859 (100.0%)     56.859          114  part-2_output       
+     19.106 ( 33.6%)     19.106          114  part-2_decoherence_r
+     13.948 ( 24.5%)     13.948          114  part-3_output       
+      0.514 (  0.9%)      0.514          114  part-1_decoherence_r
+      0.004 (  0.0%)     90.431          114  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          114  part-3_decoherence_r
+
+  Total time is 56.858548 secs    (0 hours  0 mins  56.859 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     57.248 (100.0%)     57.248          115  part-2_output       
+     19.269 ( 33.7%)     19.269          115  part-2_decoherence_r
+     13.958 ( 24.4%)     13.958          115  part-3_output       
+      0.518 (  0.9%)      0.518          115  part-1_decoherence_r
+      0.004 (  0.0%)     90.997          115  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          115  part-3_decoherence_r
+
+  Total time is 57.247560 secs    (0 hours  0 mins  57.248 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     59.174 (100.0%)     59.174          116  part-2_output       
+     19.431 ( 32.8%)     19.431          116  part-2_decoherence_r
+     14.494 ( 24.5%)     14.494          116  part-3_output       
+      0.522 (  0.9%)      0.522          116  part-1_decoherence_r
+      0.004 (  0.0%)     93.627          116  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          116  part-3_decoherence_r
+
+  Total time is 59.173711 secs    (0 hours  0 mins  59.174 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     59.599 (100.0%)     59.599          117  part-2_output       
+     19.630 ( 32.9%)     19.630          117  part-2_decoherence_r
+     14.503 ( 24.3%)     14.503          117  part-3_output       
+      0.529 (  0.9%)      0.529          117  part-1_decoherence_r
+      0.004 (  0.0%)     94.267          117  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          117  part-3_decoherence_r
+
+  Total time is 59.598925 secs    (0 hours  0 mins  59.599 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     60.009 (100.0%)     60.009          118  part-2_output       
+     19.799 ( 33.0%)     19.799          118  part-2_decoherence_r
+     14.513 ( 24.2%)     14.513          118  part-3_output       
+      0.534 (  0.9%)      0.534          118  part-1_decoherence_r
+      0.004 (  0.0%)     94.860          118  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          118  part-3_decoherence_r
+
+  Total time is 60.008671 secs    (0 hours  1 mins   0.009 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     60.404 (100.0%)     60.404          119  part-2_output       
+     19.966 ( 33.1%)     19.966          119  part-2_decoherence_r
+     14.521 ( 24.0%)     14.521          119  part-3_output       
+      0.538 (  0.9%)      0.538          119  part-1_decoherence_r
+      0.004 (  0.0%)     95.434          119  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          119  part-3_decoherence_r
+
+  Total time is 60.403544 secs    (0 hours  1 mins   0.404 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     60.782 (100.0%)     60.782          120  part-2_output       
+     20.131 ( 33.1%)     20.131          120  part-2_decoherence_r
+     14.531 ( 23.9%)     14.531          120  part-3_output       
+      0.542 (  0.9%)      0.542          120  part-1_decoherence_r
+      0.004 (  0.0%)     95.991          120  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          120  part-3_decoherence_r
+
+  Total time is 60.781690 secs    (0 hours  1 mins   0.782 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     61.171 (100.0%)     61.171          121  part-2_output       
+     20.296 ( 33.2%)     20.296          121  part-2_decoherence_r
+     14.541 ( 23.8%)     14.541          121  part-3_output       
+      0.546 (  0.9%)      0.546          121  part-1_decoherence_r
+      0.004 (  0.0%)     96.559          121  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          121  part-3_decoherence_r
+
+  Total time is 61.171109 secs    (0 hours  1 mins   1.171 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     62.714 (100.0%)     62.714          122  part-2_output       
+     20.460 ( 32.6%)     20.460          122  part-2_decoherence_r
+     14.846 ( 23.7%)     14.846          122  part-3_output       
+      0.550 (  0.9%)      0.550          122  part-1_decoherence_r
+      0.004 (  0.0%)     98.576          122  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          122  part-3_decoherence_r
+
+  Total time is 62.713758 secs    (0 hours  1 mins   2.714 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     63.109 (100.0%)     63.109          123  part-2_output       
+     20.661 ( 32.7%)     20.661          123  part-2_decoherence_r
+     14.856 ( 23.5%)     14.856          123  part-3_output       
+      0.557 (  0.9%)      0.557          123  part-1_decoherence_r
+      0.004 (  0.0%)     99.189          123  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          123  part-3_decoherence_r
+
+  Total time is 63.108544 secs    (0 hours  1 mins   3.109 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     63.436 (100.0%)     63.436          124  part-2_output       
+     20.834 ( 32.8%)     20.834          124  part-2_decoherence_r
+     14.863 ( 23.4%)     14.863          124  part-3_output       
+      0.562 (  0.9%)      0.562          124  part-1_decoherence_r
+      0.004 (  0.0%)     99.700          124  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          124  part-3_decoherence_r
+
+  Total time is 63.435629 secs    (0 hours  1 mins   3.436 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     63.733 (100.0%)     63.733          125  part-2_output       
+     20.991 ( 32.9%)     20.991          125  part-2_decoherence_r
+     14.872 ( 23.3%)     14.872          125  part-3_output       
+      0.566 (  0.9%)      0.566          125  part-1_decoherence_r
+      0.004 (  0.0%)    100.167          125  in_run_decoherence_r
+      0.001 (  0.0%)      0.001          125  part-3_decoherence_r
+
+  Total time is 63.732535 secs    (0 hours  1 mins   3.733 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     64.083 (100.0%)     64.083          126  part-2_output       
+     21.151 ( 33.0%)     21.151          126  part-2_decoherence_r
+     14.881 ( 23.2%)     14.881          126  part-3_output       
+      0.570 (  0.9%)      0.570          126  part-1_decoherence_r
+      0.004 (  0.0%)    100.691          126  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          126  part-3_decoherence_r
+
+  Total time is 64.083313 secs    (0 hours  1 mins   4.083 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     64.442 (100.0%)     64.442          127  part-2_output       
+     21.310 ( 33.1%)     21.310          127  part-2_decoherence_r
+     14.889 ( 23.1%)     14.889          127  part-3_output       
+      0.574 (  0.9%)      0.574          127  part-1_decoherence_r
+      0.004 (  0.0%)    101.221          127  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          127  part-3_decoherence_r
+
+  Total time is 64.441658 secs    (0 hours  1 mins   4.442 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     64.796 (100.0%)     64.796          128  part-2_output       
+     21.470 ( 33.1%)     21.470          128  part-2_decoherence_r
+     14.898 ( 23.0%)     14.898          128  part-3_output       
+      0.578 (  0.9%)      0.578          128  part-1_decoherence_r
+      0.004 (  0.0%)    101.748          128  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          128  part-3_decoherence_r
+
+  Total time is 64.796307 secs    (0 hours  1 mins   4.796 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     65.148 (100.0%)     65.148          129  part-2_output       
+     21.625 ( 33.2%)     21.625          129  part-2_decoherence_r
+     14.906 ( 22.9%)     14.906          129  part-3_output       
+      0.582 (  0.9%)      0.582          129  part-1_decoherence_r
+      0.004 (  0.0%)    102.267          129  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          129  part-3_decoherence_r
+
+  Total time is 65.148409 secs    (0 hours  1 mins   5.148 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     65.541 (100.0%)     65.541          130  part-2_output       
+     21.791 ( 33.2%)     21.791          130  part-2_decoherence_r
+     14.914 ( 22.8%)     14.914          130  part-3_output       
+      0.586 (  0.9%)      0.586          130  part-1_decoherence_r
+      0.004 (  0.0%)    102.839          130  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          130  part-3_decoherence_r
+
+  Total time is 65.540770 secs    (0 hours  1 mins   5.541 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     65.913 (100.0%)     65.913          131  part-2_output       
+     21.957 ( 33.3%)     21.957          131  part-2_decoherence_r
+     14.925 ( 22.6%)     14.925          131  part-3_output       
+      0.590 (  0.9%)      0.590          131  part-1_decoherence_r
+      0.004 (  0.0%)    103.392          131  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          131  part-3_decoherence_r
+
+  Total time is 65.913324 secs    (0 hours  1 mins   5.913 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     66.275 (100.0%)     66.275          132  part-2_output       
+     22.121 ( 33.4%)     22.121          132  part-2_decoherence_r
+     16.055 ( 24.2%)     16.055          132  part-3_output       
+      0.595 (  0.9%)      0.595          132  part-1_decoherence_r
+      0.004 (  0.0%)    105.053          132  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          132  part-3_decoherence_r
+
+  Total time is 66.275442 secs    (0 hours  1 mins   6.275 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     66.670 (100.0%)     66.670          133  part-2_output       
+     22.310 ( 33.5%)     22.310          133  part-2_decoherence_r
+     16.065 ( 24.1%)     16.065          133  part-3_output       
+      0.601 (  0.9%)      0.601          133  part-1_decoherence_r
+      0.004 (  0.0%)    105.652          133  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          133  part-3_decoherence_r
+
+  Total time is 66.670285 secs    (0 hours  1 mins   6.670 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     67.054 (100.0%)     67.054          134  part-2_output       
+     22.476 ( 33.5%)     22.476          134  part-2_decoherence_r
+     16.074 ( 24.0%)     16.074          134  part-3_output       
+      0.605 (  0.9%)      0.605          134  part-1_decoherence_r
+      0.004 (  0.0%)    106.215          134  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          134  part-3_decoherence_r
+
+  Total time is 67.054013 secs    (0 hours  1 mins   7.054 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     67.417 (100.0%)     67.417          135  part-2_output       
+     22.643 ( 33.6%)     22.643          135  part-2_decoherence_r
+     16.083 ( 23.9%)     16.083          135  part-3_output       
+      0.609 (  0.9%)      0.609          135  part-1_decoherence_r
+      0.005 (  0.0%)    106.759          135  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          135  part-3_decoherence_r
+
+  Total time is 67.416865 secs    (0 hours  1 mins   7.417 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     67.801 (100.0%)     67.801          136  part-2_output       
+     22.808 ( 33.6%)     22.808          136  part-2_decoherence_r
+     16.092 ( 23.7%)     16.092          136  part-3_output       
+      0.613 (  0.9%)      0.613          136  part-1_decoherence_r
+      0.005 (  0.0%)    107.321          136  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          136  part-3_decoherence_r
+
+  Total time is 67.800735 secs    (0 hours  1 mins   7.801 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     68.182 (100.0%)     68.182          137  part-2_output       
+     22.974 ( 33.7%)     22.974          137  part-2_decoherence_r
+     16.101 ( 23.6%)     16.101          137  part-3_output       
+      0.618 (  0.9%)      0.618          137  part-1_decoherence_r
+      0.005 (  0.0%)    107.881          137  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          137  part-3_decoherence_r
+
+  Total time is 68.182190 secs    (0 hours  1 mins   8.182 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     68.564 (100.0%)     68.564          138  part-2_output       
+     23.138 ( 33.7%)     23.138          138  part-2_decoherence_r
+     16.110 ( 23.5%)     16.110          138  part-3_output       
+      0.622 (  0.9%)      0.622          138  part-1_decoherence_r
+      0.005 (  0.0%)    108.440          138  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          138  part-3_decoherence_r
+
+  Total time is 68.564159 secs    (0 hours  1 mins   8.564 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     68.942 (100.0%)     68.942          139  part-2_output       
+     23.303 ( 33.8%)     23.303          139  part-2_decoherence_r
+     17.103 ( 24.8%)     17.103          139  part-3_output       
+      0.626 (  0.9%)      0.626          139  part-1_decoherence_r
+      0.005 (  0.0%)    109.980          139  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          139  part-3_decoherence_r
+
+  Total time is 68.942163 secs    (0 hours  1 mins   8.942 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     70.223 (100.0%)     70.223          140  part-2_output       
+     23.491 ( 33.5%)     23.491          140  part-2_decoherence_r
+     17.113 ( 24.4%)     17.113          140  part-3_output       
+      0.633 (  0.9%)      0.633          140  part-1_decoherence_r
+      0.005 (  0.0%)    111.467          140  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          140  part-3_decoherence_r
+
+  Total time is 70.223126 secs    (0 hours  1 mins  10.223 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     70.643 (100.0%)     70.643          141  part-2_output       
+     23.673 ( 33.5%)     23.673          141  part-2_decoherence_r
+     17.122 ( 24.2%)     17.122          141  part-3_output       
+      0.638 (  0.9%)      0.638          141  part-1_decoherence_r
+      0.005 (  0.0%)    112.082          141  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          141  part-3_decoherence_r
+
+  Total time is 70.642637 secs    (0 hours  1 mins  10.643 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     71.023 (100.0%)     71.023          142  part-2_output       
+     23.838 ( 33.6%)     23.838          142  part-2_decoherence_r
+     17.132 ( 24.1%)     17.132          142  part-3_output       
+      0.642 (  0.9%)      0.642          142  part-1_decoherence_r
+      0.005 (  0.0%)    112.641          142  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          142  part-3_decoherence_r
+
+  Total time is 71.023301 secs    (0 hours  1 mins  11.023 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     71.405 (100.0%)     71.405          143  part-2_output       
+     24.002 ( 33.6%)     24.002          143  part-2_decoherence_r
+     17.140 ( 24.0%)     17.140          143  part-3_output       
+      0.646 (  0.9%)      0.646          143  part-1_decoherence_r
+      0.005 (  0.0%)    113.201          143  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          143  part-3_decoherence_r
+
+  Total time is 71.405181 secs    (0 hours  1 mins  11.405 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     71.782 (100.0%)     71.782          144  part-2_output       
+     24.167 ( 33.7%)     24.167          144  part-2_decoherence_r
+     18.340 ( 25.5%)     18.340          144  part-3_output       
+      0.650 (  0.9%)      0.650          144  part-1_decoherence_r
+      0.005 (  0.0%)    114.945          144  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          144  part-3_decoherence_r
+
+  Total time is 71.781673 secs    (0 hours  1 mins  11.782 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     73.071 (100.0%)     73.071          145  part-2_output       
+     24.357 ( 33.3%)     24.357          145  part-2_decoherence_r
+     18.349 ( 25.1%)     18.349          145  part-3_output       
+      0.656 (  0.9%)      0.656          145  part-1_decoherence_r
+      0.005 (  0.0%)    116.440          145  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          145  part-3_decoherence_r
+
+  Total time is 73.070918 secs    (0 hours  1 mins  13.071 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     73.436 (100.0%)     73.436          146  part-2_output       
+     24.521 ( 33.4%)     24.521          146  part-2_decoherence_r
+     18.357 ( 25.0%)     18.357          146  part-3_output       
+      0.660 (  0.9%)      0.660          146  part-1_decoherence_r
+      0.005 (  0.0%)    116.982          146  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          146  part-3_decoherence_r
+
+  Total time is 73.436479 secs    (0 hours  1 mins  13.436 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     73.806 (100.0%)     73.806          147  part-2_output       
+     24.689 ( 33.5%)     24.689          147  part-2_decoherence_r
+     18.366 ( 24.9%)     18.366          147  part-3_output       
+      0.665 (  0.9%)      0.665          147  part-1_decoherence_r
+      0.005 (  0.0%)    117.531          147  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          147  part-3_decoherence_r
+
+  Total time is 73.805515 secs    (0 hours  1 mins  13.806 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     74.187 (100.0%)     74.187          148  part-2_output       
+     24.853 ( 33.5%)     24.853          148  part-2_decoherence_r
+     18.374 ( 24.8%)     18.374          148  part-3_output       
+      0.669 (  0.9%)      0.669          148  part-1_decoherence_r
+      0.005 (  0.0%)    118.090          148  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          148  part-3_decoherence_r
+
+  Total time is 74.186814 secs    (0 hours  1 mins  14.187 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     74.573 (100.0%)     74.573          149  part-2_output       
+     25.019 ( 33.5%)     25.019          149  part-2_decoherence_r
+     19.609 ( 26.3%)     19.609          149  part-3_output       
+      0.673 (  0.9%)      0.673          149  part-1_decoherence_r
+      0.005 (  0.0%)    119.880          149  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          149  part-3_decoherence_r
+
+  Total time is 74.573012 secs    (0 hours  1 mins  14.573 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     75.920 (100.0%)     75.920          150  part-2_output       
+     25.216 ( 33.2%)     25.216          150  part-2_decoherence_r
+     19.619 ( 25.8%)     19.619          150  part-3_output       
+      0.680 (  0.9%)      0.680          150  part-1_decoherence_r
+      0.005 (  0.0%)    121.441          150  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          150  part-3_decoherence_r
+
+  Total time is 75.919663 secs    (0 hours  1 mins  15.920 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     76.310 (100.0%)     76.310          151  part-2_output       
+     25.397 ( 33.3%)     25.397          151  part-2_decoherence_r
+     19.629 ( 25.7%)     19.629          151  part-3_output       
+      0.684 (  0.9%)      0.684          151  part-1_decoherence_r
+      0.005 (  0.0%)    122.026          151  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          151  part-3_decoherence_r
+
+  Total time is 76.309590 secs    (0 hours  1 mins  16.310 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     76.691 (100.0%)     76.691          152  part-2_output       
+     25.561 ( 33.3%)     25.561          152  part-2_decoherence_r
+     19.639 ( 25.6%)     19.639          152  part-3_output       
+      0.688 (  0.9%)      0.688          152  part-1_decoherence_r
+      0.005 (  0.0%)    122.586          152  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          152  part-3_decoherence_r
+
+  Total time is 76.690615 secs    (0 hours  1 mins  16.691 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     77.066 (100.0%)     77.066          153  part-2_output       
+     25.725 ( 33.4%)     25.725          153  part-2_decoherence_r
+     19.647 ( 25.5%)     19.647          153  part-3_output       
+      0.692 (  0.9%)      0.692          153  part-1_decoherence_r
+      0.005 (  0.0%)    123.138          153  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          153  part-3_decoherence_r
+
+  Total time is 77.066297 secs    (0 hours  1 mins  17.066 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     77.435 (100.0%)     77.435          154  part-2_output       
+     25.891 ( 33.4%)     25.891          154  part-2_decoherence_r
+     20.811 ( 26.9%)     20.811          154  part-3_output       
+      0.696 (  0.9%)      0.696          154  part-1_decoherence_r
+      0.005 (  0.0%)    124.840          154  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          154  part-3_decoherence_r
+
+  Total time is 77.434559 secs    (0 hours  1 mins  17.435 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     78.566 (100.0%)     78.566          155  part-2_output       
+     26.092 ( 33.2%)     26.092          155  part-2_decoherence_r
+     20.819 ( 26.5%)     20.819          155  part-3_output       
+      0.704 (  0.9%)      0.704          155  part-1_decoherence_r
+      0.005 (  0.0%)    126.188          155  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          155  part-3_decoherence_r
+
+  Total time is 78.566348 secs    (0 hours  1 mins  18.566 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     78.932 (100.0%)     78.932          156  part-2_output       
+     26.265 ( 33.3%)     26.265          156  part-2_decoherence_r
+     20.828 ( 26.4%)     20.828          156  part-3_output       
+      0.708 (  0.9%)      0.708          156  part-1_decoherence_r
+      0.005 (  0.0%)    126.740          156  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          156  part-3_decoherence_r
+
+  Total time is 78.931767 secs    (0 hours  1 mins  18.932 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     79.283 (100.0%)     79.283          157  part-2_output       
+     26.425 ( 33.3%)     26.425          157  part-2_decoherence_r
+     20.837 ( 26.3%)     20.837          157  part-3_output       
+      0.712 (  0.9%)      0.712          157  part-1_decoherence_r
+      0.005 (  0.0%)    127.264          157  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          157  part-3_decoherence_r
+
+  Total time is 79.282920 secs    (0 hours  1 mins  19.283 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     79.627 (100.0%)     79.627          158  part-2_output       
+     26.585 ( 33.4%)     26.585          158  part-2_decoherence_r
+     20.846 ( 26.2%)     20.846          158  part-3_output       
+      0.716 (  0.9%)      0.716          158  part-1_decoherence_r
+      0.005 (  0.0%)    127.781          158  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          158  part-3_decoherence_r
+
+  Total time is 79.627041 secs    (0 hours  1 mins  19.627 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     80.011 (100.0%)     80.011          159  part-2_output       
+     26.745 ( 33.4%)     26.745          159  part-2_decoherence_r
+     20.855 ( 26.1%)     20.855          159  part-3_output       
+      0.720 (  0.9%)      0.720          159  part-1_decoherence_r
+      0.005 (  0.0%)    128.338          159  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          159  part-3_decoherence_r
+
+  Total time is 80.010880 secs    (0 hours  1 mins  20.011 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     80.343 (100.0%)     80.343          160  part-2_output       
+     26.904 ( 33.5%)     26.904          160  part-2_decoherence_r
+     21.822 ( 27.2%)     21.822          160  part-3_output       
+      0.724 (  0.9%)      0.724          160  part-1_decoherence_r
+      0.005 (  0.0%)    129.800          160  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          160  part-3_decoherence_r
+
+  Total time is 80.343068 secs    (0 hours  1 mins  20.343 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     80.716 (100.0%)     80.716          161  part-2_output       
+     27.102 ( 33.6%)     27.102          161  part-2_decoherence_r
+     21.830 ( 27.0%)     21.830          161  part-3_output       
+      0.732 (  0.9%)      0.732          161  part-1_decoherence_r
+      0.005 (  0.0%)    130.388          161  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          161  part-3_decoherence_r
+
+  Total time is 80.715853 secs    (0 hours  1 mins  20.716 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     81.067 (100.0%)     81.067          162  part-2_output       
+     27.269 ( 33.6%)     27.269          162  part-2_decoherence_r
+     21.839 ( 26.9%)     21.839          162  part-3_output       
+      0.736 (  0.9%)      0.736          162  part-1_decoherence_r
+      0.005 (  0.0%)    130.919          162  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          162  part-3_decoherence_r
+
+  Total time is 81.067128 secs    (0 hours  1 mins  21.067 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     81.398 (100.0%)     81.398          163  part-2_output       
+     27.427 ( 33.7%)     27.427          163  part-2_decoherence_r
+     21.849 ( 26.8%)     21.849          163  part-3_output       
+      0.740 (  0.9%)      0.740          163  part-1_decoherence_r
+      0.005 (  0.0%)    131.422          163  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          163  part-3_decoherence_r
+
+  Total time is 81.398454 secs    (0 hours  1 mins  21.398 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     81.716 (100.0%)     81.716          164  part-2_output       
+     27.583 ( 33.8%)     27.583          164  part-2_decoherence_r
+     21.857 ( 26.7%)     21.857          164  part-3_output       
+      0.745 (  0.9%)      0.745          164  part-1_decoherence_r
+      0.005 (  0.0%)    131.908          164  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          164  part-3_decoherence_r
+
+  Total time is 81.716461 secs    (0 hours  1 mins  21.716 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     82.061 (100.0%)     82.061          165  part-2_output       
+     27.742 ( 33.8%)     27.742          165  part-2_decoherence_r
+     21.866 ( 26.6%)     21.866          165  part-3_output       
+      0.749 (  0.9%)      0.749          165  part-1_decoherence_r
+      0.005 (  0.0%)    132.425          165  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          165  part-3_decoherence_r
+
+  Total time is 82.061381 secs    (0 hours  1 mins  22.061 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     82.399 (100.0%)     82.399          166  part-2_output       
+     27.901 ( 33.9%)     27.901          166  part-2_decoherence_r
+     21.874 ( 26.5%)     21.874          166  part-3_output       
+      0.753 (  0.9%)      0.753          166  part-1_decoherence_r
+      0.005 (  0.0%)    132.935          166  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          166  part-3_decoherence_r
+
+  Total time is 82.399420 secs    (0 hours  1 mins  22.399 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     82.749 (100.0%)     82.749          167  part-2_output       
+     28.055 ( 33.9%)     28.055          167  part-2_decoherence_r
+     21.881 ( 26.4%)     21.881          167  part-3_output       
+      0.757 (  0.9%)      0.757          167  part-1_decoherence_r
+      0.005 (  0.0%)    133.450          167  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          167  part-3_decoherence_r
+
+  Total time is 82.749494 secs    (0 hours  1 mins  22.749 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     83.147 (100.0%)     83.147          168  part-2_output       
+     28.257 ( 34.0%)     28.257          168  part-2_decoherence_r
+     22.730 ( 27.3%)     22.730          168  part-3_output       
+      0.765 (  0.9%)      0.765          168  part-1_decoherence_r
+      0.006 (  0.0%)    134.905          168  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          168  part-3_decoherence_r
+
+  Total time is 83.146587 secs    (0 hours  1 mins  23.147 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     83.448 (100.0%)     83.448          169  part-2_output       
+     28.422 ( 34.1%)     28.422          169  part-2_decoherence_r
+     22.737 ( 27.2%)     22.737          169  part-3_output       
+      0.769 (  0.9%)      0.769          169  part-1_decoherence_r
+      0.006 (  0.0%)    135.383          169  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          169  part-3_decoherence_r
+
+  Total time is 83.448131 secs    (0 hours  1 mins  23.448 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     83.817 (100.0%)     83.817          170  part-2_output       
+     28.575 ( 34.1%)     28.575          170  part-2_decoherence_r
+     22.745 ( 27.1%)     22.745          170  part-3_output       
+      0.773 (  0.9%)      0.773          170  part-1_decoherence_r
+      0.006 (  0.0%)    135.917          170  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          170  part-3_decoherence_r
+
+  Total time is 83.816934 secs    (0 hours  1 mins  23.817 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     84.171 (100.0%)     84.171          171  part-2_output       
+     28.730 ( 34.1%)     28.730          171  part-2_decoherence_r
+     22.753 ( 27.0%)     22.753          171  part-3_output       
+      0.777 (  0.9%)      0.777          171  part-1_decoherence_r
+      0.006 (  0.0%)    136.438          171  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          171  part-3_decoherence_r
+
+  Total time is 84.170858 secs    (0 hours  1 mins  24.171 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     84.543 (100.0%)     84.543          172  part-2_output       
+     28.890 ( 34.2%)     28.890          172  part-2_decoherence_r
+     22.762 ( 26.9%)     22.762          172  part-3_output       
+      0.781 (  0.9%)      0.781          172  part-1_decoherence_r
+      0.006 (  0.0%)    136.983          172  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          172  part-3_decoherence_r
+
+  Total time is 84.542568 secs    (0 hours  1 mins  24.543 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     84.907 (100.0%)     84.907          173  part-2_output       
+     29.050 ( 34.2%)     29.050          173  part-2_decoherence_r
+     22.771 ( 26.8%)     22.771          173  part-3_output       
+      0.785 (  0.9%)      0.785          173  part-1_decoherence_r
+      0.006 (  0.0%)    137.521          173  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          173  part-3_decoherence_r
+
+  Total time is 84.906890 secs    (0 hours  1 mins  24.907 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     85.259 (100.0%)     85.259          174  part-2_output       
+     29.211 ( 34.3%)     29.211          174  part-2_decoherence_r
+     24.037 ( 28.2%)     24.037          174  part-3_output       
+      0.789 (  0.9%)      0.789          174  part-1_decoherence_r
+      0.006 (  0.0%)    139.304          174  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          174  part-3_decoherence_r
+
+  Total time is 85.258605 secs    (0 hours  1 mins  25.259 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     85.659 (100.0%)     85.659          175  part-2_output       
+     29.411 ( 34.3%)     29.411          175  part-2_decoherence_r
+     24.047 ( 28.1%)     24.047          175  part-3_output       
+      0.796 (  0.9%)      0.796          175  part-1_decoherence_r
+      0.006 (  0.0%)    139.920          175  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          175  part-3_decoherence_r
+
+  Total time is 85.658608 secs    (0 hours  1 mins  25.659 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     86.045 (100.0%)     86.045          176  part-2_output       
+     29.582 ( 34.4%)     29.582          176  part-2_decoherence_r
+     24.055 ( 28.0%)     24.055          176  part-3_output       
+      0.800 (  0.9%)      0.800          176  part-1_decoherence_r
+      0.006 (  0.0%)    140.491          176  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          176  part-3_decoherence_r
+
+  Total time is 86.045334 secs    (0 hours  1 mins  26.045 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     86.431 (100.0%)     86.431          177  part-2_output       
+     29.745 ( 34.4%)     29.745          177  part-2_decoherence_r
+     24.064 ( 27.8%)     24.064          177  part-3_output       
+      0.804 (  0.9%)      0.804          177  part-1_decoherence_r
+      0.006 (  0.0%)    141.053          177  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          177  part-3_decoherence_r
+
+  Total time is 86.431006 secs    (0 hours  1 mins  26.431 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     86.820 (100.0%)     86.820          178  part-2_output       
+     29.908 ( 34.4%)     29.908          178  part-2_decoherence_r
+     24.072 ( 27.7%)     24.072          178  part-3_output       
+      0.808 (  0.9%)      0.808          178  part-1_decoherence_r
+      0.006 (  0.0%)    141.617          178  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          178  part-3_decoherence_r
+
+  Total time is 86.820354 secs    (0 hours  1 mins  26.820 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     87.211 (100.0%)     87.211          179  part-2_output       
+     30.073 ( 34.5%)     30.073          179  part-2_decoherence_r
+     24.081 ( 27.6%)     24.081          179  part-3_output       
+      0.813 (  0.9%)      0.813          179  part-1_decoherence_r
+      0.006 (  0.0%)    142.185          179  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          179  part-3_decoherence_r
+
+  Total time is 87.211221 secs    (0 hours  1 mins  27.211 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     87.581 (100.0%)     87.581          180  part-2_output       
+     30.236 ( 34.5%)     30.236          180  part-2_decoherence_r
+     24.090 ( 27.5%)     24.090          180  part-3_output       
+      0.817 (  0.9%)      0.817          180  part-1_decoherence_r
+      0.006 (  0.0%)    142.732          180  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          180  part-3_decoherence_r
+
+  Total time is 87.581105 secs    (0 hours  1 mins  27.581 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     87.957 (100.0%)     87.957          181  part-2_output       
+     30.398 ( 34.6%)     30.398          181  part-2_decoherence_r
+     25.062 ( 28.5%)     25.062          181  part-3_output       
+      0.821 (  0.9%)      0.821          181  part-1_decoherence_r
+      0.006 (  0.0%)    144.245          181  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          181  part-3_decoherence_r
+
+  Total time is 87.956768 secs    (0 hours  1 mins  27.957 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     88.367 (100.0%)     88.367          182  part-2_output       
+     30.596 ( 34.6%)     30.596          182  part-2_decoherence_r
+     25.072 ( 28.4%)     25.072          182  part-3_output       
+      0.828 (  0.9%)      0.828          182  part-1_decoherence_r
+      0.006 (  0.0%)    144.870          182  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          182  part-3_decoherence_r
+
+  Total time is 88.366661 secs    (0 hours  1 mins  28.367 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     88.738 (100.0%)     88.738          183  part-2_output       
+     30.764 ( 34.7%)     30.764          183  part-2_decoherence_r
+     25.080 ( 28.3%)     25.080          183  part-3_output       
+      0.832 (  0.9%)      0.832          183  part-1_decoherence_r
+      0.006 (  0.0%)    145.423          183  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          183  part-3_decoherence_r
+
+  Total time is 88.738485 secs    (0 hours  1 mins  28.738 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     89.117 (100.0%)     89.117          184  part-2_output       
+     30.926 ( 34.7%)     30.926          184  part-2_decoherence_r
+     25.089 ( 28.2%)     25.089          184  part-3_output       
+      0.836 (  0.9%)      0.836          184  part-1_decoherence_r
+      0.006 (  0.0%)    145.977          184  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          184  part-3_decoherence_r
+
+  Total time is 89.117319 secs    (0 hours  1 mins  29.117 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     89.506 (100.0%)     89.506          185  part-2_output       
+     31.090 ( 34.7%)     31.090          185  part-2_decoherence_r
+     25.098 ( 28.0%)     25.098          185  part-3_output       
+      0.840 (  0.9%)      0.840          185  part-1_decoherence_r
+      0.006 (  0.0%)    146.542          185  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          185  part-3_decoherence_r
+
+  Total time is 89.505990 secs    (0 hours  1 mins  29.506 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     89.887 (100.0%)     89.887          186  part-2_output       
+     31.253 ( 34.8%)     31.253          186  part-2_decoherence_r
+     25.107 ( 27.9%)     25.107          186  part-3_output       
+      0.844 (  0.9%)      0.844          186  part-1_decoherence_r
+      0.006 (  0.0%)    147.099          186  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          186  part-3_decoherence_r
+
+  Total time is 89.886653 secs    (0 hours  1 mins  29.887 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     90.282 (100.0%)     90.282          187  part-2_output       
+     31.417 ( 34.8%)     31.417          187  part-2_decoherence_r
+     25.116 ( 27.8%)     25.116          187  part-3_output       
+      0.849 (  0.9%)      0.849          187  part-1_decoherence_r
+      0.006 (  0.0%)    147.671          187  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          187  part-3_decoherence_r
+
+  Total time is 90.281663 secs    (0 hours  1 mins  30.282 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     90.661 (100.0%)     90.661          188  part-2_output       
+     31.580 ( 34.8%)     31.580          188  part-2_decoherence_r
+     26.083 ( 28.8%)     26.083          188  part-3_output       
+      0.853 (  0.9%)      0.853          188  part-1_decoherence_r
+      0.006 (  0.0%)    149.185          188  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          188  part-3_decoherence_r
+
+  Total time is 90.660638 secs    (0 hours  1 mins  30.661 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     91.048 (100.0%)     91.048          189  part-2_output       
+     31.767 ( 34.9%)     31.767          189  part-2_decoherence_r
+     26.092 ( 28.7%)     26.092          189  part-3_output       
+      0.858 (  0.9%)      0.858          189  part-1_decoherence_r
+      0.006 (  0.0%)    149.773          189  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          189  part-3_decoherence_r
+
+  Total time is 91.048193 secs    (0 hours  1 mins  31.048 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     91.439 (100.0%)     91.439          190  part-2_output       
+     31.928 ( 34.9%)     31.928          190  part-2_decoherence_r
+     26.101 ( 28.5%)     26.101          190  part-3_output       
+      0.863 (  0.9%)      0.863          190  part-1_decoherence_r
+      0.006 (  0.0%)    150.339          190  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          190  part-3_decoherence_r
+
+  Total time is 91.439311 secs    (0 hours  1 mins  31.439 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     91.824 (100.0%)     91.824          191  part-2_output       
+     32.091 ( 34.9%)     32.091          191  part-2_decoherence_r
+     26.110 ( 28.4%)     26.110          191  part-3_output       
+      0.867 (  0.9%)      0.867          191  part-1_decoherence_r
+      0.006 (  0.0%)    150.899          191  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          191  part-3_decoherence_r
+
+  Total time is 91.824262 secs    (0 hours  1 mins  31.824 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     92.211 (100.0%)     92.211          192  part-2_output       
+     32.253 ( 35.0%)     32.253          192  part-2_decoherence_r
+     26.119 ( 28.3%)     26.119          192  part-3_output       
+      0.871 (  0.9%)      0.871          192  part-1_decoherence_r
+      0.006 (  0.0%)    151.462          192  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          192  part-3_decoherence_r
+
+  Total time is 92.210726 secs    (0 hours  1 mins  32.211 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     93.831 (100.0%)     93.831          193  part-2_output       
+     32.415 ( 34.5%)     32.415          193  part-2_decoherence_r
+     26.990 ( 28.8%)     26.990          193  part-3_output       
+      0.875 (  0.9%)      0.875          193  part-1_decoherence_r
+      0.006 (  0.0%)    154.118          193  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          193  part-3_decoherence_r
+
+  Total time is 93.830628 secs    (0 hours  1 mins  33.831 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     94.232 (100.0%)     94.232          194  part-2_output       
+     32.592 ( 34.6%)     32.592          194  part-2_decoherence_r
+     26.998 ( 28.7%)     26.998          194  part-3_output       
+      0.880 (  0.9%)      0.880          194  part-1_decoherence_r
+      0.006 (  0.0%)    154.710          194  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          194  part-3_decoherence_r
+
+  Total time is 94.231815 secs    (0 hours  1 mins  34.232 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     94.615 (100.0%)     94.615          195  part-2_output       
+     32.755 ( 34.6%)     32.755          195  part-2_decoherence_r
+     27.007 ( 28.5%)     27.007          195  part-3_output       
+      0.884 (  0.9%)      0.884          195  part-1_decoherence_r
+      0.006 (  0.0%)    155.269          195  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          195  part-3_decoherence_r
+
+  Total time is 94.614951 secs    (0 hours  1 mins  34.615 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     94.999 (100.0%)     94.999          196  part-2_output       
+     32.917 ( 34.7%)     32.917          196  part-2_decoherence_r
+     27.017 ( 28.4%)     27.017          196  part-3_output       
+      0.888 (  0.9%)      0.888          196  part-1_decoherence_r
+      0.006 (  0.0%)    155.829          196  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          196  part-3_decoherence_r
+
+  Total time is 94.998759 secs    (0 hours  1 mins  34.999 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     95.392 (100.0%)     95.392          197  part-2_output       
+     33.080 ( 34.7%)     33.080          197  part-2_decoherence_r
+     27.026 ( 28.3%)     27.026          197  part-3_output       
+      0.892 (  0.9%)      0.892          197  part-1_decoherence_r
+      0.006 (  0.0%)    156.398          197  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          197  part-3_decoherence_r
+
+  Total time is 95.392462 secs    (0 hours  1 mins  35.392 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     95.779 (100.0%)     95.779          198  part-2_output       
+     33.242 ( 34.7%)     33.242          198  part-2_decoherence_r
+     27.035 ( 28.2%)     27.035          198  part-3_output       
+      0.896 (  0.9%)      0.896          198  part-1_decoherence_r
+      0.006 (  0.0%)    156.960          198  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          198  part-3_decoherence_r
+
+  Total time is 95.778999 secs    (0 hours  1 mins  35.779 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     96.154 (100.0%)     96.154          199  part-2_output       
+     33.403 ( 34.7%)     33.403          199  part-2_decoherence_r
+     27.045 ( 28.1%)     27.045          199  part-3_output       
+      0.900 (  0.9%)      0.900          199  part-1_decoherence_r
+      0.006 (  0.0%)    157.510          199  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          199  part-3_decoherence_r
+
+  Total time is 96.153643 secs    (0 hours  1 mins  36.154 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     96.538 (100.0%)     96.538          200  part-2_output       
+     33.567 ( 34.8%)     33.567          200  part-2_decoherence_r
+     28.046 ( 29.1%)     28.046          200  part-3_output       
+      0.904 (  0.9%)      0.904          200  part-1_decoherence_r
+      0.006 (  0.0%)    159.062          200  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          200  part-3_decoherence_r
+
+  Total time is 96.537718 secs    (0 hours  1 mins  36.538 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     96.899 (100.0%)     96.899          201  part-2_output       
+     33.752 ( 34.8%)     33.752          201  part-2_decoherence_r
+     28.055 ( 29.0%)     28.055          201  part-3_output       
+      0.911 (  0.9%)      0.911          201  part-1_decoherence_r
+      0.006 (  0.0%)    159.626          201  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          201  part-3_decoherence_r
+
+  Total time is 96.899414 secs    (0 hours  1 mins  36.899 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     97.248 (100.0%)     97.248          202  part-2_output       
+     33.911 ( 34.9%)     33.911          202  part-2_decoherence_r
+     28.063 ( 28.9%)     28.063          202  part-3_output       
+      0.915 (  0.9%)      0.915          202  part-1_decoherence_r
+      0.006 (  0.0%)    160.145          202  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          202  part-3_decoherence_r
+
+  Total time is 97.248181 secs    (0 hours  1 mins  37.248 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     97.644 (100.0%)     97.644          203  part-2_output       
+     34.072 ( 34.9%)     34.072          203  part-2_decoherence_r
+     28.072 ( 28.7%)     28.072          203  part-3_output       
+      0.919 (  0.9%)      0.919          203  part-1_decoherence_r
+      0.006 (  0.0%)    160.714          203  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          203  part-3_decoherence_r
+
+  Total time is 97.643832 secs    (0 hours  1 mins  37.644 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     98.115 (100.0%)     98.115          204  part-2_output       
+     34.232 ( 34.9%)     34.232          204  part-2_decoherence_r
+     28.079 ( 28.6%)     28.079          204  part-3_output       
+      0.923 (  0.9%)      0.923          204  part-1_decoherence_r
+      0.006 (  0.0%)    161.356          204  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          204  part-3_decoherence_r
+
+  Total time is 98.114735 secs    (0 hours  1 mins  38.115 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     98.445 (100.0%)     98.445          205  part-2_output       
+     34.381 ( 34.9%)     34.381          205  part-2_decoherence_r
+     28.087 ( 28.5%)     28.087          205  part-3_output       
+      0.927 (  0.9%)      0.927          205  part-1_decoherence_r
+      0.006 (  0.0%)    161.848          205  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          205  part-3_decoherence_r
+
+  Total time is 98.444697 secs    (0 hours  1 mins  38.445 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     98.824 (100.0%)     98.824          206  part-2_output       
+     34.537 ( 34.9%)     34.537          206  part-2_decoherence_r
+     28.095 ( 28.4%)     28.095          206  part-3_output       
+      0.931 (  0.9%)      0.931          206  part-1_decoherence_r
+      0.006 (  0.0%)    162.395          206  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          206  part-3_decoherence_r
+
+  Total time is 98.824375 secs    (0 hours  1 mins  38.824 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     99.166 (100.0%)     99.166          207  part-2_output       
+     34.695 ( 35.0%)     34.695          207  part-2_decoherence_r
+     29.209 ( 29.5%)     29.209          207  part-3_output       
+      0.935 (  0.9%)      0.935          207  part-1_decoherence_r
+      0.006 (  0.0%)    164.013          207  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          207  part-3_decoherence_r
+
+  Total time is 99.165829 secs    (0 hours  1 mins  39.166 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     99.539 (100.0%)     99.539          208  part-2_output       
+     34.881 ( 35.0%)     34.881          208  part-2_decoherence_r
+     29.219 ( 29.4%)     29.219          208  part-3_output       
+      0.942 (  0.9%)      0.942          208  part-1_decoherence_r
+      0.006 (  0.0%)    164.589          208  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          208  part-3_decoherence_r
+
+  Total time is 99.539021 secs    (0 hours  1 mins  39.539 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+     99.894 (100.0%)     99.894          209  part-2_output       
+     35.053 ( 35.1%)     35.053          209  part-2_decoherence_r
+     29.226 ( 29.3%)     29.226          209  part-3_output       
+      0.946 (  0.9%)      0.946          209  part-1_decoherence_r
+      0.006 (  0.0%)    165.128          209  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          209  part-3_decoherence_r
+
+  Total time is 99.894299 secs    (0 hours  1 mins  39.894 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    100.240 (100.0%)    100.240          210  part-2_output       
+     35.211 ( 35.1%)     35.211          210  part-2_decoherence_r
+     29.234 ( 29.2%)     29.234          210  part-3_output       
+      0.950 (  0.9%)      0.950          210  part-1_decoherence_r
+      0.006 (  0.0%)    165.644          210  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          210  part-3_decoherence_r
+
+  Total time is 100.239753 secs    (0 hours  1 mins  40.240 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    100.613 (100.0%)    100.613          211  part-2_output       
+     35.374 ( 35.2%)     35.374          211  part-2_decoherence_r
+     29.243 ( 29.1%)     29.243          211  part-3_output       
+      0.954 (  0.9%)      0.954          211  part-1_decoherence_r
+      0.006 (  0.0%)    166.192          211  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          211  part-3_decoherence_r
+
+  Total time is 100.612688 secs    (0 hours  1 mins  40.613 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    100.973 (100.0%)    100.973          212  part-2_output       
+     35.537 ( 35.2%)     35.537          212  part-2_decoherence_r
+     29.252 ( 29.0%)     29.252          212  part-3_output       
+      0.958 (  0.9%)      0.958          212  part-1_decoherence_r
+      0.006 (  0.0%)    166.729          212  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          212  part-3_decoherence_r
+
+  Total time is 100.973103 secs    (0 hours  1 mins  40.973 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    101.349 (100.0%)    101.349          213  part-2_output       
+     35.701 ( 35.2%)     35.701          213  part-2_decoherence_r
+     29.260 ( 28.9%)     29.260          213  part-3_output       
+      0.962 (  0.9%)      0.962          213  part-1_decoherence_r
+      0.006 (  0.0%)    167.280          213  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          213  part-3_decoherence_r
+
+  Total time is 101.348943 secs    (0 hours  1 mins  41.349 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    101.733 (100.0%)    101.733          214  part-2_output       
+     35.864 ( 35.3%)     35.864          214  part-2_decoherence_r
+     29.268 ( 28.8%)     29.268          214  part-3_output       
+      0.967 (  1.0%)      0.967          214  part-1_decoherence_r
+      0.006 (  0.0%)    167.840          214  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          214  part-3_decoherence_r
+
+  Total time is 101.733443 secs    (0 hours  1 mins  41.733 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    102.099 (100.0%)    102.099          215  part-2_output       
+     36.025 ( 35.3%)     36.025          215  part-2_decoherence_r
+     29.277 ( 28.7%)     29.277          215  part-3_output       
+      0.971 (  1.0%)      0.971          215  part-1_decoherence_r
+      0.006 (  0.0%)    168.381          215  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          215  part-3_decoherence_r
+
+  Total time is 102.099096 secs    (0 hours  1 mins  42.099 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    102.808 (100.0%)    102.808          216  part-2_output       
+     36.187 ( 35.2%)     36.187          216  part-2_decoherence_r
+     30.104 ( 29.3%)     30.104          216  part-3_output       
+      0.975 (  0.9%)      0.975          216  part-1_decoherence_r
+      0.006 (  0.0%)    170.083          216  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          216  part-3_decoherence_r
+
+  Total time is 102.808437 secs    (0 hours  1 mins  42.808 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    103.165 (100.0%)    103.165          217  part-2_output       
+     36.379 ( 35.3%)     36.379          217  part-2_decoherence_r
+     30.113 ( 29.2%)     30.113          217  part-3_output       
+      0.982 (  1.0%)      0.982          217  part-1_decoherence_r
+      0.006 (  0.0%)    170.647          217  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          217  part-3_decoherence_r
+
+  Total time is 103.164515 secs    (0 hours  1 mins  43.165 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    103.512 (100.0%)    103.512          218  part-2_output       
+     36.554 ( 35.3%)     36.554          218  part-2_decoherence_r
+     30.121 ( 29.1%)     30.121          218  part-3_output       
+      0.986 (  1.0%)      0.986          218  part-1_decoherence_r
+      0.006 (  0.0%)    171.181          218  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          218  part-3_decoherence_r
+
+  Total time is 103.511953 secs    (0 hours  1 mins  43.512 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    103.901 (100.0%)    103.901          219  part-2_output       
+     36.714 ( 35.3%)     36.714          219  part-2_decoherence_r
+     30.128 ( 29.0%)     30.128          219  part-3_output       
+      0.990 (  1.0%)      0.990          219  part-1_decoherence_r
+      0.007 (  0.0%)    171.743          219  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          219  part-3_decoherence_r
+
+  Total time is 103.901321 secs    (0 hours  1 mins  43.901 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    104.301 (100.0%)    104.301          220  part-2_output       
+     36.871 ( 35.4%)     36.871          220  part-2_decoherence_r
+     30.135 ( 28.9%)     30.135          220  part-3_output       
+      0.994 (  1.0%)      0.994          220  part-1_decoherence_r
+      0.007 (  0.0%)    172.310          220  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          220  part-3_decoherence_r
+
+  Total time is 104.300850 secs    (0 hours  1 mins  44.301 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    104.579 (100.0%)    104.579          221  part-2_output       
+     37.023 ( 35.4%)     37.023          221  part-2_decoherence_r
+     30.142 ( 28.8%)     30.142          221  part-3_output       
+      0.998 (  1.0%)      0.998          221  part-1_decoherence_r
+      0.007 (  0.0%)    172.751          221  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          221  part-3_decoherence_r
+
+  Total time is 104.578862 secs    (0 hours  1 mins  44.579 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    104.985 (100.0%)    104.985          222  part-2_output       
+     37.177 ( 35.4%)     37.177          222  part-2_decoherence_r
+     30.150 ( 28.7%)     30.150          222  part-3_output       
+      1.002 (  1.0%)      1.002          222  part-1_decoherence_r
+      0.007 (  0.0%)    173.323          222  in_run_decoherence_r
+      0.002 (  0.0%)      0.002          222  part-3_decoherence_r
+
+  Total time is 104.985261 secs    (0 hours  1 mins  44.985 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    106.389 (100.0%)    106.389          223  part-2_output       
+     37.332 ( 35.1%)     37.332          223  part-2_decoherence_r
+     30.255 ( 28.4%)     30.255          223  part-3_output       
+      1.006 (  0.9%)      1.006          223  part-1_decoherence_r
+      0.007 (  0.0%)    174.991          223  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          223  part-3_decoherence_r
+
+  Total time is 106.389354 secs    (0 hours  1 mins  46.389 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    106.831 (100.0%)    106.831          224  part-2_output       
+     37.524 ( 35.1%)     37.524          224  part-2_decoherence_r
+     30.263 ( 28.3%)     30.263          224  part-3_output       
+      1.012 (  0.9%)      1.012          224  part-1_decoherence_r
+      0.007 (  0.0%)    175.639          224  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          224  part-3_decoherence_r
+
+  Total time is 106.830995 secs    (0 hours  1 mins  46.831 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    107.223 (100.0%)    107.223          225  part-2_output       
+     37.696 ( 35.2%)     37.696          225  part-2_decoherence_r
+     30.270 ( 28.2%)     30.270          225  part-3_output       
+      1.017 (  0.9%)      1.017          225  part-1_decoherence_r
+      0.007 (  0.0%)    176.215          225  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          225  part-3_decoherence_r
+
+  Total time is 107.222724 secs    (0 hours  1 mins  47.223 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    107.648 (100.0%)    107.648          226  part-2_output       
+     37.857 ( 35.2%)     37.857          226  part-2_decoherence_r
+     30.279 ( 28.1%)     30.279          226  part-3_output       
+      1.021 (  0.9%)      1.021          226  part-1_decoherence_r
+      0.007 (  0.0%)    176.814          226  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          226  part-3_decoherence_r
+
+  Total time is 107.648192 secs    (0 hours  1 mins  47.648 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    108.068 (100.0%)    108.068          227  part-2_output       
+     38.018 ( 35.2%)     38.018          227  part-2_decoherence_r
+     30.288 ( 28.0%)     30.288          227  part-3_output       
+      1.025 (  0.9%)      1.025          227  part-1_decoherence_r
+      0.007 (  0.0%)    177.407          227  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          227  part-3_decoherence_r
+
+  Total time is 108.067593 secs    (0 hours  1 mins  48.068 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    108.466 (100.0%)    108.466          228  part-2_output       
+     38.175 ( 35.2%)     38.175          228  part-2_decoherence_r
+     30.296 ( 27.9%)     30.296          228  part-3_output       
+      1.029 (  0.9%)      1.029          228  part-1_decoherence_r
+      0.007 (  0.0%)    177.975          228  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          228  part-3_decoherence_r
+
+  Total time is 108.465802 secs    (0 hours  1 mins  48.466 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    108.906 (100.0%)    108.906          229  part-2_output       
+     38.340 ( 35.2%)     38.340          229  part-2_decoherence_r
+     30.306 ( 27.8%)     30.306          229  part-3_output       
+      1.033 (  0.9%)      1.033          229  part-1_decoherence_r
+      0.007 (  0.0%)    178.595          229  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          229  part-3_decoherence_r
+
+  Total time is 108.906009 secs    (0 hours  1 mins  48.906 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    110.522 (100.0%)    110.522          230  part-2_output       
+     38.501 ( 34.8%)     38.501          230  part-2_decoherence_r
+     30.316 ( 27.4%)     30.316          230  part-3_output       
+      1.037 (  0.9%)      1.037          230  part-1_decoherence_r
+      0.007 (  0.0%)    180.385          230  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          230  part-3_decoherence_r
+
+  Total time is 110.521972 secs    (0 hours  1 mins  50.522 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    110.958 (100.0%)    110.958          231  part-2_output       
+     38.680 ( 34.9%)     38.680          231  part-2_decoherence_r
+     30.324 ( 27.3%)     30.324          231  part-3_output       
+      1.042 (  0.9%)      1.042          231  part-1_decoherence_r
+      0.007 (  0.0%)    181.013          231  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          231  part-3_decoherence_r
+
+  Total time is 110.958084 secs    (0 hours  1 mins  50.958 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    111.393 (100.0%)    111.393          232  part-2_output       
+     38.844 ( 34.9%)     38.844          232  part-2_decoherence_r
+     30.333 ( 27.2%)     30.333          232  part-3_output       
+      1.046 (  0.9%)      1.046          232  part-1_decoherence_r
+      0.007 (  0.0%)    181.625          232  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          232  part-3_decoherence_r
+
+  Total time is 111.392917 secs    (0 hours  1 mins  51.393 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    111.825 (100.0%)    111.825          233  part-2_output       
+     39.004 ( 34.9%)     39.004          233  part-2_decoherence_r
+     30.342 ( 27.1%)     30.342          233  part-3_output       
+      1.050 (  0.9%)      1.050          233  part-1_decoherence_r
+      0.007 (  0.0%)    182.229          233  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          233  part-3_decoherence_r
+
+  Total time is 111.825160 secs    (0 hours  1 mins  51.825 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    112.264 (100.0%)    112.264          234  part-2_output       
+     39.167 ( 34.9%)     39.167          234  part-2_decoherence_r
+     30.351 ( 27.0%)     30.351          234  part-3_output       
+      1.054 (  0.9%)      1.054          234  part-1_decoherence_r
+      0.007 (  0.0%)    182.845          234  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          234  part-3_decoherence_r
+
+  Total time is 112.263670 secs    (0 hours  1 mins  52.264 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    112.697 (100.0%)    112.697          235  part-2_output       
+     39.330 ( 34.9%)     39.330          235  part-2_decoherence_r
+     30.359 ( 26.9%)     30.359          235  part-3_output       
+      1.058 (  0.9%)      1.058          235  part-1_decoherence_r
+      0.007 (  0.0%)    183.454          235  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          235  part-3_decoherence_r
+
+  Total time is 112.697164 secs    (0 hours  1 mins  52.697 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    114.334 (100.0%)    114.334          236  part-2_output       
+     39.495 ( 34.5%)     39.495          236  part-2_decoherence_r
+     30.369 ( 26.6%)     30.369          236  part-3_output       
+      1.062 (  0.9%)      1.062          236  part-1_decoherence_r
+      0.007 (  0.0%)    185.269          236  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          236  part-3_decoherence_r
+
+  Total time is 114.333797 secs    (0 hours  1 mins  54.334 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    114.768 (100.0%)    114.768          237  part-2_output       
+     39.659 ( 34.6%)     39.659          237  part-2_decoherence_r
+     30.377 ( 26.5%)     30.377          237  part-3_output       
+      1.066 (  0.9%)      1.066          237  part-1_decoherence_r
+      0.007 (  0.0%)    185.880          237  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          237  part-3_decoherence_r
+
+  Total time is 114.768322 secs    (0 hours  1 mins  54.768 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    116.345 (100.0%)    116.345          238  part-2_output       
+     39.820 ( 34.2%)     39.820          238  part-2_decoherence_r
+     30.386 ( 26.1%)     30.386          238  part-3_output       
+      1.070 (  0.9%)      1.070          238  part-1_decoherence_r
+      0.007 (  0.0%)    187.632          238  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          238  part-3_decoherence_r
+
+  Total time is 116.345202 secs    (0 hours  1 mins  56.345 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    116.767 (100.0%)    116.767          239  part-2_output       
+     40.000 ( 34.3%)     40.000          239  part-2_decoherence_r
+     30.396 ( 26.0%)     30.396          239  part-3_output       
+      1.075 (  0.9%)      1.075          239  part-1_decoherence_r
+      0.007 (  0.0%)    188.248          239  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          239  part-3_decoherence_r
+
+  Total time is 116.767391 secs    (0 hours  1 mins  56.767 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    117.896 (100.0%)    117.896          240  part-2_output       
+     40.160 ( 34.1%)     40.160          240  part-2_decoherence_r
+     30.637 ( 26.0%)     30.637          240  part-3_output       
+      1.079 (  0.9%)      1.079          240  part-1_decoherence_r
+      0.007 (  0.0%)    189.782          240  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          240  part-3_decoherence_r
+
+  Total time is 117.896395 secs    (0 hours  1 mins  57.896 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    118.333 (100.0%)    118.333          241  part-2_output       
+     40.352 ( 34.1%)     40.352          241  part-2_decoherence_r
+     30.647 ( 25.9%)     30.647          241  part-3_output       
+      1.085 (  0.9%)      1.085          241  part-1_decoherence_r
+      0.007 (  0.0%)    190.427          241  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          241  part-3_decoherence_r
+
+  Total time is 118.332971 secs    (0 hours  1 mins  58.333 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    118.749 (100.0%)    118.749          242  part-2_output       
+     40.521 ( 34.1%)     40.521          242  part-2_decoherence_r
+     30.655 ( 25.8%)     30.655          242  part-3_output       
+      1.090 (  0.9%)      1.090          242  part-1_decoherence_r
+      0.007 (  0.0%)    191.025          242  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          242  part-3_decoherence_r
+
+  Total time is 118.749122 secs    (0 hours  1 mins  58.749 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    119.170 (100.0%)    119.170          243  part-2_output       
+     40.682 ( 34.1%)     40.682          243  part-2_decoherence_r
+     30.665 ( 25.7%)     30.665          243  part-3_output       
+      1.094 (  0.9%)      1.094          243  part-1_decoherence_r
+      0.007 (  0.0%)    191.620          243  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          243  part-3_decoherence_r
+
+  Total time is 119.169787 secs    (0 hours  1 mins  59.170 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    119.586 (100.0%)    119.586          244  part-2_output       
+     40.844 ( 34.2%)     40.844          244  part-2_decoherence_r
+     30.673 ( 25.6%)     30.673          244  part-3_output       
+      1.098 (  0.9%)      1.098          244  part-1_decoherence_r
+      0.007 (  0.0%)    192.210          244  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          244  part-3_decoherence_r
+
+  Total time is 119.586214 secs    (0 hours  1 mins  59.586 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    120.018 (100.0%)    120.018          245  part-2_output       
+     41.005 ( 34.2%)     41.005          245  part-2_decoherence_r
+     30.682 ( 25.6%)     30.682          245  part-3_output       
+      1.102 (  0.9%)      1.102          245  part-1_decoherence_r
+      0.007 (  0.0%)    192.817          245  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          245  part-3_decoherence_r
+
+  Total time is 120.018062 secs    (0 hours  2 mins   0.018 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    121.608 (100.0%)    121.608          246  part-2_output       
+     41.166 ( 33.9%)     41.166          246  part-2_decoherence_r
+     30.792 ( 25.3%)     30.792          246  part-3_output       
+      1.106 (  0.9%)      1.106          246  part-1_decoherence_r
+      0.007 (  0.0%)    194.682          246  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          246  part-3_decoherence_r
+
+  Total time is 121.608014 secs    (0 hours  2 mins   1.608 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    122.048 (100.0%)    122.048          247  part-2_output       
+     41.361 ( 33.9%)     41.361          247  part-2_decoherence_r
+     30.801 ( 25.2%)     30.801          247  part-3_output       
+      1.113 (  0.9%)      1.113          247  part-1_decoherence_r
+      0.007 (  0.0%)    195.333          247  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          247  part-3_decoherence_r
+
+  Total time is 122.048215 secs    (0 hours  2 mins   2.048 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    122.490 (100.0%)    122.490          248  part-2_output       
+     41.531 ( 33.9%)     41.531          248  part-2_decoherence_r
+     30.809 ( 25.2%)     30.809          248  part-3_output       
+      1.117 (  0.9%)      1.117          248  part-1_decoherence_r
+      0.007 (  0.0%)    195.958          248  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          248  part-3_decoherence_r
+
+  Total time is 122.490365 secs    (0 hours  2 mins   2.490 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    122.906 (100.0%)    122.906          249  part-2_output       
+     41.692 ( 33.9%)     41.692          249  part-2_decoherence_r
+     30.818 ( 25.1%)     30.818          249  part-3_output       
+      1.121 (  0.9%)      1.121          249  part-1_decoherence_r
+      0.007 (  0.0%)    196.547          249  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          249  part-3_decoherence_r
+
+  Total time is 122.905988 secs    (0 hours  2 mins   2.906 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    123.263 (100.0%)    123.263          250  part-2_output       
+     41.854 ( 34.0%)     41.854          250  part-2_decoherence_r
+     30.825 ( 25.0%)     30.825          250  part-3_output       
+      1.125 (  0.9%)      1.125          250  part-1_decoherence_r
+      0.007 (  0.0%)    197.078          250  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          250  part-3_decoherence_r
+
+  Total time is 123.263367 secs    (0 hours  2 mins   3.263 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    123.611 (100.0%)    123.611          251  part-2_output       
+     42.009 ( 34.0%)     42.009          251  part-2_decoherence_r
+     30.834 ( 24.9%)     30.834          251  part-3_output       
+      1.129 (  0.9%)      1.129          251  part-1_decoherence_r
+      0.007 (  0.0%)    197.593          251  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          251  part-3_decoherence_r
+
+  Total time is 123.611039 secs    (0 hours  2 mins   3.611 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    123.961 (100.0%)    123.961          252  part-2_output       
+     42.169 ( 34.0%)     42.169          252  part-2_decoherence_r
+     30.843 ( 24.9%)     30.843          252  part-3_output       
+      1.133 (  0.9%)      1.133          252  part-1_decoherence_r
+      0.007 (  0.0%)    198.116          252  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          252  part-3_decoherence_r
+
+  Total time is 123.961365 secs    (0 hours  2 mins   3.961 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    124.343 (100.0%)    124.343          253  part-2_output       
+     42.331 ( 34.0%)     42.331          253  part-2_decoherence_r
+     31.935 ( 25.7%)     31.935          253  part-3_output       
+      1.137 (  0.9%)      1.137          253  part-1_decoherence_r
+      0.007 (  0.0%)    199.757          253  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          253  part-3_decoherence_r
+
+  Total time is 124.343240 secs    (0 hours  2 mins   4.343 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    124.735 (100.0%)    124.735          254  part-2_output       
+     42.514 ( 34.1%)     42.514          254  part-2_decoherence_r
+     31.944 ( 25.6%)     31.944          254  part-3_output       
+      1.143 (  0.9%)      1.143          254  part-1_decoherence_r
+      0.007 (  0.0%)    200.346          254  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          254  part-3_decoherence_r
+
+  Total time is 124.734518 secs    (0 hours  2 mins   4.735 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    125.105 (100.0%)    125.105          255  part-2_output       
+     42.677 ( 34.1%)     42.677          255  part-2_decoherence_r
+     31.953 ( 25.5%)     31.953          255  part-3_output       
+      1.147 (  0.9%)      1.147          255  part-1_decoherence_r
+      0.007 (  0.0%)    200.891          255  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          255  part-3_decoherence_r
+
+  Total time is 125.104804 secs    (0 hours  2 mins   5.105 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    125.493 (100.0%)    125.493          256  part-2_output       
+     42.838 ( 34.1%)     42.838          256  part-2_decoherence_r
+     31.962 ( 25.5%)     31.962          256  part-3_output       
+      1.151 (  0.9%)      1.151          256  part-1_decoherence_r
+      0.007 (  0.0%)    201.454          256  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          256  part-3_decoherence_r
+
+  Total time is 125.492821 secs    (0 hours  2 mins   5.493 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    125.882 (100.0%)    125.882          257  part-2_output       
+     43.001 ( 34.2%)     43.001          257  part-2_decoherence_r
+     31.971 ( 25.4%)     31.971          257  part-3_output       
+      1.155 (  0.9%)      1.155          257  part-1_decoherence_r
+      0.007 (  0.0%)    202.020          257  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          257  part-3_decoherence_r
+
+  Total time is 125.881750 secs    (0 hours  2 mins   5.882 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    126.261 (100.0%)    126.261          258  part-2_output       
+     43.164 ( 34.2%)     43.164          258  part-2_decoherence_r
+     31.980 ( 25.3%)     31.980          258  part-3_output       
+      1.159 (  0.9%)      1.159          258  part-1_decoherence_r
+      0.007 (  0.0%)    202.575          258  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          258  part-3_decoherence_r
+
+  Total time is 126.261451 secs    (0 hours  2 mins   6.261 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    126.652 (100.0%)    126.652          259  part-2_output       
+     43.328 ( 34.2%)     43.328          259  part-2_decoherence_r
+     31.989 ( 25.3%)     31.989          259  part-3_output       
+      1.163 (  0.9%)      1.163          259  part-1_decoherence_r
+      0.007 (  0.0%)    203.142          259  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          259  part-3_decoherence_r
+
+  Total time is 126.651668 secs    (0 hours  2 mins   6.652 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    127.038 (100.0%)    127.038          260  part-2_output       
+     43.492 ( 34.2%)     43.492          260  part-2_decoherence_r
+     32.964 ( 25.9%)     32.964          260  part-3_output       
+      1.167 (  0.9%)      1.167          260  part-1_decoherence_r
+      0.007 (  0.0%)    204.672          260  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          260  part-3_decoherence_r
+
+  Total time is 127.038150 secs    (0 hours  2 mins   7.038 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    127.392 (100.0%)    127.392          261  part-2_output       
+     43.679 ( 34.3%)     43.679          261  part-2_decoherence_r
+     32.972 ( 25.9%)     32.972          261  part-3_output       
+      1.174 (  0.9%)      1.174          261  part-1_decoherence_r
+      0.007 (  0.0%)    205.227          261  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          261  part-3_decoherence_r
+
+  Total time is 127.391544 secs    (0 hours  2 mins   7.392 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    127.737 (100.0%)    127.737          262  part-2_output       
+     43.844 ( 34.3%)     43.844          262  part-2_decoherence_r
+     32.981 ( 25.8%)     32.981          262  part-3_output       
+      1.178 (  0.9%)      1.178          262  part-1_decoherence_r
+      0.007 (  0.0%)    205.750          262  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          262  part-3_decoherence_r
+
+  Total time is 127.736684 secs    (0 hours  2 mins   7.737 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    128.082 (100.0%)    128.082          263  part-2_output       
+     44.004 ( 34.4%)     44.004          263  part-2_decoherence_r
+     32.988 ( 25.8%)     32.988          263  part-3_output       
+      1.182 (  0.9%)      1.182          263  part-1_decoherence_r
+      0.007 (  0.0%)    206.268          263  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          263  part-3_decoherence_r
+
+  Total time is 128.082321 secs    (0 hours  2 mins   8.082 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    128.471 (100.0%)    128.471          264  part-2_output       
+     44.164 ( 34.4%)     44.164          264  part-2_decoherence_r
+     32.997 ( 25.7%)     32.997          264  part-3_output       
+      1.186 (  0.9%)      1.186          264  part-1_decoherence_r
+      0.007 (  0.0%)    206.828          264  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          264  part-3_decoherence_r
+
+  Total time is 128.470507 secs    (0 hours  2 mins   8.471 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    128.827 (100.0%)    128.827          265  part-2_output       
+     44.323 ( 34.4%)     44.323          265  part-2_decoherence_r
+     33.005 ( 25.6%)     33.005          265  part-3_output       
+      1.190 (  0.9%)      1.190          265  part-1_decoherence_r
+      0.007 (  0.0%)    207.355          265  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          265  part-3_decoherence_r
+
+  Total time is 128.826917 secs    (0 hours  2 mins   8.827 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    129.136 (100.0%)    129.136          266  part-2_output       
+     44.479 ( 34.4%)     44.479          266  part-2_decoherence_r
+     33.012 ( 25.6%)     33.012          266  part-3_output       
+      1.194 (  0.9%)      1.194          266  part-1_decoherence_r
+      0.007 (  0.0%)    207.832          266  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          266  part-3_decoherence_r
+
+  Total time is 129.136380 secs    (0 hours  2 mins   9.136 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    129.508 (100.0%)    129.508          267  part-2_output       
+     44.632 ( 34.5%)     44.632          267  part-2_decoherence_r
+     33.020 ( 25.5%)     33.020          267  part-3_output       
+      1.198 (  0.9%)      1.198          267  part-1_decoherence_r
+      0.007 (  0.0%)    208.369          267  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          267  part-3_decoherence_r
+
+  Total time is 129.507714 secs    (0 hours  2 mins   9.508 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    129.861 (100.0%)    129.861          268  part-2_output       
+     44.792 ( 34.5%)     44.792          268  part-2_decoherence_r
+     33.029 ( 25.4%)     33.029          268  part-3_output       
+      1.202 (  0.9%)      1.202          268  part-1_decoherence_r
+      0.007 (  0.0%)    208.895          268  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          268  part-3_decoherence_r
+
+  Total time is 129.861122 secs    (0 hours  2 mins   9.861 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    130.208 (100.0%)    130.208          269  part-2_output       
+     44.951 ( 34.5%)     44.951          269  part-2_decoherence_r
+     33.037 ( 25.4%)     33.037          269  part-3_output       
+      1.206 (  0.9%)      1.206          269  part-1_decoherence_r
+      0.007 (  0.0%)    209.412          269  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          269  part-3_decoherence_r
+
+  Total time is 130.208069 secs    (0 hours  2 mins  10.208 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    130.564 (100.0%)    130.564          270  part-2_output       
+     45.109 ( 34.5%)     45.109          270  part-2_decoherence_r
+     33.045 ( 25.3%)     33.045          270  part-3_output       
+      1.210 (  0.9%)      1.210          270  part-1_decoherence_r
+      0.007 (  0.0%)    209.940          270  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          270  part-3_decoherence_r
+
+  Total time is 130.564344 secs    (0 hours  2 mins  10.564 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    130.925 (100.0%)    130.925          271  part-2_output       
+     45.269 ( 34.6%)     45.269          271  part-2_decoherence_r
+     33.053 ( 25.2%)     33.053          271  part-3_output       
+      1.214 (  0.9%)      1.214          271  part-1_decoherence_r
+      0.008 (  0.0%)    210.472          271  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          271  part-3_decoherence_r
+
+  Total time is 130.925337 secs    (0 hours  2 mins  10.925 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    131.293 (100.0%)    131.293          272  part-2_output       
+     45.422 ( 34.6%)     45.422          272  part-2_decoherence_r
+     33.061 ( 25.2%)     33.061          272  part-3_output       
+      1.218 (  0.9%)      1.218          272  part-1_decoherence_r
+      0.008 (  0.0%)    211.006          272  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          272  part-3_decoherence_r
+
+  Total time is 131.293219 secs    (0 hours  2 mins  11.293 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    131.653 (100.0%)    131.653          273  part-2_output       
+     45.582 ( 34.6%)     45.582          273  part-2_decoherence_r
+     33.070 ( 25.1%)     33.070          273  part-3_output       
+      1.222 (  0.9%)      1.222          273  part-1_decoherence_r
+      0.008 (  0.0%)    211.539          273  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          273  part-3_decoherence_r
+
+  Total time is 131.653460 secs    (0 hours  2 mins  11.653 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    132.044 (100.0%)    132.044          274  part-2_output       
+     45.741 ( 34.6%)     45.741          274  part-2_decoherence_r
+     34.319 ( 26.0%)     34.319          274  part-3_output       
+      1.227 (  0.9%)      1.227          274  part-1_decoherence_r
+      0.008 (  0.0%)    213.341          274  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          274  part-3_decoherence_r
+
+  Total time is 132.043815 secs    (0 hours  2 mins  12.044 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    132.450 (100.0%)    132.450          275  part-2_output       
+     45.926 ( 34.7%)     45.926          275  part-2_decoherence_r
+     34.328 ( 25.9%)     34.328          275  part-3_output       
+      1.233 (  0.9%)      1.233          275  part-1_decoherence_r
+      0.008 (  0.0%)    213.947          275  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          275  part-3_decoherence_r
+
+  Total time is 132.450014 secs    (0 hours  2 mins  12.450 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    132.831 (100.0%)    132.831          276  part-2_output       
+     46.088 ( 34.7%)     46.088          276  part-2_decoherence_r
+     34.336 ( 25.8%)     34.336          276  part-3_output       
+      1.237 (  0.9%)      1.237          276  part-1_decoherence_r
+      0.008 (  0.0%)    214.503          276  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          276  part-3_decoherence_r
+
+  Total time is 132.831049 secs    (0 hours  2 mins  12.831 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    133.222 (100.0%)    133.222          277  part-2_output       
+     46.250 ( 34.7%)     46.250          277  part-2_decoherence_r
+     34.346 ( 25.8%)     34.346          277  part-3_output       
+      1.241 (  0.9%)      1.241          277  part-1_decoherence_r
+      0.008 (  0.0%)    215.070          277  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          277  part-3_decoherence_r
+
+  Total time is 133.222442 secs    (0 hours  2 mins  13.222 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    133.596 (100.0%)    133.596          278  part-2_output       
+     46.413 ( 34.7%)     46.413          278  part-2_decoherence_r
+     34.355 ( 25.7%)     34.355          278  part-3_output       
+      1.245 (  0.9%)      1.245          278  part-1_decoherence_r
+      0.008 (  0.0%)    215.619          278  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          278  part-3_decoherence_r
+
+  Total time is 133.595547 secs    (0 hours  2 mins  13.596 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    133.950 (100.0%)    133.950          279  part-2_output       
+     46.573 ( 34.8%)     46.573          279  part-2_decoherence_r
+     34.364 ( 25.7%)     34.364          279  part-3_output       
+      1.249 (  0.9%)      1.249          279  part-1_decoherence_r
+      0.008 (  0.0%)    216.147          279  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          279  part-3_decoherence_r
+
+  Total time is 133.950059 secs    (0 hours  2 mins  13.950 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    135.382 (100.0%)    135.382          280  part-2_output       
+     46.732 ( 34.5%)     46.732          280  part-2_decoherence_r
+     34.901 ( 25.8%)     34.901          280  part-3_output       
+      1.253 (  0.9%)      1.253          280  part-1_decoherence_r
+      0.008 (  0.0%)    218.279          280  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          280  part-3_decoherence_r
+
+  Total time is 135.382192 secs    (0 hours  2 mins  15.382 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    135.806 (100.0%)    135.806          281  part-2_output       
+     46.926 ( 34.6%)     46.926          281  part-2_decoherence_r
+     34.911 ( 25.7%)     34.911          281  part-3_output       
+      1.260 (  0.9%)      1.260          281  part-1_decoherence_r
+      0.008 (  0.0%)    218.913          281  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          281  part-3_decoherence_r
+
+  Total time is 135.805757 secs    (0 hours  2 mins  15.806 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    136.181 (100.0%)    136.181          282  part-2_output       
+     47.093 ( 34.6%)     47.093          282  part-2_decoherence_r
+     35.468 ( 26.0%)     35.468          282  part-3_output       
+      1.265 (  0.9%)      1.265          282  part-1_decoherence_r
+      0.008 (  0.0%)    220.018          282  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          282  part-3_decoherence_r
+
+  Total time is 136.181341 secs    (0 hours  2 mins  16.181 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    136.586 (100.0%)    136.586          283  part-2_output       
+     47.284 ( 34.6%)     47.284          283  part-2_decoherence_r
+     35.479 ( 26.0%)     35.479          283  part-3_output       
+      1.271 (  0.9%)      1.271          283  part-1_decoherence_r
+      0.008 (  0.0%)    220.630          283  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          283  part-3_decoherence_r
+
+  Total time is 136.585905 secs    (0 hours  2 mins  16.586 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    136.987 (100.0%)    136.987          284  part-2_output       
+     47.448 ( 34.6%)     47.448          284  part-2_decoherence_r
+     35.487 ( 25.9%)     35.487          284  part-3_output       
+      1.275 (  0.9%)      1.275          284  part-1_decoherence_r
+      0.008 (  0.0%)    221.209          284  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          284  part-3_decoherence_r
+
+  Total time is 136.987466 secs    (0 hours  2 mins  16.987 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    138.185 (100.0%)    138.185          285  part-2_output       
+     47.609 ( 34.5%)     47.609          285  part-2_decoherence_r
+     36.166 ( 26.2%)     36.166          285  part-3_output       
+      1.279 (  0.9%)      1.279          285  part-1_decoherence_r
+      0.008 (  0.0%)    223.250          285  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          285  part-3_decoherence_r
+
+  Total time is 138.184554 secs    (0 hours  2 mins  18.185 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    138.597 (100.0%)    138.597          286  part-2_output       
+     47.805 ( 34.5%)     47.805          286  part-2_decoherence_r
+     36.175 ( 26.1%)     36.175          286  part-3_output       
+      1.286 (  0.9%)      1.286          286  part-1_decoherence_r
+      0.008 (  0.0%)    223.874          286  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          286  part-3_decoherence_r
+
+  Total time is 138.597037 secs    (0 hours  2 mins  18.597 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    139.020 (100.0%)    139.020          287  part-2_output       
+     47.971 ( 34.5%)     47.971          287  part-2_decoherence_r
+     36.184 ( 26.0%)     36.184          287  part-3_output       
+      1.291 (  0.9%)      1.291          287  part-1_decoherence_r
+      0.008 (  0.0%)    224.476          287  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          287  part-3_decoherence_r
+
+  Total time is 139.019650 secs    (0 hours  2 mins  19.020 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    139.434 (100.0%)    139.434          288  part-2_output       
+     48.133 ( 34.5%)     48.133          288  part-2_decoherence_r
+     36.193 ( 26.0%)     36.193          288  part-3_output       
+      1.295 (  0.9%)      1.295          288  part-1_decoherence_r
+      0.008 (  0.0%)    225.066          288  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          288  part-3_decoherence_r
+
+  Total time is 139.433814 secs    (0 hours  2 mins  19.434 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    139.847 (100.0%)    139.847          289  part-2_output       
+     48.296 ( 34.5%)     48.296          289  part-2_decoherence_r
+     36.202 ( 25.9%)     36.202          289  part-3_output       
+      1.299 (  0.9%)      1.299          289  part-1_decoherence_r
+      0.008 (  0.0%)    225.655          289  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          289  part-3_decoherence_r
+
+  Total time is 139.847371 secs    (0 hours  2 mins  19.847 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    140.279 (100.0%)    140.279          290  part-2_output       
+     48.457 ( 34.5%)     48.457          290  part-2_decoherence_r
+     36.211 ( 25.8%)     36.211          290  part-3_output       
+      1.303 (  0.9%)      1.303          290  part-1_decoherence_r
+      0.008 (  0.0%)    226.261          290  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          290  part-3_decoherence_r
+
+  Total time is 140.279020 secs    (0 hours  2 mins  20.279 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    141.280 (100.0%)    141.280          291  part-2_output       
+     48.619 ( 34.4%)     48.619          291  part-2_decoherence_r
+     36.943 ( 26.1%)     36.943          291  part-3_output       
+      1.307 (  0.9%)      1.307          291  part-1_decoherence_r
+      0.008 (  0.0%)    228.161          291  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          291  part-3_decoherence_r
+
+  Total time is 141.280498 secs    (0 hours  2 mins  21.280 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    141.661 (100.0%)    141.661          292  part-2_output       
+     48.814 ( 34.5%)     48.814          292  part-2_decoherence_r
+     36.952 ( 26.1%)     36.952          292  part-3_output       
+      1.313 (  0.9%)      1.313          292  part-1_decoherence_r
+      0.008 (  0.0%)    228.752          292  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          292  part-3_decoherence_r
+
+  Total time is 141.660984 secs    (0 hours  2 mins  21.661 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    142.022 (100.0%)    142.022          293  part-2_output       
+     48.987 ( 34.5%)     48.987          293  part-2_decoherence_r
+     36.961 ( 26.0%)     36.961          293  part-3_output       
+      1.318 (  0.9%)      1.318          293  part-1_decoherence_r
+      0.008 (  0.0%)    229.299          293  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          293  part-3_decoherence_r
+
+  Total time is 142.021804 secs    (0 hours  2 mins  22.022 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    142.448 (100.0%)    142.448          294  part-2_output       
+     49.148 ( 34.5%)     49.148          294  part-2_decoherence_r
+     36.970 ( 26.0%)     36.970          294  part-3_output       
+      1.322 (  0.9%)      1.322          294  part-1_decoherence_r
+      0.008 (  0.0%)    229.899          294  in_run_decoherence_r
+      0.003 (  0.0%)      0.003          294  part-3_decoherence_r
+
+  Total time is 142.448458 secs    (0 hours  2 mins  22.448 secs) on mole061
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+

@@ -20,3 +20,16 @@
   Timer overhead ~ 0.100000 usecs  no cutoff for now
 
 
+    time in seconds    +children       calls    name
+    449.926 ( 53.6%)    449.926            7  computing_decoherenc
+    384.456 ( 45.8%)    384.456            7  running_na-md_simula
+      2.761 (  0.3%)      2.761            7  printing_energies   
+      1.566 (  0.2%)      1.566            7  hamiltonians_computa
+      0.755 (  0.1%)      0.755            1  initialization      
+      0.459 (  0.1%)      0.459            7  core_setup          
+      0.041 (  0.0%)    839.964            1  core_algorithm      
+
+  Total time is 839.964276 secs    (0 hours  13 mins  59.964 secs) on hero17
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
