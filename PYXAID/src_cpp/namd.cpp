@@ -103,6 +103,10 @@ double decoherence_rates(vector<double>& x,double dt,std::string rt_dir,int regr
  
  Expected x - fluctuation of the energy difference between two states
 ***********************************************/
+  
+  std::ostringstream outputLine;
+  std::string linesToOutput;
+
   int len = x.size();
   int sz = (len%2==0)?(len/2):((len-1)/2);
   
@@ -158,11 +162,16 @@ double decoherence_rates(vector<double>& x,double dt,std::string rt_dir,int regr
 
   // Output D and its model(based on the fitted parameters)
   ofstream out1((rt_dir+"Spectral_density.txt").c_str(),ios::out);
-  for(w=0;w<Npoints;w++){ out1<<"w(eV)= "<<w*dE<<" w(cm^-1)= "<<w*dE*8065.54468111324<<" J= "<<J[w]
-                             <<" sqrt(J)= "<<sqrt(J[w])<<endl;
-  }
-  out1.close();
 
+  for(w=0;w<Npoints;w++){ 
+    outputLine<<"w(eV)= "<<w*dE<<" w(cm^-1)= "<<w*dE*8065.54468111324<<" J= "<< J[w] <<" sqrt(J)= "<<sqrt(J[w]) << endl;
+    linesToOutput+=outputLine.str();
+  }
+
+  out1<<linesToOutput;
+  linesToOutput.clear();
+
+  out1.close();
 
   //===== Part 3: Decoherence times ============
   // In fact we don't even needed to compute D explicitly
@@ -188,13 +197,20 @@ double decoherence_rates(vector<double>& x,double dt,std::string rt_dir,int regr
   // linear regression mode is: IIC vs. t^2 with
   // a = -ln(A), b = (1/tau)^2 or sqrt(b) = r_ij - decoherence rate
   double a,b;
-  regression(T,selIIC,regress_mode,a,b);
+  regression(T,selIIC,regress_mode,a,b); 
   if(b<0.0){ b = 0.0; }
 
   // Output D and its model(based on the fitted parameters)
   ofstream out((rt_dir+"Dephasing_function.txt").c_str(),ios::out);
   out<<"Time    D(t)       fitted D(t)     Normalized_autocorrelation_function  Unnormalized_autocorrelation_function   Second cumulant\n";
-  for(t=0;t<sz;t++){  out<<t*dt<<"  "<<D[t]<<"  "<<exp(-a) * exp(-b*t*t*dt*dt)<<"  "<<C[t]<<" "<<nrm*C[t]<<"  "<<IIC[t]<<"\n";  }
+  for(t=0;t<sz;t++) {
+    outputLine<<t*dt<<"  "<<D[t]<<"  "<<exp(-a) * exp(-b*t*t*dt*dt)<<"  "<<C[t]<<" "<<nrm*C[t]<<"  "<<IIC[t]<<"\n";  
+    linesToOutput+=outputLine.str();
+  }
+
+  out<<linesToOutput;
+  linesToOutput.clear();
+
   out.close();
 
   return sqrt(b);
@@ -475,6 +491,7 @@ void run_decoherence_rates(InputStructure& is, vector<ElectronicStructure>& me_e
     }// for j
     out<<"\n";
   }// for i
+
   out.close();
 
 }
