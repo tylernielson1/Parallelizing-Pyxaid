@@ -1,0 +1,354 @@
+{'field_freq_units': 'eV', 'integrator': 0, 'states': [['GS', [6, -6, 7, -7, 8, -8], 0.0], ['S1', [6, -6, 7, -7, 9, -8], 0.0], ['S2', [6, -6, 7, -7, 10, -8], 0.0], ['S3', [6, -6, 9, -7, 8, -8], 0.0], ['S4', [6, -6, 10, -7, 8, -8], 0.0], ['S5', [9, -6, 7, -7, 8, -8], 0.0], ['S6', [10, -6, 7, -7, 8, -8], 0.0]], 'Ham_im_suffix': '_im', 'num_sh_traj': 1000, 'field_T': 25.0, 'Hprime_y_prefix': '/homes/pratima//res/0_Hprime_', 'Hprime_x_prefix': '/homes/pratima//res/0_Hprime_', 'boltz_flag': 1, 'iconds': [[0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [0, 6]], 'field_dir': 'xyz', 'field_Tm': 25.0, 'is_field': 0, 'elec_dt': 1.0, 'Ham_re_prefix': '/homes/pratima//res/0_Ham_', 'active_space': [6, 7, 8, 9, 10], 'Temp': 300.0, 'Hprime_y_suffix': 'y_re', 'nucl_dt': 1.0, 'Ham_im_prefix': '/homes/pratima//res/0_Ham_', 'alp_bet': 0, 'Hprime_x_suffix': 'x_re', 'Hprime_z_suffix': 'z_re', 'runtype': 'namd', 'debug_flag': 0, 'Hprime_z_prefix': '/homes/pratima//res/0_Hprime_', 'namdtime': 3500, 'Ham_re_suffix': '_re', 'field_protocol': 1, 'read_couplings': 'batch', 'scratch_dir': '/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch', 'field_freq': 3.0, 'energy_units': 'Ry', 'decoherence': 1, 'field_fluence': 1.0}
+================================================================================
+PYXAID: PYthon eXtension for Ab Inition Dynamics version 1.0
+/***********************************************************
+ * Copyright (C) 2013 PYXAID group
+ * This program is free software distributed under the terms of the
+ * GNU General Public License as published by the
+ * Free Software Foundation; either version 3 of the
+ * License, or (at your option) any later version.
+ * http://www.gnu.org/copyleft/gpl.txt
+***********************************************************/
+Ham_re_prefix = /homes/pratima//res/0_Ham_
+Ham_re_suffix = _re
+Ham_im_prefix = /homes/pratima//res/0_Ham_
+Ham_im_suffix = _im
+Hprime_x_prefix = /homes/pratima//res/0_Hprime_
+Hprime_y_prefix = /homes/pratima//res/0_Hprime_
+Hprime_z_prefix = /homes/pratima//res/0_Hprime_
+Hprime_x_suffix = x_re
+Hprime_y_suffix = y_re
+Hprime_z_suffix = z_re
+energy_units = Ry
+scratch_dir = /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch
+read_couplings = batch
+read_overlaps = 
+namdtime = 3500
+num_sh_traj = 1000
+boltz_flag = 1
+debug_flag = 0
+Temp [K] = 300
+elec_dt [fs] = 1
+nucl_dt [fs] = 1
+integrator = 0
+runtype = namd
+alp_bet = 0
+decoherence = 1
+is_field = 0
+field_dir = xyz
+field_protocol = 1
+field_Tm [fs] = 25
+field_T [fs] = 25
+field_freq = 3
+field_freq_units = eV
+field_fluence [mJ/cm^2] = 1
+Warning: variable energy_in_one_file is not defined. Parameter is set to default value = false
+Warning: variable sh_algo is not defined. Parameter is set to default value = 0
+Warning: variable regress_mode is not defined. Parameter is set to default value = 0
+Number of errors = 0
+Number of warning = 2
+Done with input parameters
+Number of basis multi-electron states is: 7
+State 0 : Active space: 6  7  8  9  10  
+Actual state: 6  -6  7  -7  8  -8  
+ Exc = 0
+State 1 : Active space: 6  7  8  9  10  
+Actual state: 6  -6  7  -7  9  -8  
+ Exc = 0
+State 2 : Active space: 6  7  8  9  10  
+Actual state: 6  -6  7  -7  10  -8  
+ Exc = 0
+State 3 : Active space: 6  7  8  9  10  
+Actual state: 6  -6  9  -7  8  -8  
+ Exc = 0
+State 4 : Active space: 6  7  8  9  10  
+Actual state: 6  -6  10  -7  8  -8  
+ Exc = 0
+State 5 : Active space: 6  7  8  9  10  
+Actual state: 9  -6  7  -7  8  -8  
+ Exc = 0
+State 6 : Active space: 6  7  8  9  10  
+Actual state: 10  -6  7  -7  8  -8  
+ Exc = 0
+Couplings of the macrostate 0 will be scaled for the following states:
+Couplings of the macrostate 1 will be scaled for the following states:
+Couplings of the macrostate 2 will be scaled for the following states:
+Couplings of the macrostate 3 will be scaled for the following states:
+Couplings of the macrostate 4 will be scaled for the following states:
+Couplings of the macrostate 5 will be scaled for the following states:
+Couplings of the macrostate 6 will be scaled for the following states:
+Number of 1-electron states(orbitals) = 5
+Number of multi-electron states(determinants) = 7
+Number of electrons in active space = 6
+RAND_MAX = 2147483647
+Maximal Hamiltonian file to read is /homes/pratima//res/0_Ham_3501_re
+end of Hamiltonian files reading
+Starting the program...
+One-electron data are set
+Multi-electron couplings and energies are computed
+The energies of basis  states (with respect to defined ground state) for the this initial condition are written in file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies0
+Starting decoherence rates calculation
+Entering run_decoherence_rates...
+Starting na-md simulations with (optional) decoherence
+Entering run_namd1 function...
+Reading decoherence rate matrix for this initial condition...
+Expected filename is: /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond0.txt
+Reading the input from file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond0.txt
+One-electron data are set
+Multi-electron couplings and energies are computed
+The energies of basis  states (with respect to defined ground state) for the this initial condition are written in file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies1
+Starting decoherence rates calculation
+Entering run_decoherence_rates...
+Starting na-md simulations with (optional) decoherence
+Entering run_namd1 function...
+Reading decoherence rate matrix for this initial condition...
+Expected filename is: /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond1.txt
+Reading the input from file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond1.txt
+One-electron data are set
+Multi-electron couplings and energies are computed
+The energies of basis  states (with respect to defined ground state) for the this initial condition are written in file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies2
+Starting decoherence rates calculation
+Entering run_decoherence_rates...
+Starting na-md simulations with (optional) decoherence
+Entering run_namd1 function...
+Reading decoherence rate matrix for this initial condition...
+Expected filename is: /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond2.txt
+Reading the input from file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond2.txt
+One-electron data are set
+Multi-electron couplings and energies are computed
+The energies of basis  states (with respect to defined ground state) for the this initial condition are written in file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies3
+Starting decoherence rates calculation
+Entering run_decoherence_rates...
+Starting na-md simulations with (optional) decoherence
+Entering run_namd1 function...
+Reading decoherence rate matrix for this initial condition...
+Expected filename is: /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond3.txt
+Reading the input from file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond3.txt
+One-electron data are set
+Multi-electron couplings and energies are computed
+The energies of basis  states (with respect to defined ground state) for the this initial condition are written in file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies4
+Starting decoherence rates calculation
+Entering run_decoherence_rates...
+Starting na-md simulations with (optional) decoherence
+Entering run_namd1 function...
+Reading decoherence rate matrix for this initial condition...
+Expected filename is: /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond4.txt
+Reading the input from file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond4.txt
+One-electron data are set
+Multi-electron couplings and energies are computed
+The energies of basis  states (with respect to defined ground state) for the this initial condition are written in file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies5
+Starting decoherence rates calculation
+Entering run_decoherence_rates...
+Starting na-md simulations with (optional) decoherence
+Entering run_namd1 function...
+Reading decoherence rate matrix for this initial condition...
+Expected filename is: /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond5.txt
+Reading the input from file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond5.txt
+One-electron data are set
+Multi-electron couplings and energies are computed
+The energies of basis  states (with respect to defined ground state) for the this initial condition are written in file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies6
+Starting decoherence rates calculation
+Entering run_decoherence_rates...
+Starting na-md simulations with (optional) decoherence
+Entering run_namd1 function...
+Reading decoherence rate matrix for this initial condition...
+Expected filename is: /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond6.txt
+Reading the input from file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond6.txt
+Time in namd is: 206.076
+All initial conditions [0, 1, 2, 3, 4, 5, 6]
+Distinct initial excitations [0, 1, 2, 3, 4, 5, 6]
+Number of initial conditions =  7
+Number distinct initial excitations =  7
+initial excitation =  0
+initialization...
+calculation...
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies0
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies0
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/out0
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/out0
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_pop0
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_pop0
+Number of runs for this excitations =  1.0
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_en_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_en_ex file...
+initial excitation =  1
+initialization...
+calculation...
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies1
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies1
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/out1
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/out1
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_pop1
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_pop1
+Number of runs for this excitations =  1.0
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_en_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_en_ex file...
+initial excitation =  2
+initialization...
+calculation...
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies2
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies2
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/out2
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/out2
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_pop2
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_pop2
+Number of runs for this excitations =  1.0
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_en_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_en_ex file...
+initial excitation =  3
+initialization...
+calculation...
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies3
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies3
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/out3
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/out3
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_pop3
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_pop3
+Number of runs for this excitations =  1.0
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_en_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_en_ex file...
+initial excitation =  4
+initialization...
+calculation...
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies4
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies4
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/out4
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/out4
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_pop4
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_pop4
+Number of runs for this excitations =  1.0
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_en_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_en_ex file...
+initial excitation =  5
+initialization...
+calculation...
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies5
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies5
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/out5
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/out5
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_pop5
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_pop5
+Number of runs for this excitations =  1.0
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_en_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_en_ex file...
+initial excitation =  6
+initialization...
+calculation...
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies6
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies6
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/out6
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/out6
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_pop6
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_pop6
+Number of runs for this excitations =  1.0
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_en_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_en_ex file...
+initial macro-excitation =  0
+initialization...
+calculation...
+Number of microstates for this macrostate =  1
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies0
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies0
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_ex0
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_ex0
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_ex0
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_ex0
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/energy_macro_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_macro_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_macro_ex file...
+initial macro-excitation =  1
+initialization...
+calculation...
+Number of microstates for this macrostate =  1
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies1
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies1
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_ex1
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_ex1
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_ex1
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_ex1
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/energy_macro_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_macro_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_macro_ex file...
+initial macro-excitation =  2
+initialization...
+calculation...
+Number of microstates for this macrostate =  1
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies2
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies2
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_ex2
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_ex2
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_ex2
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_ex2
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/energy_macro_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_macro_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_macro_ex file...
+initial macro-excitation =  3
+initialization...
+calculation...
+Number of microstates for this macrostate =  1
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies3
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies3
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_ex3
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_ex3
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_ex3
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_ex3
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/energy_macro_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_macro_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_macro_ex file...
+initial macro-excitation =  4
+initialization...
+calculation...
+Number of microstates for this macrostate =  1
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies4
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies4
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_ex4
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_ex4
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_ex4
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_ex4
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/energy_macro_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_macro_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_macro_ex file...
+initial macro-excitation =  5
+initialization...
+calculation...
+Number of microstates for this macrostate =  1
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies5
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies5
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_ex5
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_ex5
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_ex5
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_ex5
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/energy_macro_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_macro_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_macro_ex file...
+initial macro-excitation =  6
+initialization...
+calculation...
+Number of microstates for this macrostate =  1
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies6
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies6
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_ex6
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_ex6
+/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_ex6
+adding file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_ex6
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/energy_macro_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_macro_ex file...
+writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_macro_ex file...
+ls -l of ./scratch
+lrwxrwxrwx 1 dclongfellow dclongfellow_users 29 Dec  3 18:01 ./scratch -> /dev/shm/dclongfellow-3158018
+out/
+Done cleaning up the ramdisk

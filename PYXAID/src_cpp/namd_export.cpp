@@ -572,17 +572,22 @@ int namd(boost::python::dict inp_params){
     timer.Stop();
     timer.Start("computing_decoherence_rates");
 
+    double ** spectral_density_data = (double **) malloc(400*5 * sizeof(double *));
+    for (j=0;j<400*5;j++) {
+      spectral_density_data[j] = (double *) malloc(4 * sizeof(double)); 
+    }
+
     //>>>>> Precompute decoherence rates
-    if(params.decoherence>0){
+    if(params.decoherence>0){ 
         cout<<"Starting decoherence rates calculation\n";
-        run_decoherence_rates(params,me_es,me_states,icond);
+        run_decoherence_rates(params,me_es,me_states,icond,&spectral_density_data); //add param to hold spectral density data in memory
     }
 
     timer.Stop();
     timer.Start("running_na-md_simulations");
 
     cout<<"Starting na-md simulations with (optional) decoherence\n";
-    run_namd1(params,me_es,me_states,icond);
+    run_namd1(params,me_es,me_states,icond,spectral_density_data); //take spectral density in memory
 
     oe_es.clear();
     me_es.clear();

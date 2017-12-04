@@ -3,9 +3,10 @@
 #$ -N pyxaid 
 #$ -cwd
 #$ -j y
-#$ -pe single 1 
+#$ -pe single 4
 #$ -l mem=10G
 #$ -l h_rt=24:00:00
+#$ -q \*@@heroes
 
 # You must first create the testp2 environment as in the Beocat documentations
 
@@ -17,13 +18,13 @@ workon testp2
 
 unlink scratch >& /dev/null
 # Use to run without ramdisk
-ln -s $TMPDIR scratch
-mkdir -p ./macro ./out ./scratch ./scratch/out
+# ln -s $TMPDIR scratch
+# mkdir -p ./macro ./out ./scratch ./scratch/out
 
 # Below would be how to use a ramdisk for ./scratch instead
-#mkdir /dev/shm/pratima-$JOB_ID
-#ln -s /dev/shm/pratima-$JOB_ID scratch
-#mkdir -p ./macro ./out ./scratch ./scratch/out
+mkdir /dev/shm/dclongfellow-$JOB_ID
+ln -s /dev/shm/dclongfellow-$JOB_ID scratch
+mkdir -p ./macro ./out ./scratch ./scratch/out
 
 # Run the python script which will use the ./scratch link to /tmp
 python2 py-scr3_1.py
@@ -33,7 +34,7 @@ python2 py-scr3_1.py
 # Small runs can do direct copies, large need a tarball since >100,000 files
 
 
-echo "ls -l of $TMPDIR"
+echo "ls -l of ./scratch"
 ls -l ./scratch
 #mv scratch/*Spectral_density* scratch/out
 tar -cvzf ./spectral_density.tar.gz  -C scratch out
@@ -44,8 +45,8 @@ tar -cvzf ./spectral_density.tar.gz  -C scratch out
 # Now clean up the scratch link
 
 unlink scratch
-#rm -fr /dev/shm/pratima-$JOB_ID
-#echo "Done cleaning up the ramdisk"
+rm -fr /dev/shm/dclongfellow-$JOB_ID
+echo "Done cleaning up the ramdisk"
 # If the job does not reach this last line, email beocat@cs.ksu.edu
 # and tell us which compute node needs to be manually cleaned up.
 

@@ -1,0 +1,111 @@
+{'field_freq_units': 'eV', 'integrator': 0, 'states': [['GS', [6, -6, 7, -7, 8, -8], 0.0], ['S1', [6, -6, 7, -7, 9, -8], 0.0], ['S2', [6, -6, 7, -7, 10, -8], 0.0], ['S3', [6, -6, 9, -7, 8, -8], 0.0], ['S4', [6, -6, 10, -7, 8, -8], 0.0], ['S5', [9, -6, 7, -7, 8, -8], 0.0], ['S6', [10, -6, 7, -7, 8, -8], 0.0]], 'Ham_im_suffix': '_im', 'num_sh_traj': 1000, 'field_T': 25.0, 'Hprime_y_prefix': '/homes/pratima//res/0_Hprime_', 'Hprime_x_prefix': '/homes/pratima//res/0_Hprime_', 'boltz_flag': 1, 'iconds': [[0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [0, 6]], 'field_dir': 'xyz', 'field_Tm': 25.0, 'is_field': 0, 'elec_dt': 1.0, 'Ham_re_prefix': '/homes/pratima//res/0_Ham_', 'active_space': [6, 7, 8, 9, 10], 'Temp': 300.0, 'Hprime_y_suffix': 'y_re', 'nucl_dt': 1.0, 'Ham_im_prefix': '/homes/pratima//res/0_Ham_', 'alp_bet': 0, 'Hprime_x_suffix': 'x_re', 'Hprime_z_suffix': 'z_re', 'runtype': 'namd', 'debug_flag': 0, 'Hprime_z_prefix': '/homes/pratima//res/0_Hprime_', 'namdtime': 3500, 'Ham_re_suffix': '_re', 'field_protocol': 1, 'read_couplings': 'batch', 'scratch_dir': '/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch', 'field_freq': 3.0, 'energy_units': 'Ry', 'decoherence': 1, 'field_fluence': 1.0}
+================================================================================
+PYXAID: PYthon eXtension for Ab Inition Dynamics version 1.0
+/***********************************************************
+ * Copyright (C) 2013 PYXAID group
+ * This program is free software distributed under the terms of the
+ * GNU General Public License as published by the
+ * Free Software Foundation; either version 3 of the
+ * License, or (at your option) any later version.
+ * http://www.gnu.org/copyleft/gpl.txt
+***********************************************************/
+Ham_re_prefix = /homes/pratima//res/0_Ham_
+Ham_re_suffix = _re
+Ham_im_prefix = /homes/pratima//res/0_Ham_
+Ham_im_suffix = _im
+Hprime_x_prefix = /homes/pratima//res/0_Hprime_
+Hprime_y_prefix = /homes/pratima//res/0_Hprime_
+Hprime_z_prefix = /homes/pratima//res/0_Hprime_
+Hprime_x_suffix = x_re
+Hprime_y_suffix = y_re
+Hprime_z_suffix = z_re
+energy_units = Ry
+scratch_dir = /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch
+read_couplings = batch
+read_overlaps = 
+namdtime = 3500
+num_sh_traj = 1000
+boltz_flag = 1
+debug_flag = 0
+Temp [K] = 300
+elec_dt [fs] = 1
+nucl_dt [fs] = 1
+integrator = 0
+runtype = namd
+alp_bet = 0
+decoherence = 1
+is_field = 0
+field_dir = xyz
+field_protocol = 1
+field_Tm [fs] = 25
+field_T [fs] = 25
+field_freq = 3
+field_freq_units = eV
+field_fluence [mJ/cm^2] = 1
+Warning: variable energy_in_one_file is not defined. Parameter is set to default value = false
+Warning: variable sh_algo is not defined. Parameter is set to default value = 0
+Warning: variable regress_mode is not defined. Parameter is set to default value = 0
+Number of errors = 0
+Number of warning = 2
+Done with input parameters
+Number of basis multi-electron states is: 7
+State 0 : Active space: 6  7  8  9  10  
+Actual state: 6  -6  7  -7  8  -8  
+ Exc = 0
+State 1 : Active space: 6  7  8  9  10  
+Actual state: 6  -6  7  -7  9  -8  
+ Exc = 0
+State 2 : Active space: 6  7  8  9  10  
+Actual state: 6  -6  7  -7  10  -8  
+ Exc = 0
+State 3 : Active space: 6  7  8  9  10  
+Actual state: 6  -6  9  -7  8  -8  
+ Exc = 0
+State 4 : Active space: 6  7  8  9  10  
+Actual state: 6  -6  10  -7  8  -8  
+ Exc = 0
+State 5 : Active space: 6  7  8  9  10  
+Actual state: 9  -6  7  -7  8  -8  
+ Exc = 0
+State 6 : Active space: 6  7  8  9  10  
+Actual state: 10  -6  7  -7  8  -8  
+ Exc = 0
+Couplings of the macrostate 0 will be scaled for the following states:
+Couplings of the macrostate 1 will be scaled for the following states:
+Couplings of the macrostate 2 will be scaled for the following states:
+Couplings of the macrostate 3 will be scaled for the following states:
+Couplings of the macrostate 4 will be scaled for the following states:
+Couplings of the macrostate 5 will be scaled for the following states:
+Couplings of the macrostate 6 will be scaled for the following states:
+Number of 1-electron states(orbitals) = 5
+Number of multi-electron states(determinants) = 7
+Number of electrons in active space = 6
+RAND_MAX = 2147483647
+Maximal Hamiltonian file to read is /homes/pratima//res/0_Ham_3501_re
+end of Hamiltonian files reading
+Starting the program...
+One-electron data are set
+Multi-electron couplings and energies are computed
+The energies of basis  states (with respect to defined ground state) for the this initial condition are written in file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies0
+Starting decoherence rates calculation
+Entering run_decoherence_rates...
+Starting na-md simulations with (optional) decoherence
+Entering run_namd1 function...
+Reading decoherence rate matrix for this initial condition...
+Expected filename is: /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond0.txt
+Reading the input from file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond0.txt
+One-electron data are set
+Multi-electron couplings and energies are computed
+The energies of basis  states (with respect to defined ground state) for the this initial condition are written in file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies1
+Starting decoherence rates calculation
+Entering run_decoherence_rates...
+Starting na-md simulations with (optional) decoherence
+Entering run_namd1 function...
+Reading decoherence rate matrix for this initial condition...
+Expected filename is: /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond1.txt
+Reading the input from file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond1.txt
+Error in matrix constructor: y-dimensions(num of rows) of the real and imaginary arrays are not equal
+ls -l of /tmp/3157133.1.batch.q
+lrwxrwxrwx 1 dclongfellow dclongfellow_users 24 Dec  3 15:07 ./scratch -> /dev/shm/pratima-3157133
+out/
+Done cleaning up the ramdisk

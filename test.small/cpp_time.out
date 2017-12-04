@@ -33,3 +33,81 @@
   Timer overhead ~ 0.100000 usecs  no cutoff for now
 
 
+    time in seconds    +children       calls    name
+   1250.373 ( 62.5%)   1250.373            7  computing_decoherenc
+    374.128 ( 18.7%)    374.128            7  running_na-md_simula
+    372.438 ( 18.6%)    372.438            1  initialization      
+      1.743 (  0.1%)      1.743            7  hamiltonians_computa
+      1.334 (  0.1%)      1.334            7  printing_energies   
+      0.427 (  0.0%)      0.427            7  core_setup          
+      0.035 (  0.0%)   2000.479            1  core_algorithm      
+
+  Total time is 2000.478650 secs    (0 hours  33 mins  20.479 secs) on elf31
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    537.536 ( 49.7%)    537.536            7  computing_decoherenc
+    460.777 ( 42.6%)    460.777            7  running_na-md_simula
+     77.915 (  7.2%)     77.915            1  initialization      
+      1.950 (  0.2%)      1.950            7  hamiltonians_computa
+      1.739 (  0.2%)      1.739            7  printing_energies   
+      0.568 (  0.1%)      0.568            7  core_setup          
+      0.039 (  0.0%)   1080.524            1  core_algorithm      
+
+  Total time is 1080.524045 secs    (0 hours  18 mins   0.524 secs) on dwarf50
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    356.630 ( 39.2%)    356.630            7  running_na-md_simula
+    301.541 ( 33.1%)    301.541            7  computing_decoherenc
+    247.213 ( 27.1%)    247.213            1  initialization      
+      3.174 (  0.3%)      3.174            7  printing_energies   
+      1.542 (  0.2%)      1.542            7  hamiltonians_computa
+      0.485 (  0.1%)      0.485            7  core_setup          
+      0.040 (  0.0%)    910.624            1  core_algorithm      
+
+  Total time is 910.624177 secs    (0 hours  15 mins  10.624 secs) on hero19
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    309.292 ( 41.3%)    309.292            7  running_na-md_simula
+    271.899 ( 36.3%)    271.899            1  initialization      
+    165.177 ( 22.1%)    165.177            7  computing_decoherenc
+      1.590 (  0.2%)      1.590            7  hamiltonians_computa
+      0.541 (  0.1%)      0.541            7  core_setup          
+      0.366 (  0.0%)      0.366            7  printing_energies   
+      0.020 (  0.0%)    748.885            1  core_algorithm      
+
+  Total time is 748.884853 secs    (0 hours  12 mins  28.885 secs) on dwarf38
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    293.345 ( 60.3%)    293.345            7  running_na-md_simula
+    149.412 ( 30.7%)    149.412            7  computing_decoherenc
+     42.016 (  8.6%)     42.016            1  initialization      
+      1.412 (  0.3%)      1.412            7  hamiltonians_computa
+      0.455 (  0.1%)      0.455            7  core_setup          
+      0.119 (  0.0%)      0.119            7  printing_energies   
+      0.014 (  0.0%)    486.772            1  core_algorithm      
+
+  Total time is 486.771668 secs    (0 hours  8 mins   6.772 secs) on hero45
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
+    time in seconds    +children       calls    name
+    173.960 ( 46.1%)    173.960            7  computing_decoherenc
+    124.895 ( 33.1%)    124.895            1  initialization      
+     74.908 ( 19.9%)     74.908            7  running_na-md_simula
+      1.434 (  0.4%)      1.434            7  hamiltonians_computa
+      1.433 (  0.4%)      1.433            7  printing_energies   
+      0.493 (  0.1%)      0.493            7  core_setup          
+      0.020 (  0.0%)    377.143            1  core_algorithm      
+
+  Total time is 377.142781 secs    (0 hours  6 mins  17.143 secs) on hero46
+  Timer overhead ~ 0.100000 usecs  no cutoff for now
+
+
