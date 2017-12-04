@@ -3,10 +3,10 @@
 #$ -N pyxaid 
 #$ -cwd
 #$ -j y
-#$ -pe single 4
-#$ -l mem=10G
+#$ -pe single 1
+#$ -l mem=9G
 #$ -l h_rt=24:00:00
-#$ -q \*@@heroes
+#$ -q \*@@dwarves
 
 # You must first create the testp2 environment as in the Beocat documentations
 

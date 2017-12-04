@@ -125,7 +125,7 @@ Reading decoherence rate matrix for this initial condition...
 Expected filename is: /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond3.txt
 Reading the input from file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond3.txt
 Error in matrix constructor: y-dimensions(num of rows) of the real and imaginary arrays are not equal
-ls -l of /tmp/3157121.1.batch.q
-lrwxrwxrwx 1 dclongfellow dclongfellow_users 24 Dec  3 14:36 ./scratch -> /dev/shm/pratima-3157121
+ls -l of ./scratch
+lrwxrwxrwx 1 dclongfellow dclongfellow_users 29 Dec  4 00:14 ./scratch -> /dev/shm/dclongfellow-3166368
 out/
 Done cleaning up the ramdisk

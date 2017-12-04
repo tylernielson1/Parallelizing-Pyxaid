@@ -104,8 +104,38 @@ Entering run_namd1 function...
 Reading decoherence rate matrix for this initial condition...
 Expected filename is: /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond1.txt
 Reading the input from file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond1.txt
+One-electron data are set
+Multi-electron couplings and energies are computed
+The energies of basis  states (with respect to defined ground state) for the this initial condition are written in file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies2
+Starting decoherence rates calculation
+Entering run_decoherence_rates...
+Starting na-md simulations with (optional) decoherence
+Entering run_namd1 function...
+Reading decoherence rate matrix for this initial condition...
+Expected filename is: /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond2.txt
+Reading the input from file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond2.txt
+One-electron data are set
+Multi-electron couplings and energies are computed
+The energies of basis  states (with respect to defined ground state) for the this initial condition are written in file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies3
+Starting decoherence rates calculation
+Entering run_decoherence_rates...
+Starting na-md simulations with (optional) decoherence
+Entering run_namd1 function...
+Reading decoherence rate matrix for this initial condition...
+Expected filename is: /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond3.txt
+Reading the input from file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond3.txt
+One-electron data are set
+Multi-electron couplings and energies are computed
+The energies of basis  states (with respect to defined ground state) for the this initial condition are written in file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies4
+Starting decoherence rates calculation
+Entering run_decoherence_rates...
+Starting na-md simulations with (optional) decoherence
+Entering run_namd1 function...
+Reading decoherence rate matrix for this initial condition...
+Expected filename is: /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond4.txt
+Reading the input from file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond4.txt
 Error in matrix constructor: y-dimensions(num of rows) of the real and imaginary arrays are not equal
-ls -l of /tmp/3157133.1.batch.q
-lrwxrwxrwx 1 dclongfellow dclongfellow_users 24 Dec  3 15:07 ./scratch -> /dev/shm/pratima-3157133
+ls -l of ./scratch
+lrwxrwxrwx 1 dclongfellow dclongfellow_users 29 Dec  3 21:16 ./scratch -> /dev/shm/dclongfellow-3166296
 out/
 Done cleaning up the ramdisk

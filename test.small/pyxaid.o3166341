@@ -154,7 +154,7 @@ Entering run_namd1 function...
 Reading decoherence rate matrix for this initial condition...
 Expected filename is: /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond6.txt
 Reading the input from file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond6.txt
-Time in namd is: 437.405
+Time in namd is: 237.663
 All initial conditions [0, 1, 2, 3, 4, 5, 6]
 Distinct initial excitations [0, 1, 2, 3, 4, 5, 6]
 Number of initial conditions =  7
@@ -349,6 +349,6 @@ writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/energy_m
 writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/sh_pop_macro_ex file...
 writing /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/macro/se_pop_macro_ex file...
 ls -l of ./scratch
-lrwxrwxrwx 1 dclongfellow dclongfellow_users 29 Dec  3 16:36 ./scratch -> /dev/shm/dclongfellow-3157710
+lrwxrwxrwx 1 dclongfellow dclongfellow_users 29 Dec  3 23:11 ./scratch -> /dev/shm/dclongfellow-3166341
 out/
 Done cleaning up the ramdisk

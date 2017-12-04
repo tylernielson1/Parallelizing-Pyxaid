@@ -1,4 +1,4 @@
-{'field_freq_units': 'eV', 'integrator': 0, 'states': [['GS', [6, -6, 7, -7, 8, -8], 0.0], ['S1', [6, -6, 7, -7, 9, -8], 0.0], ['S2', [6, -6, 7, -7, 10, -8], 0.0], ['S3', [6, -6, 9, -7, 8, -8], 0.0], ['S4', [6, -6, 10, -7, 8, -8], 0.0], ['S5', [9, -6, 7, -7, 8, -8], 0.0], ['S6', [10, -6, 7, -7, 8, -8], 0.0]], 'Ham_im_suffix': '_im', 'num_sh_traj': 1000, 'field_T': 25.0, 'Hprime_y_prefix': '/homes/pratima//res/0_Hprime_', 'Hprime_x_prefix': '/homes/pratima//res/0_Hprime_', 'boltz_flag': 1, 'iconds': [[0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [0, 6]], 'field_dir': 'xyz', 'field_Tm': 25.0, 'is_field': 0, 'elec_dt': 1.0, 'Ham_re_prefix': '/homes/pratima//res/0_Ham_', 'active_space': [6, 7, 8, 9, 10], 'Temp': 300.0, 'Hprime_y_suffix': 'y_re', 'nucl_dt': 1.0, 'Ham_im_prefix': '/homes/pratima//res/0_Ham_', 'alp_bet': 0, 'Hprime_x_suffix': 'x_re', 'Hprime_z_suffix': 'z_re', 'runtype': 'namd', 'debug_flag': 0, 'Hprime_z_prefix': '/homes/pratima//res/0_Hprime_', 'namdtime': 3500, 'Ham_re_suffix': '_re', 'field_protocol': 1, 'read_couplings': 'batch', 'scratch_dir': '/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch', 'field_freq': 3.0, 'energy_units': 'Ry', 'decoherence': 1, 'field_fluence': 1.0}
+{'field_freq_units': 'eV', 'integrator': 0, 'states': [['GS', [6, -6, 7, -7, 8, -8], 0.0], ['S1', [6, -6, 7, -7, 9, -8], 0.0], ['S2', [6, -6, 7, -7, 10, -8], 0.0], ['S3', [6, -6, 9, -7, 8, -8], 0.0], ['S4', [6, -6, 10, -7, 8, -8], 0.0], ['S5', [9, -6, 7, -7, 8, -8], 0.0], ['S6', [10, -6, 7, -7, 8, -8], 0.0]], 'Ham_im_suffix': '_im', 'num_sh_traj': 1000, 'field_T': 25.0, 'Hprime_y_prefix': '/homes/pratima//res/0_Hprime_', 'Hprime_x_prefix': '/homes/pratima//res/0_Hprime_', 'boltz_flag': 1, 'iconds': [[0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [0, 6]], 'field_dir': 'xyz', 'field_Tm': 25.0, 'is_field': 0, 'elec_dt': 1.0, 'Ham_re_prefix': '/homes/pratima//res/0_Ham_', 'active_space': [6, 7, 8, 9, 10], 'Temp': 300.0, 'Hprime_y_suffix': 'y_re', 'nucl_dt': 1.0, 'Ham_im_prefix': '/homes/pratima//res/0_Ham_', 'alp_bet': 0, 'Hprime_x_suffix': 'x_re', 'Hprime_z_suffix': 'z_re', 'runtype': 'namd', 'debug_flag': 0, 'Hprime_z_prefix': '/homes/pratima//res/0_Hprime_', 'namdtime': 3500, 'Ham_re_suffix': '_re', 'field_protocol': 1, 'read_couplings': 'batch', 'scratch_dir': '/homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch', 'field_freq': 3.0, 'energy_units': 'Ry', 'output_type': 'none', 'decoherence': 1, 'field_fluence': 1.0}
 ================================================================================
 PYXAID: PYthon eXtension for Ab Inition Dynamics version 1.0
 /***********************************************************
@@ -81,4 +81,9 @@ Number of 1-electron states(orbitals) = 5
 Number of multi-electron states(determinants) = 7
 Number of electrons in active space = 6
 RAND_MAX = 2147483647
-Maximal Hamiltonian file to read is /homes/pratima//res/0_Ham_3501_re
+Maximal Hamiltonian file to read is /homes/pratima//res/0_Ham_11124_re
+/opt/sge/default/spool/dwarf38/job_scripts/3166333: line 30:  4715 Segmentation fault      (core dumped) python2 py-scr3_1.py
+ls -l of ./scratch
+lrwxrwxrwx 1 dclongfellow dclongfellow_users 29 Dec  3 22:31 ./scratch -> /dev/shm/dclongfellow-3166333
+out/
+Done cleaning up the ramdisk

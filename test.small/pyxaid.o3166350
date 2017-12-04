@@ -82,3 +82,21 @@ Number of multi-electron states(determinants) = 7
 Number of electrons in active space = 6
 RAND_MAX = 2147483647
 Maximal Hamiltonian file to read is /homes/pratima//res/0_Ham_3501_re
+end of Hamiltonian files reading
+Starting the program...
+One-electron data are set
+Multi-electron couplings and energies are computed
+The energies of basis  states (with respect to defined ground state) for the this initial condition are written in file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/me_energies0
+Starting decoherence rates calculation
+Entering run_decoherence_rates...
+Starting na-md simulations with (optional) decoherence
+Entering run_namd1 function...
+Reading decoherence rate matrix for this initial condition...
+Expected filename is: /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond0.txt
+Error: Can not open file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond0.txt. Check if this file exists
+Error: Can not open file /homes/dclongfellow/final/Parallelizing-Pyxaid/test.small/scratch/decoherence_rates_icond0.txt. Check if this file exists
+ls -l of ./scratch
+lrwxrwxrwx 1 dclongfellow dclongfellow_users 29 Dec  3 23:51 ./scratch -> /dev/shm/dclongfellow-3166351
+tar: scratch: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+Done cleaning up the ramdisk
