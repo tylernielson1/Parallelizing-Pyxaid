@@ -13,7 +13,7 @@
 #include "io.h"
 #include "random.h"
 
-#define NUM_THREADS 4
+#define NUM_THREADS 1
 
 /*****************************************************************
   Functions implemented in this file:
@@ -716,34 +716,16 @@ void run_namd1(InputStructure& is, vector<ElectronicStructure>& me_es,vector<me_
       for(i=0;i<nst;i++){
         for(j=0;j<nst;j++){
           if(i!=j){
-    
-            // cout<<"Reading spectral density for this initial condition...\n";
-            // std::string filename = is.scratch_dir+"/icond"+int2string(icond)+"pair"+int2string(i)+"_"+int2string(j)+"Spectral_density.txt";
-            // cout<<"Expected filename is: "<<filename<<endl;
-
-            // ifstream in;
-            // in.open(filename.c_str(),ios::in);
-            // if(in.is_open()){  cout<<"Reading the input from file "<<filename<<endl; }
-            // else{ cout<<"Error: Can not open file "<<filename<<". Check if this file exists\n"; }
-            // in.close();
-
+  
             // Reading spectral density for given pair, storing data in arrays G (gaps) and J (spectral dens.)
-            //vector<std::string> lines;
             vector<double> G(Npoints,0.0);
             vector<double> J(Npoints,0.0);
-            //read_file(filename, 0, lines);
 
-            //vector<std::string> line_tokens;
             double sumJ = 0.0;
             for(int w=0;w<Npoints;w++){ 
-              //split_line(lines[w],line_tokens);
               G[w] = spectral_density_data[w][0];
               J[w] = spectral_density_data[w][2];
-              //G[w] = atof(line_tokens[1].c_str());        
-              //J[w] = atof(line_tokens[5].c_str());
               sumJ += J[w];
-              //line_tokens.clear();
-              
             }// for w
 
             // Now we are ready to scale the gap for i->j transition for all times
